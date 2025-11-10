@@ -1276,6 +1276,7 @@ from .nest import (
     NestClipIE,
     NestIE,
 )
+from .netapp import NetAppIE
 from .neteasemusic import (
     NetEaseMusicAlbumIE,
     NetEaseMusicDjRadioIE,
