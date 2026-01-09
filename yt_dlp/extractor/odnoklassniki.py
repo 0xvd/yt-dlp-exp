@@ -267,14 +267,18 @@ class OdnoklassnikiIE(InfoExtractor):
         error = self._search_regex(
             r'[^>]+class="vp_video_stub_txt"[^>]*>([^<]+)<',
             webpage, 'error', default=None)
+        restriced_msg = self._search_regex(
+            r'<div\s*class\s*=\s*"stub-empty_t"(?:[^>]+)?>\s*(Access[^<]+)<\/div>',
+            webpage, 'Restricted Message', default=None,
+        )
         # Direct link from boosty
         if (error == 'The author of this video has not been found or is blocked'
                 and not smuggled.get('referrer') and mode == 'videoembed'):
             return self._extract_desktop(smuggle_url(url, {'referrer': 'https://boosty.to'}))
         elif error:
             raise ExtractorError(error, expected=True)
-        elif '>Access to this video is restricted</div>' in webpage:
-            self.raise_login_required()
+        elif restriced_msg:
+            self.raise_login_required(unescapeHTML(restriced_msg))
 
         player = self._parse_json(
             unescapeHTML(self._search_regex(
