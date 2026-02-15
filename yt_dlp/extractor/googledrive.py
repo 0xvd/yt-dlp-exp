@@ -141,7 +141,14 @@ class GoogleDriveIE(InfoExtractor):
         video_info = self._download_json(
             f'https://content-workspacevideo-pa.googleapis.com/v1/drive/media/{video_id}/playback',
             video_id, 'Downloading video webpage', query={'key': 'AIzaSyDVQw45DwoYh632gvsP5vPDqEKvb-Ywnb8'},
-            headers={'Referer': 'https://drive.google.com/'})
+            headers={'Referer': 'https://drive.google.com/'}, expected_status=403)
+
+        error = video_info.get('error')
+        if error:
+            msg = traverse_obj(error,
+                               ('details', 0, 'message'),
+                               ('message'))
+            self.raise_login_required(msg)
 
         formats = []
         for fmt in traverse_obj(video_info, (
