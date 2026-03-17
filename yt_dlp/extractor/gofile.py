@@ -48,7 +48,7 @@ class GofileIE(InfoExtractor):
         },
     }]
     _TOKEN = None
-    _SALT = 'gf2026x'  # Source https://gofile.io/dist/js/wt.obf.js Current function name 'generateWT'
+    _SALT = 'f4s58gs6'  # Source https://gofile.io/dist/js/wt.obf.js Current function name 'generateWT'
     _LOCALE = 'en-GB'
 
     def _real_initialize(self):
