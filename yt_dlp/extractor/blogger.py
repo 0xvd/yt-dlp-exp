@@ -52,16 +52,17 @@ class BloggerIE(InfoExtractor):
     # current varianle name (s1) and format table name (r1).
     IF_TABLE = {
         7: {'width': 320, 'height': 240},
+        13: {'width': 256, 'height': 144},  # Source https://gist.github.com/MartinEesmaa/2f4b261cb90a47e9c41ba115a011a4aa#legacy-non-dash
         18: {'width': 640, 'height': 360},
         22: {'width': 1280, 'height': 720},
         37: {'width': 1920, 'height': 1080},
-        13: {'width': 256, 'height': 144},  # Source https://gist.github.com/MartinEesmaa/2f4b261cb90a47e9c41ba115a011a4aa#legacy-non-dash
+        0: {},
     }
 
     def _real_extract(self, url):
         token_id = self._match_id(url)
 
-        fsid = random.randint(-9999999999999999999, 9999999999999999999)  # Blogger require 19 digit number can be negative or positive
+        fsid = random.randint(-9999999999999999999, 9999999999999999999)  # Blogger require 19 digit fsid (number) it can be negative or positive.
         data = self._download_webpage(
             'https://www.blogger.com/_/BloggerVideoPlayerUi/data/batchexecute',
             token_id,
@@ -88,7 +89,7 @@ class BloggerIE(InfoExtractor):
             if not isinstance(fmtl, list):
                 continue
             fmt_url = traverse_obj(fmtl, (0))
-            itag = traverse_obj(fmtl, (1, 0)) or traverse_obj(parse_qs(fmt_url), ('itag', 0))
+            itag = traverse_obj(fmtl, (1, 0)) or traverse_obj(parse_qs(fmt_url), ('itag', 0), default=0)
             formats.append({
                 'format_id': str(itag),
                 'url': fmt_url,
@@ -99,26 +100,12 @@ class BloggerIE(InfoExtractor):
                 **self.IF_TABLE.get(int(itag), {}),
             })
 
-        thumbnail = None
-        title = None
-        for block in data:
-            if isinstance(block, (list, int)) or block is None:
-                continue
-            if url_or_none(block):
-                thumbnail = block
-            elif str_or_none(block):
-                title = block
-            else:
-                continue
+        title = traverse_obj(data, (..., {str}, {lambda s: None if url_or_none(s) else s}, any))
 
         return {
-            'id': title or token_id,
+            'id': self._search_regex(r'video-([^-]+)', title, 'video id', default=token_id),
             'title': title,
-            'thumbnail': thumbnail,
             'duration': parse_duration(traverse_obj(parse_qs(formats[0]['url']), ('dur', 0))),
             'formats': formats,
-            **traverse_obj(data, {
-                'title': (..., {str}, {lambda s: None if url_or_none(s) else s}, any),
-                'thumbnail': (..., {str}, {url_or_none}, any),
-            })),
+            'thumbnail': traverse_obj(data, (..., {str}, {url_or_none}, any)),
         }
