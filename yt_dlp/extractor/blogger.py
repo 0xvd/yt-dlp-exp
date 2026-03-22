@@ -4,7 +4,6 @@ from .common import InfoExtractor
 from ..utils import (
     parse_duration,
     parse_qs,
-    str_or_none,
     url_or_none,
     urlencode_postdata,
 )
