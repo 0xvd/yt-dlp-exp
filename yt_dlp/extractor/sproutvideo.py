@@ -123,9 +123,9 @@ class SproutVideoIE(InfoExtractor):
         if traverse_obj(data, 'hls'):
             manifest_query = self._policy_to_qs(data, 'm')
             fragment_query = self._policy_to_qs(data, 't', as_string=True)
-            if email := traverse_obj(data, ('vemail'), ('email')):
-                fragment_query += f'&email={email}'
             key_query = self._policy_to_qs(data, 'k', as_string=True)
+            if email := data.get('vemail'):
+                fragment_query += f'&email={email}'
 
             formats.extend(self._extract_m3u8_formats(
                 self._M3U8_URL_TMPL.format(**data), video_id, 'mp4',
@@ -209,7 +209,7 @@ class VidsIoIE(InfoExtractor):
                     raise ExtractorError(f'''{email} is invalid email address. '@' is required in the email address''', expected=True)
                 elif not email:
                     characters = 'abcdefghijklmnopqrstuvwxyz1234567890_.'
-                    email = ''.join(random.choice(characters) for _ in range(10)) + '@gmail.com'
+                    email = ''.join(random.choices(characters, k=10)) + '@gmail.com'
                     self.to_screen(f'Generating fake email {email} for verification and watermarking. Use --extractor-arg VidsIo:email=<YOUR_EMAIL> to set your own email.')
                 webpage = self._download_webpage(
                     url, display_id, 'Submitting email',
