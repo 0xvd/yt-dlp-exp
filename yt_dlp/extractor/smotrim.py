@@ -92,7 +92,6 @@ class SmotrimBaseIE(InfoExtractor):
             metadata = {
                 'formats': formats,
                 'subtitles': subtitles,
-                **self._search_json_ld(webpage, item_id),
                 **common,
             }
 
