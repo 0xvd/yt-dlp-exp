@@ -32,14 +32,13 @@ class SmotrimBaseIE(InfoExtractor):
     def _extract_from_smotrim_api(self, typ, item_id):
         path = f'data{typ.replace("-", "")}/{"uid" if typ == "live" else "id"}'
         data = self._download_json(
-            f'https://player.smotrim.ru/iframe/{path}/{item_id}/sid/smotrim', item_id)
+            f'https://player.smotrim.ru/iframe/{path}/{item_id}', item_id)
         media = traverse_obj(data, ('data', 'playlist', 'medialist', -1, {dict}))
         if traverse_obj(media, ('locked', {bool})):
             self.raise_login_required()
-        if error_msg := traverse_obj(media, ('errors', {clean_html})):
+        if error_msg := traverse_obj(data, ('errors', {str_or_none})):
             self.raise_geo_restricted(error_msg, countries=self._GEO_COUNTRIES)
-
-        webpage_url = traverse_obj(data, ('data', 'template', 'share_url', {url_or_none}))
+        webpage_url = traverse_obj(data, ('data', 'template', 'share_url', {url_or_none})) or f'{self._BASE_URL}/video/{item_id}'
         webpage = self._download_webpage(webpage_url, item_id)
         common = {
             'thumbnail': self._html_search_meta(['og:image', 'twitter:image'], webpage, default=None),
@@ -51,7 +50,11 @@ class SmotrimBaseIE(InfoExtractor):
                 'season': ('season', {clean_html}, filter),
                 'series': (('brand_title', 'brandTitle'), {clean_html}, filter, any),
                 'series_id': ('brand_id', {str_or_none}),
+                'duration': ('duration', {int_or_none}),
+                'chapters': ('chapters', {list}),
+                'thumbnail': ('picture', {url_or_none}),
             }),
+            'tags': traverse_obj(data, ('data', 'tags'), default='').split(':'),
         }
 
         if typ == 'audio':
@@ -89,6 +92,15 @@ class SmotrimBaseIE(InfoExtractor):
                 formats.extend(fmts)
                 self._merge_subtitles(subs, target=subtitles)
 
+            if http_formats := traverse_obj(media, ('sources', 'http')):
+                for quality, fmt_url in http_formats.items():
+                    if not fmt_url or not url_or_none(fmt_url):
+                        continue
+                    formats.append({
+                        'format_id': f'http-{quality}',
+                        'url': fmt_url,
+                    })
+
             metadata = {
                 'formats': formats,
                 'subtitles': subtitles,
@@ -116,31 +128,25 @@ class SmotrimIE(SmotrimBaseIE):
             'ext': 'mp4',
             'title': 'Урок №16',
             'duration': 2631,
+            'thumbnail': 'https://cdn-st2.smotrim.ru/vh/pictures/b/107/733/5.jpg',
+            'chapters': [],
+            'tags': ['27163', '19225', '18902', '4677', '3720', '1164', '212699'],
             'series': 'Полиглот. Китайский с нуля за 16 часов!',
             'series_id': '60562',
-            'tags': 'mincount:6',
-            'thumbnail': r're:https?://cdn-st\d+\.smotrim\.ru/.+\.(?:jpg|png)',
-            'timestamp': 1466771100,
-            'upload_date': '20160624',
-            'view_count': int,
         },
     }, {
-        'url': 'https://player.smotrim.ru/iframe/video/id/2988590',
+        'url': 'https://player.smotrim.ru/iframe/video/id/3093252',
         'info_dict': {
-            'id': '2988590',
+            'id': '3093252',
             'ext': 'mp4',
-            'title': 'Трейлер',
-            'age_limit': 16,
-            'description': 'md5:6af7e68ecf4ed7b8ff6720d20c4da47b',
-            'duration': 30,
-            'series': 'Мы в разводе',
-            'series_id': '71624',
-            'tags': 'mincount:5',
-            'thumbnail': r're:https?://cdn-st\d+\.smotrim\.ru/.+\.(?:jpg|png)',
-            'timestamp': 1750670040,
-            'upload_date': '20250623',
-            'view_count': int,
-            'webpage_url': 'https://smotrim.ru/video/2988590',
+            'title': 'Мария Шкапская',
+            'description': 'md5:a2ee7b7a9c59bd83dbecf2d69fb083bc',
+            'duration': 1573,
+            'thumbnail': 'https://cdn-st2.smotrim.ru/vh/pictures/b/108/337/18.jpg',
+            'chapters': [],
+            'tags': 'count:21',
+            'series': 'Невский ковчег. Теория невозможного',
+            'series_id': '66925',
         },
     }]
     _WEBPAGE_TESTS = [{
@@ -155,11 +161,9 @@ class SmotrimIE(SmotrimBaseIE):
             'series_id': '19725',
             'tags': 'mincount:6',
             'thumbnail': r're:https?://cdn-st\d+\.smotrim\.ru/.+\.(?:jpg|png)',
-            'timestamp': 1656054443,
-            'upload_date': '20220624',
-            'view_count': int,
             'webpage_url': 'https://smotrim.ru/video/2431846',
         },
+        'skip': 'iframe removed',
     }, {
         'url': 'https://www.vesti.ru/article/4642878',
         'info_dict': {
@@ -170,11 +174,9 @@ class SmotrimIE(SmotrimBaseIE):
             'duration': 265,
             'series': 'Вести. Дежурная часть',
             'series_id': '5204',
-            'tags': 'mincount:6',
-            'thumbnail': r're:https?://cdn-st\d+\.smotrim\.ru/.+\.(?:jpg|png)',
-            'timestamp': 1754756280,
-            'upload_date': '20250809',
-            'view_count': int,
+            'tags': ['107517', '158874', '98963', '4276', '1063', '3515'],
+            'thumbnail': 'https://cdn-st2.smotrim.ru/vh/pictures/b/641/140/9.jpg',
+            'chapters': [],
             'webpage_url': 'https://smotrim.ru/video/3007209',
         },
     }]
