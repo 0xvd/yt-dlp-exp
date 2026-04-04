@@ -48,7 +48,7 @@ class WikimediaIE(InfoExtractor):
 
     def _real_extract(self, url):
         video_id = self._match_id(url)
-        user_agent = f'yt-dlp/{__version__} (https://github/yt-dlp/yt-dlp)'
+        user_agent = f'yt-dlp/{__version__} (https://github/yt-dlp/yt-dlp)' # As per https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_User-Agent_Policy
         webpage = self._download_webpage(url, video_id, headers={'User-Agent': user_agent})
 
         formats = []
