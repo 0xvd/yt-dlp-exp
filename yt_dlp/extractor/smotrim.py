@@ -1,11 +1,11 @@
-import functools
+import hashlib
+import itertools
 import json
 import re
-import urllib.parse
 
 from .common import InfoExtractor
 from ..utils import (
-    OnDemandPagedList,
+    ExtractorError,
     clean_html,
     determine_ext,
     extract_attributes,
@@ -19,13 +19,13 @@ from ..utils import (
 from ..utils.traversal import (
     find_element,
     find_elements,
-    require,
     traverse_obj,
 )
 
 
 class SmotrimBaseIE(InfoExtractor):
     _BASE_URL = 'https://smotrim.ru'
+    _VALID_URL_BASE = r'https?://(?:(?:player|www)\.)?smotrim\.ru(?:(?:/iframe)?/{type}(?:/id)?/)?(?:(?:/[^#]+)?/?#playing_{type}=)?(?P<id>\d+)'
     _GEO_BYPASS = False
     _GEO_COUNTRIES = ['RU']
 
@@ -38,8 +38,10 @@ class SmotrimBaseIE(InfoExtractor):
             self.raise_login_required()
         if error_msg := traverse_obj(data, ('errors', {str_or_none})):
             self.raise_geo_restricted(error_msg, countries=self._GEO_COUNTRIES)
+        webpage = None
         webpage_url = traverse_obj(data, ('data', 'template', 'share_url', {url_or_none})) or f'{self._BASE_URL}/video/{item_id}'
-        webpage = self._download_webpage(webpage_url, item_id)
+        if webpage_url:
+            webpage = self._download_webpage(webpage_url, item_id)
         common = {
             'thumbnail': self._html_search_meta(['og:image', 'twitter:image'], webpage, default=None),
             **traverse_obj(media, {
@@ -119,7 +121,7 @@ class SmotrimBaseIE(InfoExtractor):
 
 class SmotrimIE(SmotrimBaseIE):
     IE_NAME = 'smotrim'
-    _VALID_URL = r'(?:https?:)?//(?:(?:player|www)\.)?smotrim\.ru(?:/iframe)?/video(?:/id)?/(?P<id>\d+)'
+    _VALID_URL = SmotrimBaseIE._VALID_URL_BASE.format(type='video')
     _EMBED_REGEX = [fr'<iframe\b[^>]+\bsrc=["\'](?P<url>{_VALID_URL})']
     _TESTS = [{
         'url': 'https://smotrim.ru/video/1539617',
@@ -189,7 +191,7 @@ class SmotrimIE(SmotrimBaseIE):
 
 class SmotrimAudioIE(SmotrimBaseIE):
     IE_NAME = 'smotrim:audio'
-    _VALID_URL = r'https?://(?:(?:player|www)\.)?smotrim\.ru(?:/iframe)?/audio(?:/id)?/(?P<id>\d+)'
+    _VALID_URL = SmotrimBaseIE._VALID_URL_BASE.format(type='audio')
     _TESTS = [{
         'url': 'https://smotrim.ru/audio/2573986',
         'md5': 'e28d94c20da524e242b2d00caef41a8e',
@@ -305,18 +307,25 @@ class SmotrimLiveIE(SmotrimBaseIE):
     def _real_extract(self, url):
         typ, display_id = self._match_valid_url(url).group('type', 'id')
 
+        # TODO: use Graphql API instead of IFRAME API. This is can be done in next commit.
         if typ == 'live' and re.fullmatch(r'[0-9]+', display_id):
             url = self._request_webpage(url, display_id).url
             typ = self._match_valid_url(url).group('type')
 
         if typ == 'channel':
-            webpage = self._download_webpage(url, display_id)
-            src_url = traverse_obj(webpage, ((
-                ({find_element(cls='main-player__frame', html=True)}, {extract_attributes}, 'src'),
-                ({find_element(cls='audio-play-button', html=True)},
-                    {extract_attributes}, 'value', {urllib.parse.unquote}, {json.loads}, 'source'),
-            ), any, {self._proto_relative_url}, {url_or_none}, {require('src URL')}))
-            typ, video_id = self._match_valid_url(src_url).group('type', 'id')
+            data = self._download_json(f'https://player-api.smotrim.ru/api/v1/channel/{display_id}', display_id, expected_status=404)
+            status = data.get('status')
+            notice = data.get('notice')
+            if status != 'OK' or notice:
+                raise ExtractorError(notice, expected='CHANNEL_NOT_FOUND' in status)
+            formats, subtitles = self._extract_m3u8_formats_and_subtitles(traverse_obj(data, ('data', 'streams', 'm3u8')), display_id)
+            return {
+                'id': display_id,
+                'title': traverse_obj(data, ('data', 'title', {str_or_none}), default=f'Channel {display_id}'),
+                'formats': formats,
+                'subtitles': subtitles,
+                'is_live': True,
+            }
         else:
             video_id = display_id
 
@@ -328,77 +337,186 @@ class SmotrimLiveIE(SmotrimBaseIE):
 
 class SmotrimPlaylistIE(SmotrimBaseIE):
     IE_NAME = 'smotrim:playlist'
-    _PAGE_SIZE = 15
-    _VALID_URL = r'https?://smotrim\.ru/(?P<type>brand|podcast)/(?P<id>\d+)/?(?P<season>[\w-]+)?'
+    _PAGE_SIZE = 30
+    _VALID_URL = r'https?://smotrim\.ru/(?:brand|podcast)/(?P<id>\d+)/?(?P<season>[\w-]+)?'
     _TESTS = [{
         # Video
         'url': 'https://smotrim.ru/brand/64356',
         'info_dict': {
             'id': '64356',
-            'title': 'Большие и маленькие',
+            'title': 'Большие и маленькие культура смотреть онлайн',
         },
         'playlist_mincount': 55,
     }, {
         # Video, season
-        'url': 'https://smotrim.ru/brand/65293/3-sezon',
+        'url': 'https://smotrim.ru/brand/65293/season-3',
         'info_dict': {
             'id': '65293',
-            'title': 'Спасская',
-            'season': '3 сезон',
+            'title': 'Сериал Спасская (3 сезон): смотреть онлайн бесплатно в хорошем качестве',
+            'season': 'сезон 3',
         },
-        'playlist_count': 16,
+        'playlist_count': 21,
     }, {
         # Audio
         'url': 'https://smotrim.ru/brand/68880',
         'info_dict': {
             'id': '68880',
-            'title': 'Веселый колобок',
+            'title': 'Программа для малышей Веселый Колобок на Радио России - все выпуски онлайн',
         },
-        'playlist_mincount': 156,
+        'playlist_mincount': 175,
     }, {
         # Podcast
-        'url': 'https://smotrim.ru/podcast/8021',
+        'url': 'https://smotrim.ru/brand/73273',
         'info_dict': {
-            'id': '8021',
-            'title': 'Сила звука',
+            'id': '73273',
+            'title': 'Подкаст Мужчина. Руководство по эксплуатации - слушать и смотреть онлайн бесплатно без регистрации',
         },
-        'playlist_mincount': 27,
+        'playlist_mincount': 100,
+    }, {
+        # Audio, season
+        # There are 46 entries in total, but currently we didn't use pagination, so it didn't fetch the next page and we don't get extra entries.
+        # This can be fix in next commit.
+        'url': 'https://smotrim.ru/brand/68880/year-2025',
+        'info_dict': {
+            'id': '68880',
+            'title': 'Радиопрограмма Весёлый колобок: все выпуски за 2025 год - смотреть онлайн бесплатно на «СМОТРИМ»',
+            'season': 'сезон 2025',
+        },
+        'playlist_count': 30,
     }]
 
-    def _fetch_page(self, endpoint, key, playlist_id, page):
-        page += 1
-        items = self._download_json(
-            f'{self._BASE_URL}/api/{endpoint}', playlist_id,
-            f'Downloading page {page}', query={
-                key: playlist_id,
-                'limit': self._PAGE_SIZE,
-                'page': page,
-            },
-        )
+    FILTER_EP_QUERY = '''
+        query FilterEpisodes(
+            $brandId: Int
+            $seasonId: Int
+            $page: Int = 2
+            $first: Int! = 10
+            $order: SortOrder = ASC
+        ) {
+            episodesFilter(
+                brand_id: $brandId
+                season_id: $seasonId
+                first: $first
+                page: $page
+                orderBy: { column: EPISODES_NUMBER, order: $order }
+            ) {
+                data {
+                    ... on Episode {
+                        id
+                        title
+                        number
+                        season { number }
+                        audio { publicId }
+                        fullVideo { publicId }
+                    }
+                }
+                paginatorInfo {
+                    lastPage
+                }
+            }
+        }
+    '''
 
-        for link in traverse_obj(items, ('contents', -1, 'list', ..., 'link', {str})):
-            yield self.url_result(urljoin(self._BASE_URL, link))
+    PODCAST_EP_QUERY = '''
+        query BrandMorePodcastEpisodes(
+            $brandId: Int!
+            $page: Int = 10
+            $first: Int = 10
+        ) {
+            brand(id: $brandId) {
+                podcastMaterials(first: $first, page: $page) {
+                    data {
+                        ... on Episode {
+                            id
+                            title
+                            description
+                            number
+                            season { number }
+                            audio { publicId }
+                            fullVideo {
+                                ... on Video { publicId }
+                            }
+                        }
+                    }
+                    paginatorInfo {
+                        hasMorePages
+                    }
+                }
+            }
+        }
+    '''
+
+    def _pages(self, playlist_id, webpage):
+        if self._search_regex(fr'(brand-{playlist_id}-season-single)', webpage, 'is_podcast', default=None):
+            all_seasons = (playlist_id,)
+            operationName = 'BrandMorePodcastEpisodes'
+            body = '611ad92ea2541c7b74674035a0f75c55'
+            _QUERY = self.PODCAST_EP_QUERY
+            is_podcast = True
+        else:
+            all_seasons = re.findall(fr'brand-{playlist_id}-season-(\d+)', webpage)
+            operationName = 'FilterEpisodes'
+            body = '99f8b33d0cb27ed775154699095edad2'
+            _QUERY = self.FILTER_EP_QUERY
+            is_podcast = False
+
+        for season_id in all_seasons:
+            for page_num in itertools.count(1):
+                variables = {
+                    'brandId': int(playlist_id),
+                    'first': self._PAGE_SIZE,
+                    'page': page_num,
+                    **(
+                        {} if is_podcast else {'seasonId': int(season_id)}
+                    ),
+                }
+                # Source https://cdn.smotrim.ru/static/assets/_nuxt/DLtwXC_w.js Current function name 'qR'
+                hash_variables = hashlib.md5(
+                    json.dumps(dict(sorted(variables.items())), separators=(',', ':')).encode()).hexdigest()
+                items = traverse_obj(self._download_json(
+                    'https://apis.smotrim.ru/graphql/',
+                    playlist_id,
+                    f'Downloading page {page_num}',
+                    query={
+                        'page': operationName,
+                        'body': body,
+                        'vars': hash_variables,
+                    },
+                    data=json.dumps({
+                        'operationName': operationName,
+                        'query': _QUERY,
+                        'variables': variables,
+                    }).encode(),
+                    headers={'Content-Type': 'application/json'},
+                ), ('data', 'brand', 'podcastMaterials'), ('data', 'episodesFilter'))
+
+                if not items:
+                    break
+                yield items
+
+                pagination = items.get('paginatorInfo')
+                if pagination.get('lastPage') == page_num or pagination.get('hasMorePages') is False:
+                    break
+
+    def entries(self, webpage, playlist_id):
+        for item in self._pages(playlist_id, webpage):
+            for item_id in traverse_obj(item, ('data', ..., ('audio', 'fullVideo'), 'publicId', {int_or_none})):
+                typ = 'video' if '/video/' in webpage else 'audio'
+                url = f'{self._BASE_URL}/{typ}/{item_id}'
+                yield self.url_result(urljoin(self._BASE_URL, url))
 
     def _real_extract(self, url):
-        playlist_type, playlist_id, season = self._match_valid_url(url).group('type', 'id', 'season')
-        key = 'rubricId' if playlist_type == 'podcast' else 'brandId'
+        playlist_id, season = self._match_valid_url(url).groups()
         webpage = self._download_webpage(url, playlist_id)
         playlist_title = self._html_search_meta(['og:title', 'twitter:title'], webpage, default=None)
 
         if season:
             return self.playlist_from_matches(traverse_obj(webpage, (
-                {find_elements(tag='a', attr='href', value=r'/video/\d+', html=True, regex=True)},
+                # TODO: Use paginatipn because sometime this will ( give less entries ) or ( give extra entries because of regex ).
+                {find_elements(tag='a', attr='href', value=r'/(?:video|audio)/\d+', html=True, regex=True)},
                 ..., {extract_attributes}, 'href', {str},
             )), playlist_id, playlist_title, season=traverse_obj(webpage, (
-                {find_element(cls='seasons__item seasons__item--selected')}, {clean_html},
-            )), ie=SmotrimIE, getter=urljoin(self._BASE_URL))
+                {find_element(cls='header__title_subtitle')}, {clean_html},
+            )), getter=urljoin(self._BASE_URL))
 
-        if traverse_obj(webpage, (
-            {find_element(cls='brand-main-item__videos')}, {clean_html}, filter,
-        )):
-            endpoint = 'videos'
-        else:
-            endpoint = 'audios'
-
-        return self.playlist_result(OnDemandPagedList(
-            functools.partial(self._fetch_page, endpoint, key, playlist_id), self._PAGE_SIZE), playlist_id, playlist_title)
+        return self.playlist_result(self.entries(webpage, playlist_id), playlist_id, playlist_title)
