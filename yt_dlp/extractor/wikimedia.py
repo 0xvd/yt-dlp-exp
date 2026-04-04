@@ -3,12 +3,17 @@ import re
 from .common import InfoExtractor
 from ..utils import (
     clean_html,
+    determine_ext,
+    extract_attributes,
     get_element_by_class,
+    int_or_none,
     parse_qs,
     remove_start,
     unescapeHTML,
     urljoin,
 )
+from ..utils.traversal import traverse_obj
+from ..version import __version__
 
 
 class WikimediaIE(InfoExtractor):
@@ -30,7 +35,25 @@ class WikimediaIE(InfoExtractor):
 
     def _real_extract(self, url):
         video_id = self._match_id(url)
-        webpage = self._download_webpage(url, video_id)
+        user_agent = f'yt-dlp/{__version__} (https://github/yt-dlp/yt-dlp)'
+        webpage = self._download_webpage(url, video_id, headers={'User-Agent': user_agent})
+
+        formats = []
+        seen_urls = set()
+        for fmt in set(re.findall(r'<source\s*src=["\'][^"]+"[^>]+>', unescapeHTML(webpage))):
+            attr = extract_attributes(fmt)
+            fmt_url = attr.get('src')
+            if not fmt_url or fmt_url in seen_urls:
+                continue
+            seen_urls.add(fmt_url)
+            formats.append({
+                'url': fmt_url,
+                'ext': determine_ext(fmt_url),
+                **traverse_obj(attr, ({
+                    'height': ('data-height', {int_or_none}),
+                    'width': ('data-width', {int_or_none}),
+                }),
+                )})
 
         subtitles = {}
         for sub in set(re.findall(r'\bsrc\s*=\s*["\'](/w/api[^"]+)["\']', webpage)):
@@ -43,7 +66,6 @@ class WikimediaIE(InfoExtractor):
 
         return {
             'id': video_id,
-            'url': self._html_search_regex(r'<source\s[^>]*\bsrc="([^"]+)"', webpage, 'video URL'),
             'description': clean_html(get_element_by_class('description', webpage)),
             'title': remove_start(self._og_search_title(webpage), 'File:'),
             'license': self._html_search_regex(
@@ -51,5 +73,9 @@ class WikimediaIE(InfoExtractor):
                 get_element_by_class('licensetpl', webpage), 'license', default=None),
             'uploader': self._html_search_regex(
                 r'>\s*Author\s*</td>\s*<td\b[^>]*>\s*([^<]+)\s*</td>', webpage, 'video author', default=None),
+            'formats': formats,
             'subtitles': subtitles,
+            'http_headers': {
+                'User-Agent': user_agent,
+            },
         }
