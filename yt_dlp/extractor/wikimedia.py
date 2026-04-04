@@ -40,7 +40,7 @@ class WikimediaIE(InfoExtractor):
             'description': 'Video abstract of "Flexible use of a multi-purpose tool by a cow"',
             'uploader': 'Antonio J. Osuna-Mascaró, Alice M. I. Auersperg',
             'license': 'Creative Commons Attribution 4.0 International',
-        }
+        },
     }]
 
     def _real_extract(self, url):
