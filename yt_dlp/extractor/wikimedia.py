@@ -31,6 +31,16 @@ class WikimediaIE(InfoExtractor):
             'uploader': 'ZDF/Terra X/Gruppe 5/Luise Wagner, Jonas Sichert, Andreas Hougardy',
             'subtitles': 'count:4',
         },
+    }, {
+        'url': 'https://commons.wikimedia.org/wiki/File:Flexible_use_of_a_multi-purpose_tool_by_a_cow_video_abstract.webm',
+        'info_dict': {
+            'id': 'Flexible_use_of_a_multi-purpose_tool_by_a_cow_video_abstract',
+            'ext': 'webm',
+            'title': 'Flexible use of a multi-purpose tool by a cow video abstract.webm - Wikimedia Commons',
+            'description': 'Video abstract of "Flexible use of a multi-purpose tool by a cow"',
+            'uploader': 'Antonio J. Osuna-Mascaró, Alice M. I. Auersperg',
+            'license': 'Creative Commons Attribution 4.0 International',
+        }
     }]
 
     def _real_extract(self, url):
