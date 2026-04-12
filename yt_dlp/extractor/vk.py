@@ -1,5 +1,6 @@
 import collections
 import hashlib
+import itertools
 import re
 import time
 
@@ -9,6 +10,7 @@ from .odnoklassniki import OdnoklassnikiIE
 from .sibnet import SibnetEmbedIE
 from .vimeo import VimeoIE
 from .youtube import YoutubeIE
+from ..networking.exceptions import HTTPError
 from ..utils import (
     ExtractorError,
     UserNotLive,
@@ -31,11 +33,15 @@ from ..utils import (
     urlencode_postdata,
     urljoin,
 )
-from ..utils.traversal import require, traverse_obj
+from ..utils.traversal import traverse_obj
 
 
 class VKBaseIE(InfoExtractor):
     _NETRC_MACHINE = 'vk'
+    _API_BASE = 'https://api.vk.com/method'
+    _API_CLIENT_ID = '52461373'
+    _API_VERSION = '5.275'
+    _GUEST_TOKEN = None
 
     def _download_webpage_handle(self, url_or_request, video_id, *args, fatal=True, **kwargs):
         response = super()._download_webpage_handle(url_or_request, video_id, *args, fatal=fatal, **kwargs)
@@ -51,6 +57,7 @@ class VKBaseIE(InfoExtractor):
             note='Resolving WAF challenge', errnote='Failed to bypass WAF challenge')
         return super()._download_webpage_handle(url_or_request, video_id, *args, fatal=True, **kwargs)
 
+    # TODO: need to be changed can be done in next commit.
     def _perform_login(self, username, password):
         login_page, url_handle = self._download_webpage_handle(
             'https://vk.com', None, 'Downloading login page')
@@ -91,33 +98,39 @@ class VKBaseIE(InfoExtractor):
         return payload
 
     def _validate_jwt(self, token):
-        if 'anonym.' in token:
-            return jwt_decode_hs256(token.replace('anonym.', ''))['exp'] - time.time() < 300
-        else:
-            return jwt_decode_hs256(token)['exp'] - time.time() < 300
+        if token.startswith('anonym.'):
+            token = token.replace('anonym.', '')
+        return jwt_decode_hs256(token)['exp'] - time.time() < 300
 
-    def _call_api(self, vid, path, payload=None):
-        if self._validate_jwt(self._guess_token):
-            self.write_debug('Refreshing guest token')
-            self._guess_token = self._get_access_token()
+    def _call_api(self, vid, path, payload=None, **kwargs):
+        if not self._GUEST_TOKEN:
+            self._GUEST_TOKEN = self._get_guest_access_token()
+        elif self._validate_jwt(self._GUEST_TOKEN):
+            self.write_debug('guest token is expired generating a new one')
+            self._GUEST_TOKEN = self._get_guest_access_token()
+
         data = self._download_json(
-            f'{self.API_BASE}/{path}',
+            f'{self._API_BASE}/{path}',
             vid,
             query={
-                'v': self.API_VERSION,
-                'client_id': '52461373',
-                'access_token': self._guess_token,
-                **(payload or {}),
+                'v': self._API_VERSION,
+                'client_id': self._API_CLIENT_ID,
             },
-            headers={
-                'content-type': 'application/x-www-form-urlencoded',
-            })
+            data=urlencode_postdata({
+                'access_token': self._GUEST_TOKEN,
+                **(payload or {}),
+            }),
+            headers={'content-type': 'application/x-www-form-urlencoded'}, **kwargs)
         response = traverse_obj(data, ('response', {dict}))
         if not response:
-            raise ExtractorError('Unexpected response from VK API')
+            message = traverse_obj(data,
+                                   ('error', 'error_msg'), ('error_description'), default='Unexpected response from VK API')
+            if 'access_tokenhasexpired' in message.strip():
+                raise ExtractorError('please update your cookies', expected=True)
+            raise ExtractorError(message)
         return response
 
-    def _get_access_token(self):
+    def _get_guest_access_token(self):
         try:
             data = self._download_json(
                 'https://login.vk.com',
@@ -130,18 +143,16 @@ class VKBaseIE(InfoExtractor):
                 },
                 note='Downloading Guest token',
                 headers={
-                    'Referer': 'https://vkvideo.ru/',
-                    'Origin': 'https://vkvideo.ru',
+                    'Referer': 'https://vkvideo.com/',
                 },
             )
             return data['data']['access_token']
-        except Exception as e:
-            msg = 'Failed to download Guest token'
-            if isinstance(e, ExtractorError):
-                e.msg = msg
-            else:
-                e = ExtractorError(msg, cause=e)
-            raise e
+        except ExtractorError as e:
+            if isinstance(e.cause, HTTPError) and e.cause.status != 200:
+                messgae = self._parse_json(
+                    e.cause.response.read().decode(), None, fatal=False).get('error_description') or 'Unable to get Guest access token'
+                raise ExtractorError(messgae)
+            raise
 
     def _parse_formats_and_subtitles(self, video_id, data, is_live=False):
         formats = []
@@ -633,18 +644,17 @@ class VKUserVideosIE(VKBaseIE):
     _BASE_URL_RE = r'https?://(?:(?:m|new)\.)?vk(?:video\.ru|\.com/video)'
     _VALID_URL = [
         rf'{_BASE_URL_RE}/playlist/(?P<id>-?\d+_-?\d+)',
-        rf'{_BASE_URL_RE}/(?P<id>@[^/?#]+)(?:/all)?/?(?!\?.*\bz=video)(?:[?#]|$)',
+        rf'{_BASE_URL_RE}/(?P<id>@[^/?#]+)(?:/all|/uploaded)?/?(?!\?.*\bz=video)(?:[?#]|$)',
     ]
-    API_BASE = 'https://api.vk.com/method'
-    API_VERSION = 5.269
     _TESTS = [{
         'url': 'https://vk.com/video/@mobidevices',
         'info_dict': {
             'id': '-17892518_all',
+            'title': 'MobiDevices.com',
         },
-        'playlist_mincount': 1355,
+        'playlist_mincount': 500,
     }, {
-        'url': 'https://vk.com/video/@mobidevices?section=uploaded',
+        'url': 'https://vk.com/video/@mobidevices/uploaded',
         'info_dict': {
             'id': '-17892518_uploaded',
         },
@@ -678,28 +688,20 @@ class VKUserVideosIE(VKBaseIE):
         'only_matching': True,
     }]
 
-    def _real_initialize(self):
-        self._guess_token = self._get_access_token()
-
-    def _get_payload_and_path(self, section_name, url, owner_id, album_id, offset=0, start_from=None, section_id=None):
-        if not section_name.startswith('play') and url:
+    def _get_path_and_payload(self, url=None, start_from=None, section_id=None):
+        # Website is redirecting /uploaded to root userpage
+        if '/uploaded' in url:
+            url = url.replace('/uploaded', '')
+        if url:
             return 'catalog.getVideo', {
                 'need_blocks': 1,
                 'url': url,
                 'owner_id': 0,
             }
-        elif not section_name.startswith('play') and not url:
+        else:
             return 'catalog.getSection', {
                 'section_id': section_id,
                 'start_from': start_from,
-            }
-        else:
-            return 'video.getFromAlbum', {
-                'album_id': album_id,
-                'fields': 'is_esia_verified,is_sber_verified,is_tinkoff_verified,photo_50,verified',
-                'owner_id': owner_id,
-                'offset': offset,
-                'count': 50,
             }
 
     def _parse_videos(self, data, video_id):
@@ -707,59 +709,67 @@ class VKUserVideosIE(VKBaseIE):
         formats, subtitles = self._parse_formats_and_subtitles(video_id, video_data)
         return {
             'id': video_id,
+            **traverse_obj(data, {
+                'title': ('title', {str_or_none}),
+                'description': ('description', {str}),
+                'timestamp': ('date', {int_or_none}),
+                'duration': ('duration', {int_or_none}),
+                'comment_count': ('comments', {int_or_none}),
+                'thumbnails': ('image', {list}),
+                'view_count': ('views', {int_or_none}),
+                'chapters': ('episodes', ..., {
+                    'start_time': ('time', {int_or_none}),
+                    'title': ('text', {str_or_none}),
+                }),
+            }),
             'formats': formats,
             'subtitles': subtitles,
-            'title': data.get('title'),
-            'description': data.get('description'),
-            'timestamp': data.get('date'),
-            'duration': data.get('duration'),
-            'comments': data.get('comments'),
-            'thumbnails': data.get('image'),
-            'view_count': data.get('views'),
         }
 
-    def _entries(self, url, page_id, section, album_id=None):
-        path, payload = self._get_payload_and_path(section, url, page_id, album_id)
+    def _entries(self, url, page_id):
+        path, payload = self._get_path_and_payload(url)
         data = self._call_api(page_id, path, payload)
-        video_list = traverse_obj(data, ('catalog', 'videos', {list}), ('videos', {list}), ('items', {list}))
-        remaining = traverse_obj(data, ('albums', 0, 'count', {int}), ('count', {int})) or 0
-        album_count = len(video_list)  # Only for Playlist it uses offset.
-        next_token = traverse_obj(data, ('catalogsections', 0, 'next_from'), ('catalog', 'sections', 1, 'next_from'))
-        section_id = traverse_obj(data, ('catalog', 'default_section'))
-        while remaining > 0:
+        catalog = data.get('catalog', {})
+        video_list = traverse_obj(data, ('videos', {list}), default=[])
+        main_section = traverse_obj(catalog, ('sections', lambda _, y: y.get('next_from'), {dict}))
+        next_token = traverse_obj(main_section, ('next_from'))
+        section_id = catalog.get('default_section') or main_section.get('id')
+        for page_num in itertools.count(1):
             for video in video_list:
                 vid = video.get('id') or traverse_obj(video, ('video', 'id', {int}))
                 void = video.get('owner_id') or traverse_obj(video, ('video', 'owner_id', {int}))
                 video_id = f'{void}_{vid}'
                 yield self._parse_videos(video, video_id)
-                remaining -= 1
-            if remaining <= 0:
+            if not next_token:
                 break
-            path, payload = self._get_payload_and_path(section, None, page_id, album_id, album_count, next_token, section_id)
-            video_list_json = self._call_api(page_id, path, payload)
-            video_list = traverse_obj(video_list_json, ('videos'), ('items',))
-            album_count += len(video_list)
-            if not video_list:
-                self.to_screen(f'{page_id}: Skipping {remaining} unavailable videos')
-                break
-            next_token = traverse_obj(video_list_json, ('section', 'next_from'))
+            path, payload = self._get_path_and_payload(None, next_token, section_id)
+            page = self._call_api(page_id, path, payload, note=f'Downloading page {page_num}')
+            video_list = traverse_obj(page, ('videos'), default=[])
+            next_token = traverse_obj(page, ('section', 'next_from'))
+            if not video_list and next_token:
+                self.to_screen(f'{page_id}: Skipping unavailable videos')
+                continue
 
     def _real_extract(self, url):
         u_id = self._match_id(url)
-        webpage = self._download_webpage(url, u_id)
-
         if u_id.startswith('@'):
-            page_id = traverse_obj(
-                self._search_json(r'\bvar newCur\s*=', webpage, 'cursor data', u_id),
-                ('oid', {int}, {str_or_none}, {require('page id')}))
+            data = traverse_obj(self._call_api(
+                vid=u_id,
+                path='groups.getById',
+                payload={
+                    'group_ids': u_id.replace('@', ''),
+                    'fields': 'is_member,member_status,is_closed,warning_notification,age_mark,video_channel_data',
+                },
+            ), ('response', 'groups', 0), ('groups', 0))
+            page_id = data.get('id')
+            page_id = -page_id if page_id > 0 else page_id
             section = traverse_obj(parse_qs(url), ('section', 0)) or 'all'
-            album_id = None
         else:
+            data = {}
             page_id, _, section = u_id.partition('_')
-            album_id = section
             section = f'playlist_{section}'
-        playlist_title = clean_html(get_element_by_class('VideoInfoPanel__title', webpage))
-        return self.playlist_result(self._entries(url, page_id, section, album_id), f'{page_id}_{section}', playlist_title)
+        playlist_title = traverse_obj(data, ('name'), ('screen_name')) or f'playlist_{u_id}'
+        return self.playlist_result(self._entries(url, page_id), f'{page_id}_{section}', playlist_title)
 
 
 class VKWallPostIE(VKBaseIE):
