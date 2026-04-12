@@ -11,9 +11,8 @@ from .odnoklassniki import OdnoklassnikiIE
 from .sibnet import SibnetEmbedIE
 from .vimeo import VimeoIE
 from .youtube import YoutubeIE
-
-from ..networking.exceptions import HTTPError
 from ..jsinterp import JSInterpreter
+from ..networking.exceptions import HTTPError
 from ..utils import (
     ExtractorError,
     UserNotLive,
@@ -36,7 +35,7 @@ from ..utils import (
     urlencode_postdata,
     urljoin,
 )
-from ..utils.traversal import traverse_obj
+from ..utils.traversal import require, traverse_obj
 
 
 class VKBaseIE(InfoExtractor):
