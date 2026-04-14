@@ -155,7 +155,7 @@ class PelotonIE(InfoExtractor):
         if self.get_cached_access_token():
             return
 
-        _, urlh = self._download_webpage_handle(
+        urlh = self._request_webpage(
             f'{self._LOGIN_BASE_URL}/authorize',
             None, note='Getting required cookies',
             query={
@@ -197,7 +197,9 @@ class PelotonIE(InfoExtractor):
             if isinstance(e.cause, HTTPError) and e.cause.status == 401:
                 json_string = self._webpage_read_content(e.cause.response, None, video_id)
                 res = self._parse_json(json_string, video_id)
-                raise ExtractorError(res['message'], expected=res['message'] == 'Login failed')
+                if res['code'] == 'invalid_user_password':
+                    raise ExtractorError('Invalid Username/password', expected=True)
+                raise ExtractorError(res['message'])
             raise
         return self.fetch_auth_token(data, auth_url)
 
