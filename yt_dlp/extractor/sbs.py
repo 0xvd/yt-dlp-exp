@@ -203,7 +203,6 @@ class SBSIE(SBSBaseIE):
         'MAV15+': 15,
         'R18+': 18,
     }
-    _PLAYER_API = 'https://www.sbs.com.au/api/v3'
 
     def _real_extract(self, url):
         video_id = self._match_id(url)
