@@ -1,10 +1,10 @@
 from .common import InfoExtractor
 from ..utils import (
+    UserNotLive,
     int_or_none,
     str_or_none,
     traverse_obj,
     url_or_none,
-    UserNotLive,
 )
 
 
@@ -47,7 +47,7 @@ class GoodGameIE(InfoExtractor):
             fmt_url = traverse_obj(response, ('sources', ('master', 'smil', 'source'), any))
             formats, subtitles = self._extract_m3u8_formats_and_subtitles(fmt_url, channel_name, 'mp4', live=True)
         else:
-            raise UserNotLive()
+            raise UserNotLive(f'{channel_name} User is currently not live')
 
         return {
             'id': player_id,
