@@ -162,7 +162,7 @@ class LinkedInIE(LinkedInBaseIE):
                 raw_fmts = self._extract_mpd_formats(fmt_url, video_id)
                 fmts = []
                 for fmt in raw_fmts:
-                    fmt['ext'] = 'mp4' #DASH file is giving mimeType iso.segment. We need to convert into mp4
+                    fmt['ext'] = 'mp4'  # DASH file is giving mimeType iso.segment. We need to convert into mp4
                     fmts.append(fmt)
             formats.extend(fmts)
 
