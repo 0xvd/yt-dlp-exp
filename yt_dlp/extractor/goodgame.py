@@ -4,6 +4,7 @@ from ..utils import (
     str_or_none,
     traverse_obj,
     url_or_none,
+    UserNotLive,
 )
 
 
@@ -43,11 +44,10 @@ class GoodGameIE(InfoExtractor):
 
         formats, subtitles = [], {}
         if response.get('status'):
-            formats, subtitles = self._extract_m3u8_formats_and_subtitles(
-                f'https://hls.goodgame.ru/manifest/{player_id}_master.m3u8',
-                channel_name, 'mp4', live=True)
+            fmt_url = traverse_obj(response, ('sources', ('master', 'smil', 'source'), any))
+            formats, subtitles = self._extract_m3u8_formats_and_subtitles(fmt_url, channel_name, 'mp4', live=True)
         else:
-            self.raise_no_formats('User is offline', expected=True, video_id=channel_name)
+            raise UserNotLive()
 
         return {
             'id': player_id,
