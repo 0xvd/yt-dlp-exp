@@ -50,7 +50,8 @@ class FacebookIE(InfoExtractor):
                             [^/]+/posts/|
                             events/(?:[^/]+/)?|
                             groups/[^/]+/(?:permalink|posts)/(?:[\da-f]+/)?|
-                            watchparty/
+                            watchparty/|
+                            stories/
                         )|
                     facebook:
                 )
@@ -597,7 +598,7 @@ class FacebookIE(InfoExtractor):
         if not video_data:
             data = extract_relay_prefetched_data(
                 r'"(?:dash_manifest|playable_url(?:_quality_hd)?)',
-                target_keys=('video', 'event', 'nodes', 'node', 'mediaset'))
+                target_keys=('video', 'event', 'nodes', 'node', 'mediaset', 'bucket'))
             if data:
                 entries = []
 
@@ -720,8 +721,12 @@ class FacebookIE(InfoExtractor):
                         parse_attachment(n)
                     parse_attachment(attachment)
 
-                edges = try_get(data, lambda x: x['mediaset']['currMedia']['edges'], list) or []
+                edges = traverse_obj(data,
+                                     ('mediaset', 'currMedia', 'edges', {list}),
+                                     ('bucket', 'unified_stories_with_notes', 'edges', {list}), default=[])
                 for edge in edges:
+                    for ns in traverse_obj(edge, ('node', 'attachments'), default=[]):
+                        parse_attachment(ns)
                     parse_attachment(edge, key='node')
 
                 video = traverse_obj(data, (
