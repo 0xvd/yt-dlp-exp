@@ -1,8 +1,6 @@
 import json
 import time
 
-from yt_dlp.utils._utils import join_nonempty, parse_resolution
-
 from .common import InfoExtractor
 from ..networking.exceptions import HTTPError
 from ..utils import (
@@ -10,6 +8,7 @@ from ..utils import (
     determine_ext,
     float_or_none,
     int_or_none,
+    join_nonempty,
     jwt_decode_hs256,
     parse_duration,
     parse_iso8601,
@@ -157,7 +156,7 @@ class SBSIE(SBSBaseIE):
             'episode': 'Episode 1',
             'episode_number': 1,
             'release_year': 2025,
-            'thumbnail': r're:https?://image.pr.sbsod.com/.+'
+            'thumbnail': r're:https?://image.pr.sbsod.com/.+',
         },
         'params': {'skip_download': 'm3u8'},
         'skip': 'Login required',
@@ -272,7 +271,7 @@ class SBSIE(SBSBaseIE):
         for thumb in traverse_obj(media, ('images', lambda _, y: y.get('id'))):
             thumb_root = 'https://image.pr.sbsod.com'
             width, height, label = self._search_regex(
-                r'\|(?P<w>\d+)\|(?P<h>\d+)\|(?P<l>[^\|]+)', 
+                r'\|(?P<w>\d+)\|(?P<h>\d+)\|(?P<l>[^\|]+)',
                 thumb.get('category'),
                 'thumbail info',
                 group=('w', 'h', 'l'),
