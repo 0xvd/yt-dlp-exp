@@ -122,7 +122,7 @@ class LinkedInIE(LinkedInBaseIE):
     }]
 
     def extract_codes_metadata(self, video_id, webpage):
-        data = self._search_json(
+        included = self._search_json(
             r'<code[^>]+>',
             unescapeHTML(webpage),
             'Code data',
@@ -130,20 +130,19 @@ class LinkedInIE(LinkedInBaseIE):
             contains_pattern=r'([^<]+mp4[^<]+)',
             end_pattern=r'<',
             default=None,
-        )
-        if not data:
+        ).get('included')
+        media = traverse_obj(included, (lambda _, y: y.get('progressiveStreams') or y.get('adaptiveStreams'), any))
+        if not included or not media:
             return {}
-        data = traverse_obj(data, (..., lambda _, y: y.get('progressiveStreams') or y.get('adaptiveStreams'), {dict}), get_all=False)
+
         formats, subtitles = [], {}
-        for pstream in data.get('progressiveStreams', []):
-            if not pstream.get('streamingLocations'):
-                continue
+        for pstream in traverse_obj(media, ('progressiveStreams', lambda _, y: y.get('streamingLocations'))):
             formats.append({
                 **traverse_obj(
                     pstream, {
                         'url': ('streamingLocations', ..., 'url', {url_or_none}, any),
                         'filesize': ('size', {int_or_none}),
-                        'tbr': ('bitRate', {int_or_none}),
+                        'tbr': ('bitRate', {int_or_none(scale=1000)}),
                         'width': ('width', {int_or_none}),
                         'height': ('height', {int_or_none}),
                     }),
@@ -151,9 +150,7 @@ class LinkedInIE(LinkedInBaseIE):
             },
             )
 
-        for astream in data.get('adaptiveStreams', []):
-            if not astream.get('masterPlaylists'):
-                continue
+        for astream in traverse_obj(media, ('adaptiveStreams', lambda _, y: y.get('masterPlaylists'))):
             protocol = astream.get('protocol')
             fmt_url = traverse_obj(astream, ('masterPlaylists', ..., 'url', any))
             if protocol == 'HLS':
@@ -162,13 +159,11 @@ class LinkedInIE(LinkedInBaseIE):
                 raw_fmts = self._extract_mpd_formats(fmt_url, video_id)
                 fmts = []
                 for fmt in raw_fmts:
-                    fmt['ext'] = 'mp4'  # DASH file is giving mimeType iso.segment. We need to convert into mp4
+                    fmt['ext'] = 'mp4'  # DASH file is giving mimeType iso.segment so ext will be iso.segment. We need to force ext into mp4
                     fmts.append(fmt)
             formats.extend(fmts)
 
-        for sub in data.get('transcripts', []):
-            if not sub.get('captionFile'):
-                continue
+        for sub in traverse_obj(media, ('transcripts', lambda _, y: y.get('captionFile'))):
             lang = traverse_obj(sub, ('locale', 'language'), default='en')
             sub_info = traverse_obj(sub, {
                 'url': ('captionFile', {url_or_none}),
@@ -177,25 +172,23 @@ class LinkedInIE(LinkedInBaseIE):
             subtitles.setdefault(lang, []).append(sub_info)
 
         thumbnails = []
-        if thumbs := data.get('thumbnail'):
+        if thumbs := media.get('thumbnail'):
             root = thumbs.get('rootUrl')
-            for artifact in thumbs.get('artifacts'):
+            for artifact in traverse_obj(thumbs, ('artifacts', lambda _, y: y.get('fileIdentifyingUrlPathSegment'))):
                 path = artifact.get('fileIdentifyingUrlPathSegment')
-                if not path:
-                    continue
                 thumbnails.append({
-                    **traverse_obj(thumbs, {
+                    **traverse_obj(artifact, {
                         'width': ('width', {int_or_none}),
                         'height': ('height', {int_or_none}),
                     }),
-                    'url': join_nonempty(root, path),
+                    'url': join_nonempty(root, path, delim=''),
                 })
 
         return {
-            **traverse_obj(data, ('metadata', {
-                'uploader': ('actor', 'description', ('text', 'accessibilityText', any)),
+            **traverse_obj(included, (lambda _, y: y.get('metadata'), {
+                'uploader': ('actor', 'description', ('text', 'accessibilityText')),
                 'description': ('commentary', 'text', 'text'),
-            })),
+            }), get_all=False),
             'thumbnails': thumbnails,
             'formats': formats,
             'subtitles': subtitles,
