@@ -116,7 +116,7 @@ class SBSIE(SBSBaseIE):
                 <meta\s+property="og:video"\s+content=|
                 <iframe[^>]+?src=
             )
-            (["\'])(?P<url>https?://(?:www\.)?sbs\.com\.au/ondemand/video/.+?)\1''']
+            ("|')(?P<url>https?://(?:www\.)?sbs\.com\.au/ondemand/video/.+?)\1''']
 
     _TESTS = [{
         # Original URL is handled by the generic IE which finds the iframe:
@@ -134,7 +134,7 @@ class SBSIE(SBSBaseIE):
             'upload_date': '20140821',
             'uploader': 'SBSC',
         },
-        'skip': '502 Bad Gateway',
+        'skip': '400 Bad Bad Request',
         'expected_warnings': ['Unable to download JSON metadata'],
     }, {
         'url': 'https://www.sbs.com.au/ondemand/tv-series/hudson-and-rex/season-8/hudson-and-rex-s8-ep1/2487482947557',
@@ -156,6 +156,7 @@ class SBSIE(SBSBaseIE):
             'release_year': 2025,
         },
         'params': {'skip_download': 'm3u8'},
+        'skip': 'Login required',
     }, {
         'url': 'http://www.sbs.com.au/ondemand/video/320403011771/Dingo-Conservation-The-Feed',
         'only_matching': True,
@@ -193,6 +194,7 @@ class SBSIE(SBSBaseIE):
     }]
 
     _GEO_COUNTRIES = ['AU']
+    _GEO_BYPASS = False
     _AUS_TV_PARENTAL_GUIDELINES = {
         'P': 0,
         'C': 7,
@@ -224,16 +226,25 @@ class SBSIE(SBSBaseIE):
             raise
 
         formats, subtitles = [], {}
-        streams = media.get('streamProviders')
-        for stream in traverse_obj(streams, ..., lambda _, y: y.get('type') == 'HLS'):
-            fmt_url = stream.get('url')
+        for fmt_url in traverse_obj(media, ('streamProviders', ..., 'url')):
             ext = determine_ext(fmt_url)
             if ext == 'm3u8':
                 fmts, subs = self._extract_m3u8_formats_and_subtitles(fmt_url, video_id)
             elif ext == 'mpd':
                 fmts, subs = self._extract_mpd_formats_and_subtitles(fmt_url, video_id)
+            else:
+                continue
             formats.extend(fmts)
             self._merge_subtitles(subs, target=subtitles)
+
+        for sub in traverse_obj(media, ('streamProviders', ..., 'textTracks', lambda _, y: y.get('url'))):
+            lang = sub.get('lang', 'en')
+            subtitles.setdefault(lang, []).append(
+                traverse_obj(sub, {
+                    'url': ('url', {url_or_none}),
+                    'ext': ('format', {str.lower}),
+                }),
+            )
 
         media.update(self._download_json(
             f'https://catalogue.pr.sbsod.com/mpx-media/{video_id}',
@@ -255,7 +266,7 @@ class SBSIE(SBSBaseIE):
         return {
             'id': video_id,
             **traverse_obj(media, {
-                'title': (('cdpTitle', {str}), ('title', {str}), any),
+                'title': (('cdpTitle', 'title'), {str}),
                 'description': ('description', {str}),
                 'channel': ('taxonomy', 'channel', 'name', {str}),
                 'series': ((('partOfSeries', 'name'), 'seriesTitle'), {str}),
