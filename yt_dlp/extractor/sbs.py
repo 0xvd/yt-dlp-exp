@@ -11,6 +11,7 @@ from ..utils import (
     jwt_decode_hs256,
     parse_duration,
     parse_iso8601,
+    str_or_none,
     traverse_obj,
     url_or_none,
 )
@@ -194,7 +195,7 @@ class SBSIE(SBSBaseIE):
     }]
 
     _GEO_COUNTRIES = ['AU']
-    _GEO_BYPASS = False
+    _GEO_BYPASS = True
     _AUS_TV_PARENTAL_GUIDELINES = {
         'P': 0,
         'C': 7,
@@ -242,7 +243,8 @@ class SBSIE(SBSBaseIE):
             subtitles.setdefault(lang, []).append(
                 traverse_obj(sub, {
                     'url': ('url', {url_or_none}),
-                    'ext': ('format', {str.lower}),
+                    'ext': ('url', {determine_ext}),
+                    'name': ('name', {str_or_none}),
                 }),
             )
 
