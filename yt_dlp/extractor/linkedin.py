@@ -117,6 +117,18 @@ class LinkedInIE(LinkedInBaseIE):
             'subtitles': 'mincount:1',
         },
     }, {
+        'url': 'https://www.linkedin.com/feed/update/urn:li:activity:7451597376491810816/',
+        'info_dict': {
+            'id': '7451597376491810816',
+            'ext': 'mp4',
+            'title': 'LinkedIn',
+            'description': 'md5:dce53c029b35f7fcd16935088c31f24a',
+            'uploader': 'Metin Fatih SAYAR • 3rd+',
+            'thumbnail': 're:^https?://media.licdn.com/dms/image/.*$',
+        },
+        'params': {'skip_download': 'm3u8'},
+        'skip': 'Login required',
+    }, {
         'url': 'https://www.linkedin.com/feed/update/urn:li:activity:7016901149999955968/?utm_source=share&utm_medium=member_desktop',
         'only_matching': True,
     }]
@@ -197,6 +209,10 @@ class LinkedInIE(LinkedInBaseIE):
     def _real_extract(self, url):
         video_id = self._match_id(url)
         webpage = self._download_webpage(url, video_id)
+
+        if self._search_regex(
+                r'(?i:(sign\s+up))', webpage, 'Login page', default=None):
+            self.raise_login_required()
 
         formats = subtitles = None
         if video_block := self._search_regex(r'(<video[^>]+>)', webpage, 'video', default=None):
