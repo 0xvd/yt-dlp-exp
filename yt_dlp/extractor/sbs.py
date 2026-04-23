@@ -269,6 +269,7 @@ class SBSIE(SBSBaseIE):
 
         thumbnails = []
         for thumb in traverse_obj(media, ('images', lambda _, y: y.get('id'))):
+            tid = thumb.get('id')
             thumb_root = 'https://image.pr.sbsod.com'
             width, height, label = self._search_regex(
                 r'\|(?P<w>\d+)\|(?P<h>\d+)\|(?P<l>[^\|]+)',
@@ -278,10 +279,10 @@ class SBSIE(SBSBaseIE):
                 default=[None, None, None],
             )
             thumbnails.append({
-                'url': join_nonempty(thumb_root, thumb.get('id'), delim='/'),
+                'url': join_nonempty(thumb_root, tid, delim='/'),
                 'width': int_or_none(width),
                 'height': int_or_none(height),
-                'id': label,
+                'id': f'{label}-{tid[:5]}',
             })
 
         return {
