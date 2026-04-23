@@ -1,6 +1,8 @@
 import json
 import time
 
+from yt_dlp.utils._utils import join_nonempty, parse_resolution
+
 from .common import InfoExtractor
 from ..networking.exceptions import HTTPError
 from ..utils import (
@@ -155,6 +157,7 @@ class SBSIE(SBSBaseIE):
             'episode': 'Episode 1',
             'episode_number': 1,
             'release_year': 2025,
+            'thumbnail': r're:https?://image.pr.sbsod.com/.+'
         },
         'params': {'skip_download': 'm3u8'},
         'skip': 'Login required',
@@ -195,7 +198,7 @@ class SBSIE(SBSBaseIE):
     }]
 
     _GEO_COUNTRIES = ['AU']
-    _GEO_BYPASS = True
+    _GEO_BYPASS = False
     _AUS_TV_PARENTAL_GUIDELINES = {
         'P': 0,
         'C': 7,
@@ -265,6 +268,23 @@ class SBSIE(SBSBaseIE):
                     fixed_lang += '-forced'
                 fixed_subtitles.setdefault(fixed_lang, []).append(sub)
 
+        thumbnails = []
+        for thumb in traverse_obj(media, ('images', lambda _, y: y.get('id'))):
+            thumb_root = 'https://image.pr.sbsod.com'
+            width, height, label = self._search_regex(
+                r'\|(?P<w>\d+)\|(?P<h>\d+)\|(?P<l>[^\|]+)', 
+                thumb.get('category'),
+                'thumbail info',
+                group=('w', 'h', 'l'),
+                default=[None, None, None],
+            )
+            thumbnails.append({
+                'url': join_nonempty(thumb_root, thumb.get('id'), delim='/'),
+                'width': int_or_none(width),
+                'height': int_or_none(height),
+                'id': label,
+            })
+
         return {
             'id': video_id,
             **traverse_obj(media, {
@@ -286,13 +306,8 @@ class SBSIE(SBSBaseIE):
             **traverse_obj(media, {
                 'categories': (('genres', ...), ('taxonomy', ('genre', 'subgenre'), 'name'), {str}),
                 'tags': (('consumerAdviceTexts', ('sbsSubCertification', 'consumerAdvice')), ..., {str}),
-                'thumbnails': ('thumbnails', lambda _, v: url_or_none(v['contentUrl']), {
-                    'id': ('name', {str}),
-                    'url': 'contentUrl',
-                    'width': ('width', {int_or_none}),
-                    'height': ('height', {int_or_none}),
-                }),
             }),
+            'thumbnails': thumbnails,
             'formats': formats,
             'subtitles': fixed_subtitles,
             'uploader': 'SBSC',
