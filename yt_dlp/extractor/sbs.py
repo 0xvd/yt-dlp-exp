@@ -12,6 +12,7 @@ from ..utils import (
     jwt_decode_hs256,
     parse_duration,
     parse_iso8601,
+    parse_qs,
     str_or_none,
     traverse_obj,
     url_or_none,
@@ -242,13 +243,18 @@ class SBSIE(SBSBaseIE):
 
         for sub in traverse_obj(media, ('streamProviders', ..., 'textTracks', lambda _, y: y.get('url'))):
             lang = sub.get('lang', 'en')
-            subtitles.setdefault(lang, []).append(
-                traverse_obj(sub, {
+            ext = traverse_obj(sub,
+                               ('format', {lambda x: 'vtt' if x == 'WebVTT' else None}),
+                               ('url', {parse_qs}, 'format', 0),
+                               ('url', {determine_ext(default_ext='vtt')}),
+                               )
+            subtitles.setdefault(lang, []).append({
+                **traverse_obj(sub, {
                     'url': ('url', {url_or_none}),
-                    'ext': ('url', {determine_ext}),
                     'name': ('name', {str_or_none}),
                 }),
-            )
+                'ext': ext,
+            })
 
         media.update(self._download_json(
             f'https://catalogue.pr.sbsod.com/mpx-media/{video_id}',
