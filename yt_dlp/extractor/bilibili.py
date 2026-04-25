@@ -755,43 +755,40 @@ class BiliBiliIE(BilibiliBaseIE):
 
         is_festival = 'videoData' not in initial_state
         if is_festival:
-            video_data = initial_state['videoInfo']
+            video_data = traverse_obj(initial_state, ('videoInfo', ), ('data', 'View'))
         else:
             video_data = initial_state['videoData']
 
         video_id, title = video_data['bvid'], video_data.get('title')
 
         # Bilibili anthologies are similar to playlists but all videos share the same video ID as the anthology itself.
-        page_list_json = (not is_festival and traverse_obj(
-            self._download_json(
-                'https://api.bilibili.com/x/player/pagelist', video_id,
-                fatal=False, query={'bvid': video_id, 'jsonp': 'jsonp'},
-                note='Extracting videos in anthology', headers=headers),
-            'data', expected_type=list)) or []
+        page_list_json = traverse_obj(initial_state,
+                                      ('availableVideoList', lambda _, y: y.get('bvid') == video_id, 'list', {list}, any), default=None) or video_data.get('pages')
+        if page_list_json is None:
+            page_list_json = (not is_festival and traverse_obj(
+                self._download_json(
+                    'https://api.bilibili.com/x/player/pagelist', video_id,
+                    fatal=False, query={'bvid': video_id, 'jsonp': 'jsonp'},
+                    note='Extracting videos in anthology', headers=headers),
+                'data', expected_type=list))
         is_anthology = len(page_list_json) > 1
 
         part_id = int_or_none(parse_qs(url).get('p', [None])[-1])
         if is_anthology and not part_id and self._yes_playlist(video_id, video_id):
             return self.playlist_from_matches(
                 page_list_json, video_id, title, ie=BiliBiliIE,
-                getter=lambda entry: f'https://www.bilibili.com/video/{video_id}?p={entry["page"]}')
+                getter=lambda entry: f'https://www.bilibili.com/video/{video_id}?p={traverse_obj(entry, ("page"), ("p"))}')
 
+        part_idx = part_id or 1
         if is_anthology:
-            part_id = part_id or 1
-            title += f' p{part_id:02d} {traverse_obj(page_list_json, (part_id - 1, "part")) or ""}'
+            title += f' p{part_idx:02d} {traverse_obj(page_list_json, (part_idx, ("part", "title"), any)) or ""}'
 
         aid = video_data.get('aid')
-        old_video_id = format_field(aid, None, f'%s_part{part_id or 1}')
-        cid = traverse_obj(video_data, ('cid'), ('pages', part_id - 1, 'cid'), ('embedPlayer', 'cid'))
-
-        festival_info = {}
-        if is_festival:
-            festival_info = traverse_obj(initial_state, {
-                'uploader': ('videoInfo', 'upName'),
-                'uploader_id': ('videoInfo', 'upMid', {str_or_none}),
-                'like_count': ('videoStatus', 'like', {int_or_none}),
-                'thumbnail': ('sectionEpisodes', lambda _, v: v['bvid'] == video_id, 'cover'),
-            }, get_all=False)
+        old_video_id = format_field(aid, None, f'%s_part{part_idx or 1}')
+        cid = traverse_obj(video_data,
+                           ('pages', lambda _, y: int_or_none(y.get('page')) == part_idx, 'cid'),
+                           ('pages', part_idx - 1, 'cid'),
+                           ('cid'), get_all=False)
 
         metainfo = {
             **traverse_obj(initial_state, {
@@ -801,7 +798,12 @@ class BiliBiliIE(BilibiliBaseIE):
                 'tags': ('tags', ..., 'tag_name'),
                 'thumbnail': ('videoData', 'pic', {url_or_none}),
             }),
-            **festival_info,
+            **traverse_obj(initial_state, {
+                'uploader': ('videoInfo', 'upName'),
+                'uploader_id': ('videoInfo', 'upMid', {str_or_none}),
+                'like_count': ('videoStatus', 'like', {int_or_none}),
+                'thumbnail': ('sectionEpisodes', lambda _, v: v['bvid'] == video_id, 'cover'),
+            }, get_all=False),
             **traverse_obj(video_data, {
                 'description': 'desc',
                 'timestamp': ('pubdate', {int_or_none}),
