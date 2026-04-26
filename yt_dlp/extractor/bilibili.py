@@ -173,9 +173,10 @@ class BilibiliBaseIE(InfoExtractor):
     def bili_challenge_result(self, data, limit=10_000_000):
         final_hash = data.get('r')
         q = data.get('q')
-        for i in range(limit):
-            data_hash = hashlib.sha256((q + str(i)).encode()).hexdigest()
+        for i in map(str, range(limit)):
+            data_hash = hashlib.sha256((q + i).encode()).hexdigest()
             if data_hash == final_hash:
+                self.to_screen(f'Generated result {i}')
                 return i
         return None
 
@@ -208,7 +209,10 @@ class BilibiliBaseIE(InfoExtractor):
         ):
             return response
 
+        self.to_screen(join_nonempty(video_id and f'[{video_id}]', 'Received a challenge response', delim=' '))
+
         if cached_token := self._get_and_set_bili_sec_token(use_cache=True):
+            self.to_screen('Using cached bili sec token')
             self._get_and_set_bili_sec_token(cached_token, use_cache=False)
             return super()._download_webpage_handle(url_or_request, video_id, note, data=data, headers=headers, **kwargs)
 
@@ -216,7 +220,8 @@ class BilibiliBaseIE(InfoExtractor):
         bili_token_data = jwt_decode_hs256(bili_token)
         challenge = self._download_json(
             'https://security.bilibili.com/th/captcha/cc/check',
-            None, 'Performing challenge',
+            None, 'Submitting challenge',
+            errnote='Unable to solve challenge',
             data=urlencode_postdata({
                 'token': bili_token,
                 'result': self.bili_challenge_result(bili_token_data),
@@ -726,8 +731,6 @@ class BiliBiliIE(BilibiliBaseIE):
         if not self._match_valid_url(urlh.url):
             return self.url_result(urlh.url)
 
-        headers['Referer'] = url
-
         initial_state = self._search_json(r'window\.__INITIAL_STATE__\s*=', webpage, 'initial state', video_id, default=None)
         if not initial_state:
             if self._search_json(r'\bwindow\._riskdata_\s*=', webpage, 'risk', video_id, default={}).get('v_voucher'):
@@ -746,31 +749,32 @@ class BiliBiliIE(BilibiliBaseIE):
             if new_url and BiliBiliBangumiIE.suitable(new_url):
                 return self.url_result(new_url, BiliBiliBangumiIE)
 
-        if traverse_obj(initial_state, ('error', 'trueCode')) == -403:
+        error_code = traverse_obj(initial_state, ((('error', 'trueCode'), ('code')), {int_or_none}, any))
+        if error_code == -403:
             self.raise_login_required()
-        if traverse_obj(initial_state, ('error', 'trueCode')) == -404:
+        if error_code == -404:
             raise ExtractorError(
                 'This video may be deleted or geo-restricted. '
                 'You might want to try a VPN or a proxy server (with --proxy)', expected=True)
 
         is_festival = 'videoData' not in initial_state
-        if is_festival:
-            video_data = traverse_obj(initial_state, ('videoInfo', ), ('data', 'View'))
-        else:
-            video_data = initial_state['videoData']
+        video_data = traverse_obj(initial_state, ('videoData'), ('videoInfo'), ('data', 'View'), default=None)
+        if not video_data:
+            raise ExtractorError(f'Unable to get {"videoInfo" if is_festival else "videoData"}')
 
         video_id, title = video_data['bvid'], video_data.get('title')
 
         # Bilibili anthologies are similar to playlists but all videos share the same video ID as the anthology itself.
         page_list_json = traverse_obj(initial_state,
-                                      ('availableVideoList', lambda _, y: y.get('bvid') == video_id, 'list', {list}, any), default=None) or video_data.get('pages')
+                                      ('availableVideoList', lambda _, y: y.get('bvid') == video_id, 'list', {list}, any),
+                                      ('videoData', 'pages'),
+                                      ('pages'), default=None)
         if page_list_json is None:
             page_list_json = (not is_festival and traverse_obj(
                 self._download_json(
                     'https://api.bilibili.com/x/player/pagelist', video_id,
                     fatal=False, query={'bvid': video_id, 'jsonp': 'jsonp'},
-                    note='Extracting videos in anthology', headers=headers),
-                'data', expected_type=list))
+                    note='Extracting videos in anthology', headers=headers), 'data', expected_type=list)) or []
         is_anthology = len(page_list_json) > 1
 
         part_id = int_or_none(parse_qs(url).get('p', [None])[-1])
@@ -784,11 +788,20 @@ class BiliBiliIE(BilibiliBaseIE):
             title += f' p{part_idx:02d} {traverse_obj(page_list_json, (part_idx, ("part", "title"), any)) or ""}'
 
         aid = video_data.get('aid')
-        old_video_id = format_field(aid, None, f'%s_part{part_idx or 1}')
+        old_video_id = format_field(aid, None, f'%s_part{part_idx}')
         cid = traverse_obj(video_data,
                            ('pages', lambda _, y: int_or_none(y.get('page')) == part_idx, 'cid'),
                            ('pages', part_idx - 1, 'cid'),
                            ('cid'), get_all=False)
+
+        festival_info = {}
+        if is_festival:
+            festival_info = traverse_obj(initial_state, {
+                'uploader': ('videoInfo', 'upName'),
+                'uploader_id': ('videoInfo', 'upMid', {str_or_none}),
+                'like_count': ('videoStatus', 'like', {int_or_none}),
+                'thumbnail': ('sectionEpisodes', lambda _, v: v['bvid'] == video_id, 'cover'),
+            }, get_all=False)
 
         metainfo = {
             **traverse_obj(initial_state, {
@@ -798,12 +811,7 @@ class BiliBiliIE(BilibiliBaseIE):
                 'tags': ('tags', ..., 'tag_name'),
                 'thumbnail': ('videoData', 'pic', {url_or_none}),
             }),
-            **traverse_obj(initial_state, {
-                'uploader': ('videoInfo', 'upName'),
-                'uploader_id': ('videoInfo', 'upMid', {str_or_none}),
-                'like_count': ('videoStatus', 'like', {int_or_none}),
-                'thumbnail': ('sectionEpisodes', lambda _, v: v['bvid'] == video_id, 'cover'),
-            }, get_all=False),
+            **festival_info,
             **traverse_obj(video_data, {
                 'description': 'desc',
                 'timestamp': ('pubdate', {int_or_none}),
