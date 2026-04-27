@@ -40,16 +40,16 @@ class SmotrimBaseIE(InfoExtractor):
         media = data.get('data')
 
         formats, subtitles = [], {}
-        if fmt_url := traverse_obj(media, ('m3u8', {url_or_none}), ('m3u8', 'auto', {url_or_none})):
+        if fmt_url := traverse_obj(media, ('streams', 'm3u8', {url_or_none})):
             formats.extend(self._extract_m3u8_formats(fmt_url, item_id))
 
         for sub in traverse_obj(media, ('subtitles', lambda _, y: y.get('vtt') or y.get('srt')), default=[]):
             lang = sub.get('code')
-            for typ in ('vtt', 'srt'):
+            for styp in ('vtt', 'srt'):
                 subtitles.setdefault(lang, []).append(
                     traverse_obj(sub, {
-                        'url': (typ, {url_or_none}),
-                        'ext': (typ, {determine_ext(default_ext=typ)}),
+                        'url': (styp, {url_or_none}),
+                        'ext': (styp, {determine_ext(default_ext=styp)}),
                         'name': ('title', {str_or_none}),
                     }),
                 )
@@ -224,9 +224,9 @@ class SmotrimIE(SmotrimBaseIE):
 
         def update_fmts_and_subs(*datas, target_fmts, target_subs):
             for data in datas:
-                if subs := data.pop('subtitles'):
+                if subs := data.pop('subtitles', {}):
                     self._merge_subtitles(subs, target=target_subs)
-                if fmts := data.pop('formats'):
+                if fmts := data.pop('formats', []):
                     target_fmts.extend(fmts)
 
         def update_thumbnails(*datas, target):
