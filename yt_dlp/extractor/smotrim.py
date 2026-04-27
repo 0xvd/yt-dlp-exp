@@ -10,9 +10,7 @@ from ..utils import (
     determine_ext,
     extract_attributes,
     int_or_none,
-    parse_iso8601,
     str_or_none,
-    unescapeHTML,
     url_or_none,
     urljoin,
 )
@@ -29,21 +27,70 @@ class SmotrimBaseIE(InfoExtractor):
     _GEO_BYPASS = False
     _GEO_COUNTRIES = ['RU']
 
-    def _extract_from_smotrim_api(self, typ, item_id):
+    def _extract_from_smotrim_api(self, url, typ, item_id, webpage_needed=True, **kwargs):
+        data = self._download_json(f'https://player-api.smotrim.ru/api/v1/{typ}/{item_id}', item_id, **kwargs)
+        notice = data.get('notice')
+        status = data.get('status')
+        if status != 'OK' and notice:
+            if 'подписке' in notice:
+                self.raise_login_required(notice)
+            elif typ == 'channel' and status == 'CHANNEL_NOT_FOUND':
+                raise ExtractorError(f'Channel {item_id} not found', expected=True)
+            raise ExtractorError(notice)
+        media = data.get('data')
+
+        formats, subtitles = [], {}
+        if fmt_url := traverse_obj(media, ('m3u8', {url_or_none}), ('m3u8', 'auto', {url_or_none})):
+            formats.extend(self._extract_m3u8_formats(fmt_url, item_id))
+
+        for sub in traverse_obj(media, ('subtitles', lambda _, y: y.get('vtt') or y.get('srt')), default=[]):
+            lang = sub.get('code')
+            for typ in ('vtt', 'srt'):
+                subtitles.setdefault(lang, []).append(
+                    traverse_obj(sub, {
+                        'url': (typ, {url_or_none}),
+                        'ext': (typ, {determine_ext(default_ext=typ)}),
+                        'name': ('title', {str_or_none}),
+                    }),
+                )
+
+        thumbnails = []
+        for thumb_id, thumb_url in traverse_obj(media, ('episode', 'splash', {dict.items}), default=[]):
+            thumbnails.append({'id': thumb_id, 'url': thumb_url})
+
+        return {
+            'id': item_id,
+            **traverse_obj(media, {
+                'title': ((('episode', 'title'), ('title')), any, {str_or_none}),
+                'series': ('brand', 'title', {str_or_none}),
+                'series_id': ('brand', 'id', {str_or_none}),
+                'duration': ('duration', {int_or_none}),
+                'age_limit': ('ageRestriction', {int_or_none}),
+            }),
+            **(self._search_json_ld(self._download_webpage(url, item_id), item_id, fatal=False) if webpage_needed else {}),
+            'thumbnails': thumbnails,
+            'formats': formats,
+            'subtitles': subtitles,
+            'is_live': typ in ('channel', 'audo-live', 'live'),
+        }
+
+    def _extract_from_iframe_api(self, typ, item_id, fatal=True):
         path = f'data{typ.replace("-", "")}/{"uid" if typ == "live" else "id"}'
         data = self._download_json(
             f'https://player.smotrim.ru/iframe/{path}/{item_id}', item_id)
         media = traverse_obj(data, ('data', 'playlist', 'medialist', -1, {dict}))
         if traverse_obj(media, ('locked', {bool})):
+            if fatal is False:
+                self.report_warning(self._login_hint())
+                return {}
             self.raise_login_required()
         if error_msg := traverse_obj(data, ('errors', {str_or_none})):
-            self.raise_geo_restricted(error_msg, countries=self._GEO_COUNTRIES)
-        webpage = None
-        webpage_url = traverse_obj(data, ('data', 'template', 'share_url', {url_or_none})) or f'{self._BASE_URL}/video/{item_id}'
-        if webpage_url:
-            webpage = self._download_webpage(webpage_url, item_id)
+            msg = f'Iframe api says: {error_msg}'
+            if fatal is False:
+                self.report_warning(msg)
+                return {}
+            raise ExtractorError(msg)
         common = {
-            'thumbnail': self._html_search_meta(['og:image', 'twitter:image'], webpage, default=None),
             **traverse_obj(media, {
                 'id': ('id', {str_or_none}),
                 'title': (('episodeTitle', 'title'), {clean_html}, filter, any),
@@ -56,14 +103,14 @@ class SmotrimBaseIE(InfoExtractor):
                 'chapters': ('chapters', {list}),
                 'thumbnail': ('picture', {url_or_none}),
             }),
+            'webpage_url': traverse_obj(data, ('data', (('playlist', 'def_share_url'), ('template', 'share_url')), any, {url_or_none})),
             'tags': traverse_obj(data, ('data', 'tags'), default='').split(':'),
         }
 
         if typ == 'audio':
-            bookmark = self._search_json(
-                r'class="bookmark"[^>]+value\s*=\s*"', webpage,
-                'bookmark', item_id, default={}, transform_source=unescapeHTML)
-
+            thumbnails = []
+            for thumb_id, thumb_url in traverse_obj(media, ('brand_pictures', {dict.items}), default=[]):
+                thumbnails.append({'id': thumb_id, 'url': thumb_url})
             metadata = {
                 'vcodec': 'none',
                 **common,
@@ -71,11 +118,9 @@ class SmotrimBaseIE(InfoExtractor):
                     'ext': ('audio_url', {determine_ext(default_ext='mp3')}),
                     'duration': ('duration', {int_or_none}),
                     'url': ('audio_url', {url_or_none}),
+                    'title': ('title', {str_or_none}),
                 }),
-                **traverse_obj(bookmark, {
-                    'title': ('subtitle', {clean_html}),
-                    'timestamp': ('published', {parse_iso8601}),
-                }),
+                'thumbnails': thumbnails,
             }
         elif typ == 'audio-live':
             metadata = {
@@ -90,18 +135,9 @@ class SmotrimBaseIE(InfoExtractor):
                 'sources', 'm3u8', {dict.values}, ..., {url_or_none},
             )):
                 fmts, subs = self._extract_m3u8_formats_and_subtitles(
-                    m3u8_url, item_id, 'mp4', m3u8_id='hls', fatal=False)
+                    m3u8_url, item_id, 'mp4', m3u8_id='hls', fatal=fatal)
                 formats.extend(fmts)
                 self._merge_subtitles(subs, target=subtitles)
-
-            if http_formats := traverse_obj(media, ('sources', 'http')):
-                for quality, fmt_url in http_formats.items():
-                    if not fmt_url or not url_or_none(fmt_url):
-                        continue
-                    formats.append({
-                        'format_id': f'http-{quality}',
-                        'url': fmt_url,
-                    })
 
             metadata = {
                 'formats': formats,
@@ -112,9 +148,6 @@ class SmotrimBaseIE(InfoExtractor):
         return {
             'age_limit': traverse_obj(data, ('data', 'age_restrictions', {int_or_none})),
             'is_live': typ in ('audio-live', 'live'),
-            'tags': traverse_obj(webpage, (
-                {find_elements(cls='tags-list__link')}, ..., {clean_html}, filter, all, filter)),
-            'webpage_url': webpage_url,
             **metadata,
         }
 
@@ -186,7 +219,40 @@ class SmotrimIE(SmotrimBaseIE):
     def _real_extract(self, url):
         video_id = self._match_id(url)
 
-        return self._extract_from_smotrim_api('video', video_id)
+        formats, subtitles = [], {}
+        thumbnails = []
+
+        def update_fmts_and_subs(*datas, target_fmts, target_subs):
+            for data in datas:
+                if subs := data.pop('subtitles'):
+                    self._merge_subtitles(subs, target=target_subs)
+                if fmts := data.pop('formats'):
+                    target_fmts.extend(fmts)
+
+        def update_thumbnails(*datas, target):
+            for data in datas:
+                if thumb_url := data.pop('thumbnail', None):
+                    target.append({
+                        'url': thumb_url,
+                        'height': data.get('height'),
+                        'width': data.get('width'),
+                    })
+
+                if thumbs := data.pop('thumbnails', None):
+                    target.extend(thumbs)
+
+        smotrim_data = self._extract_from_smotrim_api(url, 'video', video_id)
+        iframe_data = self._extract_from_iframe_api('video', video_id, fatal=False)
+        update_fmts_and_subs(smotrim_data, iframe_data, target_fmts=formats, target_subs=subtitles)
+        update_thumbnails(smotrim_data, iframe_data, target=thumbnails)
+
+        return {
+            **smotrim_data,
+            **iframe_data,
+            'thumbnails': thumbnails,
+            'formats': formats,
+            'subtitles': subtitles,
+        }
 
 
 class SmotrimAudioIE(SmotrimBaseIE):
@@ -229,7 +295,7 @@ class SmotrimAudioIE(SmotrimBaseIE):
     def _real_extract(self, url):
         audio_id = self._match_id(url)
 
-        return self._extract_from_smotrim_api('audio', audio_id)
+        return self._extract_from_iframe_api('audio', audio_id)
 
 
 class SmotrimLiveIE(SmotrimBaseIE):
@@ -307,31 +373,18 @@ class SmotrimLiveIE(SmotrimBaseIE):
     def _real_extract(self, url):
         typ, display_id = self._match_valid_url(url).group('type', 'id')
 
-        # TODO: use Graphql API instead of IFRAME API. This is can be done in next commit.
         if typ == 'live' and re.fullmatch(r'[0-9]+', display_id):
             url = self._request_webpage(url, display_id).url
             typ = self._match_valid_url(url).group('type')
 
         if typ == 'channel':
-            data = self._download_json(f'https://player-api.smotrim.ru/api/v1/channel/{display_id}', display_id, expected_status=404)
-            status = data.get('status')
-            notice = data.get('notice')
-            if status != 'OK' or notice:
-                raise ExtractorError(notice, expected='CHANNEL_NOT_FOUND' in status)
-            formats, subtitles = self._extract_m3u8_formats_and_subtitles(traverse_obj(data, ('data', 'streams', 'm3u8')), display_id)
-            return {
-                'id': display_id,
-                'title': traverse_obj(data, ('data', 'title', {str_or_none}), default=f'Channel {display_id}'),
-                'formats': formats,
-                'subtitles': subtitles,
-                'is_live': True,
-            }
+            return self._extract_from_smotrim_api(url, 'channel', display_id, webpage_needed=False, expected_status=(404))
         else:
             video_id = display_id
 
         return {
             'display_id': display_id,
-            **self._extract_from_smotrim_api(typ, video_id),
+            **self._extract_from_iframe_api(typ, video_id),
         }
 
 
