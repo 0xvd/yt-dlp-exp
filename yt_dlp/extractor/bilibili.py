@@ -171,7 +171,7 @@ class BilibiliBaseIE(InfoExtractor):
         return params
 
     # Source https://security.bilibili.com/static/js/412.js
-    def bili_challenge_result(self, data, limit=10_000_000):
+    def bili_challenge_result(self, data, limit=5_000_000):
         final_hash = data.get('r')
         q = data.get('q')
         for i in map(str, range(limit)):
@@ -203,38 +203,36 @@ class BilibiliBaseIE(InfoExtractor):
         return bili_cookie.value.split(',', 1)[-1]
 
     def _download_webpage_handle(self, url_or_request, video_id, note=None, headers=None, data=None, **kwargs):
-        response = super()._download_webpage_handle(url_or_request, video_id, note, data=data, headers=headers, **kwargs)
-
-        if response[1].status != 412 and not self._search_regex(
-            r'(<[^>]+>.+412<|<[^>]+/412)', response[0], 'challenge page', default=None,
-        ):
-            return response
-
-        self.to_screen(join_nonempty(video_id and f'[{video_id}]', 'Received a challenge response', delim=' '))
-
-        if cached_token := self._get_and_set_bili_sec_token(use_cache=True):
-            self.to_screen('Using cached bili sec token')
-            self._get_and_set_bili_sec_token(cached_token, use_cache=False)
+        try:
             return super()._download_webpage_handle(url_or_request, video_id, note, data=data, headers=headers, **kwargs)
+        except ExtractorError as e:
+            if isinstance(e.cause, HTTPError) and e.cause.status == 412:
+                bili_token = self._get_and_set_bili_sec_token()
+                if bili_token:
+                    self.to_screen(join_nonempty(video_id and f'[{video_id}]', 'Received a challenge response', delim=' '))
+                    if cached_token := self._get_and_set_bili_sec_token(use_cache=True):
+                        self.to_screen('Using cached bili sec token')
+                        self._get_and_set_bili_sec_token(cached_token, use_cache=False)
+                        return super()._download_webpage_handle(url_or_request, video_id, note, data=data, headers=headers, **kwargs)
 
-        bili_token = self._get_and_set_bili_sec_token()
-        bili_token_data = jwt_decode_hs256(bili_token)
-        challenge = self._download_json(
-            'https://security.bilibili.com/th/captcha/cc/check',
-            None, 'Submitting challenge',
-            errnote='Unable to solve challenge',
-            data=urlencode_postdata({
-                'token': bili_token,
-                'result': self.bili_challenge_result(bili_token_data),
-            }),
-            headers={'Content-Type': 'application/x-www-form-urlencoded'},
-        )
-        new_bili_token = challenge.get('message')
-        if int(challenge.get('code')) != 0:
-            self.report_warning(f'Failed to solve challenge: api says {new_bili_token}')
-            return response
-        self._get_and_set_bili_sec_token(new_bili_token, use_cache=True)
-        return super()._download_webpage_handle(url_or_request, video_id, note, data=data, headers=headers, **kwargs)
+                    bili_token_data = jwt_decode_hs256(bili_token)
+                    challenge = self._download_json(
+                        'https://security.bilibili.com/th/captcha/cc/check',
+                        None, 'Submitting challenge',
+                        errnote='Unable to solve challenge',
+                        data=urlencode_postdata({
+                            'token': bili_token,
+                            'result': self.bili_challenge_result(bili_token_data),
+                        }),
+                        headers={'Content-Type': 'application/x-www-form-urlencoded'},
+                    )
+                    new_bili_token = challenge.get('message')
+                    if int(challenge.get('code')) != 0:
+                        raise ExtractorError(f'Failed to solve challenge: api says {new_bili_token}')
+                    self._get_and_set_bili_sec_token(new_bili_token, use_cache=True)
+                    return super()._download_webpage_handle(url_or_request, video_id, note, data=data, headers=headers, **kwargs)
+                raise
+            raise
 
     def _download_playinfo(self, bvid, cid, headers=None, query=None):
         params = {'bvid': bvid, 'cid': cid, 'fnval': 4048, **(query or {})}
@@ -728,7 +726,7 @@ class BiliBiliIE(BilibiliBaseIE):
     def _real_extract(self, url):
         video_id, prefix = self._match_valid_url(url).group('id', 'prefix')
         headers = self.geo_verification_headers()
-        webpage, urlh = self._download_webpage_handle(url, video_id, expected_status=(412), headers=headers)
+        webpage, urlh = self._download_webpage_handle(url, video_id, headers=headers)
         if not self._match_valid_url(urlh.url):
             return self.url_result(urlh.url)
 
