@@ -209,7 +209,7 @@ class BilibiliBaseIE(InfoExtractor):
             if isinstance(e.cause, HTTPError) and e.cause.status == 412:
                 bili_token = self._get_and_set_bili_sec_token()
                 if bili_token:
-                    self.to_screen(join_nonempty(video_id and f'[{video_id}]', 'Received a challenge response', delim=' '))
+                    self.to_screen(join_nonempty(video_id and f'[{video_id}]', 'Received a bilibili challenge', delim=' '))
                     if cached_token := self._get_and_set_bili_sec_token(use_cache=True):
                         self.to_screen('Using cached bili sec token')
                         self._get_and_set_bili_sec_token(cached_token, use_cache=False)
@@ -731,6 +731,7 @@ class BiliBiliIE(BilibiliBaseIE):
             return self.url_result(urlh.url)
 
         headers['Referer'] = 'https://www.bilibili.com/'
+        headers['Origin'] = 'https://www.bilibili.com'
 
         initial_state = self._search_json(r'window\.__INITIAL_STATE__\s*=', webpage, 'initial state', video_id, default=None)
         if not initial_state:
@@ -818,7 +819,7 @@ class BiliBiliIE(BilibiliBaseIE):
             'id': f'{video_id}{format_field(part_id, None, "_p%d")}',
             '_old_archive_ids': [make_archive_id(self, old_video_id)] if old_video_id else None,
             'title': title,
-            'http_headers': {'Referer': url},
+            'http_headers': self._HEADERS,
         }
 
         is_interactive = traverse_obj(video_data, ('rights', 'is_stein_gate'))
