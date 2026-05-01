@@ -759,7 +759,7 @@ class BiliBiliIE(BilibiliBaseIE):
                 'This video may be deleted or geo-restricted. '
                 'You might want to try a VPN or a proxy server (with --proxy)', expected=True)
 
-        is_festival = 'videoData' not in initial_state
+        is_festival = ('videoInfo' in initial_state or '/festival/' in url)
         video_data = traverse_obj(initial_state, ('videoData'), ('videoInfo'), ('data', 'View'), default=None)
         if not video_data:
             raise ExtractorError(f'Unable to get {"videoInfo" if is_festival else "videoData"}')
