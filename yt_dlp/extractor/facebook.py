@@ -408,6 +408,13 @@ class FacebookIE(InfoExtractor):
             'uploader_id': '100065709540881',
         },
     }, {
+        'url': 'https://www.facebook.com/stories/171299957688542/UzpfSVNDOjE2MDM4MTMxNDE2NTI3NDY=',
+        'info_dict': {
+            'id': '171299957688542',
+        },
+        'playlist_count': 4,
+        'skip': 'Require loggin in',
+    }, {
         'url': 'https://www.facebook.com/groups/1513990329015294/posts/d41d8cd9/2013209885760000/?app=fbl',
         'only_matching': True,
     }]
