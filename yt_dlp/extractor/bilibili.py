@@ -172,6 +172,8 @@ class BilibiliBaseIE(InfoExtractor):
 
     # Source https://security.bilibili.com/static/js/412.js
     def bili_challenge_result(self, data, limit=5_000_000):
+        if int(data.get('type')) != 1:
+            return False
         final_hash = data.get('r')
         q = data.get('q')
         for i in map(str, range(limit)):
