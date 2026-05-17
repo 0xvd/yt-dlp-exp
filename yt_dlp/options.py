@@ -92,6 +92,7 @@ def parseOpts(overrideArguments=None, ignore_config_files='if_override'):  # noq
             if overrideArguments is not None:
                 root.append_config(overrideArguments, label='Override')
             else:
+                write_string('[Warning] this is a experimental yt-dlp PR aggregation build. Do not open Issues on Upstream (yt-dlp) repository.\n')
                 root.append_config(sys.argv[1:], label='Command-line')
             loaded_all_configs = all(load_configs())
         except ValueError as err:
