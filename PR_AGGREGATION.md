@@ -32,11 +32,11 @@
     </tr>
     <tr>
         <td><strong>UnMerged PRs</strong></td>
-        <td>741</td>
+        <td>825</td>
     </tr>
     <tr>
         <td><strong>Pending PRs</strong></td>
-        <td>644</td>
+        <td>0</td>
     </tr>
 </table>
 
@@ -5035,6 +5035,33 @@
     <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16385" alt="None">16385</a></td>
+    <td><strong>[build] Try for reproducible builds with PyInstaller</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16385" alt="None">16385</a></td>
+    <td><strong>[build] Try for reproducible builds with PyInstaller</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16385" alt="None">16385</a></td>
+    <td><strong>[build] Try for reproducible builds with PyInstaller</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16378" alt="None">16378</a></td>
     <td><strong>[ie/substack:notes] Improve Substack extractor to support /note/ page URLs with media</strong></td>
      <td><a href="https://github.com/PierceLBrooks" alt="None"><img src="https://github.com/PierceLBrooks.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>PierceLBrooks</strong></a></td>
@@ -5389,6 +5416,33 @@
     <td><strong>Harmful Labels or Cannot be merge</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15710" alt="None">15710</a></td>
+    <td><strong>[ie/tiktok] Improve consistency of formats via XFF header</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15710" alt="None">15710</a></td>
+    <td><strong>[ie/tiktok] Improve consistency of formats via XFF header</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15710" alt="None">15710</a></td>
+    <td><strong>[ie/tiktok] Improve consistency of formats via XFF header</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15487" alt="None">15487</a></td>
     <td><strong>[radiko] Add support for timefree 30</strong></td>
      <td><a href="https://github.com/road-master" alt="None"><img src="https://github.com/road-master.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>road-master</strong></a></td>
@@ -5531,6 +5585,36 @@
 <img src="https://img.shields.io/badge/site--bug-E62432">
       </td>
     <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15146" alt="None">15146</a></td>
+    <td><strong>[ie/dailymotion] Improve metadata extraction/embed detection, code cleanup</strong></td>
+     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15146" alt="None">15146</a></td>
+    <td><strong>[ie/dailymotion] Improve metadata extraction/embed detection, code cleanup</strong></td>
+     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15146" alt="None">15146</a></td>
+    <td><strong>[ie/dailymotion] Improve metadata extraction/embed detection, code cleanup</strong></td>
+     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15090" alt="None">15090</a></td>
@@ -5677,13 +5761,34 @@
     <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13862" alt="None">13862</a></td>
-    <td><strong>[twitter:spaces] Add downloader</strong></td>
-     <td><a href="https://github.com/atsushi2965" alt="None"><img src="https://github.com/atsushi2965.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>atsushi2965</strong></a></td>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13901" alt="None">13901</a></td>
+    <td><strong>[ie/weverse] Fix livestream support</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
       <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
 <img src="https://img.shields.io/badge/site--bug-E62432">
       </td>
-    <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13901" alt="None">13901</a></td>
+    <td><strong>[ie/weverse] Fix livestream support</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13901" alt="None">13901</a></td>
+    <td><strong>[ie/weverse] Fix livestream support</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13862" alt="None">13862</a></td>
@@ -5702,6 +5807,42 @@
 <img src="https://img.shields.io/badge/site--bug-E62432">
       </td>
     <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13862" alt="None">13862</a></td>
+    <td><strong>[twitter:spaces] Add downloader</strong></td>
+     <td><a href="https://github.com/atsushi2965" alt="None"><img src="https://github.com/atsushi2965.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>atsushi2965</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13732" alt="None">13732</a></td>
+    <td><strong>[ie/bandcamp] smuggle track_info when track page doesn't have a usable one</strong></td>
+     <td><a href="https://github.com/garret1317" alt="None"><img src="https://github.com/garret1317.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>garret1317</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13732" alt="None">13732</a></td>
+    <td><strong>[ie/bandcamp] smuggle track_info when track page doesn't have a usable one</strong></td>
+     <td><a href="https://github.com/garret1317" alt="None"><img src="https://github.com/garret1317.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>garret1317</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13732" alt="None">13732</a></td>
+    <td><strong>[ie/bandcamp] smuggle track_info when track page doesn't have a usable one</strong></td>
+     <td><a href="https://github.com/garret1317" alt="None"><img src="https://github.com/garret1317.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>garret1317</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13525" alt="None">13525</a></td>
@@ -5903,6 +6044,96 @@
 <img src="https://img.shields.io/badge/pending--review-DC652D">
       </td>
     <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13351" alt="None">13351</a></td>
+    <td><strong>Add partial support for IAMF formats</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/bug-d73a4a">
+<img src="https://img.shields.io/badge/site--bug-E62432">
+<img src="https://img.shields.io/badge/site:youtube-282828"><br>
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13351" alt="None">13351</a></td>
+    <td><strong>Add partial support for IAMF formats</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/bug-d73a4a">
+<img src="https://img.shields.io/badge/site--bug-E62432">
+<img src="https://img.shields.io/badge/site:youtube-282828"><br>
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13351" alt="None">13351</a></td>
+    <td><strong>Add partial support for IAMF formats</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/bug-d73a4a">
+<img src="https://img.shields.io/badge/site--bug-E62432">
+<img src="https://img.shields.io/badge/site:youtube-282828"><br>
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13277" alt="None">13277</a></td>
+    <td><strong>[ie/tfo] Rework extractors</strong></td>
+     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+<img src="https://img.shields.io/badge/pending--review-DC652D">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13277" alt="None">13277</a></td>
+    <td><strong>[ie/tfo] Rework extractors</strong></td>
+     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+<img src="https://img.shields.io/badge/pending--review-DC652D">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13277" alt="None">13277</a></td>
+    <td><strong>[ie/tfo] Rework extractors</strong></td>
+     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+<img src="https://img.shields.io/badge/pending--review-DC652D">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13204" alt="None">13204</a></td>
+    <td><strong>[ie/dw] Rework extractor</strong></td>
+     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13204" alt="None">13204</a></td>
+    <td><strong>[ie/dw] Rework extractor</strong></td>
+     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13204" alt="None">13204</a></td>
+    <td><strong>[ie/dw] Rework extractor</strong></td>
+     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13190" alt="None">13190</a></td>
@@ -6182,6 +6413,36 @@
 <img src="https://img.shields.io/badge/enhancement-a2eeef">
       </td>
     <td><strong>STALE</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12981" alt="None">12981</a></td>
+    <td><strong>[test] Load Plugins for Testing</strong></td>
+     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/regression-36E259">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12981" alt="None">12981</a></td>
+    <td><strong>[test] Load Plugins for Testing</strong></td>
+     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/regression-36E259">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12981" alt="None">12981</a></td>
+    <td><strong>[test] Load Plugins for Testing</strong></td>
+     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/regression-36E259">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12841" alt="None">12841</a></td>
@@ -6623,6 +6884,39 @@
 <img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
       </td>
     <td><strong>STALE</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12507" alt="None">12507</a></td>
+    <td><strong>[core] Add Deno jsinterp and create single interface for external js interpreters</strong></td>
+     <td><a href="https://github.com/c-basalt" alt="None"><img src="https://github.com/c-basalt.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>c-basalt</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
+<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12507" alt="None">12507</a></td>
+    <td><strong>[core] Add Deno jsinterp and create single interface for external js interpreters</strong></td>
+     <td><a href="https://github.com/c-basalt" alt="None"><img src="https://github.com/c-basalt.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>c-basalt</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
+<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12507" alt="None">12507</a></td>
+    <td><strong>[core] Add Deno jsinterp and create single interface for external js interpreters</strong></td>
+     <td><a href="https://github.com/c-basalt" alt="None"><img src="https://github.com/c-basalt.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>c-basalt</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
+<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12503" alt="None">12503</a></td>
@@ -7456,6 +7750,33 @@
     <td><strong>STALE</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11862" alt="None">11862</a></td>
+    <td><strong>Fix `--allow-unplayable-formats`</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11862" alt="None">11862</a></td>
+    <td><strong>Fix `--allow-unplayable-formats`</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11862" alt="None">11862</a></td>
+    <td><strong>Fix `--allow-unplayable-formats`</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11851" alt="None">11851</a></td>
     <td><strong>[ie/createacademy] Add extractor</strong></td>
      <td><a href="https://github.com/grotter" alt="None"><img src="https://github.com/grotter.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grotter</strong></a></td>
@@ -7771,6 +8092,60 @@
     <td><strong>STALE</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11459" alt="None">11459</a></td>
+    <td><strong>[ie/bahamut] add extractor</strong></td>
+     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11459" alt="None">11459</a></td>
+    <td><strong>[ie/bahamut] add extractor</strong></td>
+     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11459" alt="None">11459</a></td>
+    <td><strong>[ie/bahamut] add extractor</strong></td>
+     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11410" alt="None">11410</a></td>
+    <td><strong>[ie/shouttv] Add extractors</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11410" alt="None">11410</a></td>
+    <td><strong>[ie/shouttv] Add extractors</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11410" alt="None">11410</a></td>
+    <td><strong>[ie/shouttv] Add extractors</strong></td>
+     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11405" alt="None">11405</a></td>
     <td><strong>[ie/drtv] Fix series, season_number and geo-restriction extraction</strong></td>
      <td><a href="https://github.com/ShufflingKeyMaker" alt="None"><img src="https://github.com/ShufflingKeyMaker.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>ShufflingKeyMaker</strong></a></td>
@@ -8002,6 +8377,33 @@
     <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11210" alt="None">11210</a></td>
+    <td><strong>[ie/bilibili] add support for storyboards and heatmaps</strong></td>
+     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11210" alt="None">11210</a></td>
+    <td><strong>[ie/bilibili] add support for storyboards and heatmaps</strong></td>
+     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11210" alt="None">11210</a></td>
+    <td><strong>[ie/bilibili] add support for storyboards and heatmaps</strong></td>
+     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11193" alt="None">11193</a></td>
     <td><strong>[Zoom] add intepreter audio formats</strong></td>
      <td><a href="https://github.com/lr4d" alt="None"><img src="https://github.com/lr4d.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>lr4d</strong></a></td>
@@ -8089,6 +8491,36 @@
     <td><strong>Harmful Labels or Cannot be merge</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11136" alt="None">11136</a></td>
+    <td><strong>[ie/Fifa] Add extractors</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+<img src="https://img.shields.io/badge/pending--review-DC652D">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11136" alt="None">11136</a></td>
+    <td><strong>[ie/Fifa] Add extractors</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+<img src="https://img.shields.io/badge/pending--review-DC652D">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11136" alt="None">11136</a></td>
+    <td><strong>[ie/Fifa] Add extractors</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+<img src="https://img.shields.io/badge/pending--review-DC652D">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10977" alt="None">10977</a></td>
     <td><strong>[ie/reverbnation] enhancement: added support for artist page</strong></td>
      <td><a href="https://github.com/subrat-lima" alt="None"><img src="https://github.com/subrat-lima.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>subrat-lima</strong></a></td>
@@ -8141,6 +8573,33 @@
 <img src="https://img.shields.io/badge/core:networking-0E3FDD">
       </td>
     <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10921" alt="None">10921</a></td>
+    <td><strong>[ie/Webcaster] Improve embed extraction</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10921" alt="None">10921</a></td>
+    <td><strong>[ie/Webcaster] Improve embed extraction</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10921" alt="None">10921</a></td>
+    <td><strong>[ie/Webcaster] Improve embed extraction</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10899" alt="None">10899</a></td>
@@ -8198,6 +8657,33 @@
 <img src="https://img.shields.io/badge/site--request-006b75">
       </td>
     <td><strong>STALE</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10812" alt="None">10812</a></td>
+    <td><strong>[ie/ListenNotes] fix extractor - updated url pattern and test cases</strong></td>
+     <td><a href="https://github.com/subrat-lima" alt="None"><img src="https://github.com/subrat-lima.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>subrat-lima</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10812" alt="None">10812</a></td>
+    <td><strong>[ie/ListenNotes] fix extractor - updated url pattern and test cases</strong></td>
+     <td><a href="https://github.com/subrat-lima" alt="None"><img src="https://github.com/subrat-lima.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>subrat-lima</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10812" alt="None">10812</a></td>
+    <td><strong>[ie/ListenNotes] fix extractor - updated url pattern and test cases</strong></td>
+     <td><a href="https://github.com/subrat-lima" alt="None"><img src="https://github.com/subrat-lima.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>subrat-lima</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--bug-E62432">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10800" alt="None">10800</a></td>
@@ -8818,6 +9304,33 @@
     <td><strong>STALE</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9978" alt="None">9978</a></td>
+    <td><strong>[ie/sheeta] Support websites based on sheeta</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9978" alt="None">9978</a></td>
+    <td><strong>[ie/sheeta] Support websites based on sheeta</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9978" alt="None">9978</a></td>
+    <td><strong>[ie/sheeta] Support websites based on sheeta</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--request-006b75">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9969" alt="None">9969</a></td>
     <td><strong>Extractor for CableCastTV</strong></td>
      <td><a href="https://github.com/EGA-SUPREMO" alt="None"><img src="https://github.com/EGA-SUPREMO.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>EGA-SUPREMO</strong></a></td>
@@ -9124,6 +9637,66 @@
     <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9625" alt="None">9625</a></td>
+    <td><strong>[rh:websockets] Add support for HTTP/HTTPS proxies</strong></td>
+     <td><a href="https://github.com/coletdjnz" alt="None"><img src="https://github.com/coletdjnz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>coletdjnz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/bug-d73a4a">
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/core:networking-0E3FDD"><br>
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9625" alt="None">9625</a></td>
+    <td><strong>[rh:websockets] Add support for HTTP/HTTPS proxies</strong></td>
+     <td><a href="https://github.com/coletdjnz" alt="None"><img src="https://github.com/coletdjnz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>coletdjnz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/bug-d73a4a">
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/core:networking-0E3FDD"><br>
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9625" alt="None">9625</a></td>
+    <td><strong>[rh:websockets] Add support for HTTP/HTTPS proxies</strong></td>
+     <td><a href="https://github.com/coletdjnz" alt="None"><img src="https://github.com/coletdjnz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>coletdjnz</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/bug-d73a4a">
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/core:networking-0E3FDD"><br>
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9587" alt="None">9587</a></td>
+    <td><strong>[ie] Add issue URL to broken extractor warning</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9587" alt="None">9587</a></td>
+    <td><strong>[ie] Add issue URL to broken extractor warning</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9587" alt="None">9587</a></td>
+    <td><strong>[ie] Add issue URL to broken extractor warning</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9562" alt="None">9562</a></td>
     <td><strong>Assume M3U8/HLS streams with audio rendition group to be video only</strong></td>
      <td><a href="https://github.com/davispuh" alt="None"><img src="https://github.com/davispuh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>davispuh</strong></a></td>
@@ -9209,6 +9782,36 @@
 <img src="https://img.shields.io/badge/site--bug-E62432">
       </td>
     <td><strong>STALE</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9411" alt="None">9411</a></td>
+    <td><strong>[ie/niconico] Directly download live timeshift videos; WebSocket fixes</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9411" alt="None">9411</a></td>
+    <td><strong>[ie/niconico] Directly download live timeshift videos; WebSocket fixes</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9411" alt="None">9411</a></td>
+    <td><strong>[ie/niconico] Directly download live timeshift videos; WebSocket fixes</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9329" alt="None">9329</a></td>
@@ -9584,6 +10187,60 @@
 <img src="https://img.shields.io/badge/solved--upstream-d4c5f9">
       </td>
     <td><strong>STALE</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8645" alt="None">8645</a></td>
+    <td><strong>[ie/niconicochannelplus] support both cookies and login credential with MFA</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8645" alt="None">8645</a></td>
+    <td><strong>[ie/niconicochannelplus] support both cookies and login credential with MFA</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8645" alt="None">8645</a></td>
+    <td><strong>[ie/niconicochannelplus] support both cookies and login credential with MFA</strong></td>
+     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8511" alt="None">8511</a></td>
+    <td><strong>[core/outtmpl] Rewrite output template handling</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8511" alt="None">8511</a></td>
+    <td><strong>[core/outtmpl] Rewrite output template handling</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8511" alt="None">8511</a></td>
+    <td><strong>[core/outtmpl] Rewrite output template handling</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8488" alt="None">8488</a></td>
@@ -10105,6 +10762,33 @@
     <td><strong>STALE</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7517" alt="None">7517</a></td>
+    <td><strong>Add separate `Logger` instance on `YoutubeDL`</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7517" alt="None">7517</a></td>
+    <td><strong>Add separate `Logger` instance on `YoutubeDL`</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7517" alt="None">7517</a></td>
+    <td><strong>Add separate `Logger` instance on `YoutubeDL`</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7460" alt="None">7460</a></td>
     <td><strong>Fixed Lecturio for german URLs</strong></td>
      <td><a href="https://github.com/Fridoku" alt="None"><img src="https://github.com/Fridoku.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Fridoku</strong></a></td>
@@ -10217,6 +10901,33 @@
 <img src="https://img.shields.io/badge/site--enhancement-9C60B6">
       </td>
     <td><strong>STALE</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7426" alt="None">7426</a></td>
+    <td><strong>Add `globals` module</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7426" alt="None">7426</a></td>
+    <td><strong>Add `globals` module</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7426" alt="None">7426</a></td>
+    <td><strong>Add `globals` module</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7152" alt="None">7152</a></td>
@@ -10852,6 +11563,36 @@
     <td><strong>STALE</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5680" alt="None">5680</a></td>
+    <td><strong>[core] Add and migrate to separated output module</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5680" alt="None">5680</a></td>
+    <td><strong>[core] Add and migrate to separated output module</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5680" alt="None">5680</a></td>
+    <td><strong>[core] Add and migrate to separated output module</strong></td>
+     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5618" alt="None">5618</a></td>
     <td><strong>[extractor/pornhub] Fix extractor</strong></td>
      <td><a href="https://github.com/scrat5h" alt="None"><img src="https://github.com/scrat5h.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>scrat5h</strong></a></td>
@@ -11206,6 +11947,36 @@
     <td><strong>STALE</strong></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5103" alt="None">5103</a></td>
+    <td><strong>Self-hosted extractors v2 part 1</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5103" alt="None">5103</a></td>
+    <td><strong>Self-hosted extractors v2 part 1</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5103" alt="None">5103</a></td>
+    <td><strong>Self-hosted extractors v2 part 1</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5086" alt="None">5086</a></td>
     <td><strong>[Fancode] Fix Video extraction, support new url patterns</strong></td>
      <td><a href="https://github.com/zenerdi0de" alt="None"><img src="https://github.com/zenerdi0de.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>zenerdi0de</strong></a></td>
@@ -11393,6 +12164,33 @@
 <img src="https://img.shields.io/badge/site--enhancement-9C60B6">
       </td>
     <td><strong>STALE</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/4517" alt="None">4517</a></td>
+    <td><strong>Webpage-based extraction - Part 2</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/4517" alt="None">4517</a></td>
+    <td><strong>Webpage-based extraction - Part 2</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/4517" alt="None">4517</a></td>
+    <td><strong>Webpage-based extraction - Part 2</strong></td>
+     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
+      <td>
+<img src="https://img.shields.io/badge/enhancement-a2eeef">
+      </td>
+    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/4473" alt="None">4473</a></td>
@@ -12223,5899 +13021,6 @@
     <th>AUTHOR</th>
     <th>LABELS</th>
     <th>REASON</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16727" alt="None">16727</a></td>
-    <td><strong>xhamster: Fix user/creator pagination</strong></td>
-     <td><a href="https://github.com/neiromaster" alt="None"><img src="https://github.com/neiromaster.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>neiromaster</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16727" alt="None">16727</a></td>
-    <td><strong>xhamster: Fix user/creator pagination</strong></td>
-     <td><a href="https://github.com/neiromaster" alt="None"><img src="https://github.com/neiromaster.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>neiromaster</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16727" alt="None">16727</a></td>
-    <td><strong>xhamster: Fix user/creator pagination</strong></td>
-     <td><a href="https://github.com/neiromaster" alt="None"><img src="https://github.com/neiromaster.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>neiromaster</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16727" alt="None">16727</a></td>
-    <td><strong>xhamster: Fix user/creator pagination</strong></td>
-     <td><a href="https://github.com/neiromaster" alt="None"><img src="https://github.com/neiromaster.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>neiromaster</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16727" alt="None">16727</a></td>
-    <td><strong>xhamster: Fix user/creator pagination</strong></td>
-     <td><a href="https://github.com/neiromaster" alt="None"><img src="https://github.com/neiromaster.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>neiromaster</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16726" alt="None">16726</a></td>
-    <td><strong>Fix match-filter comparison for float fields like aspect_ratio</strong></td>
-     <td><a href="https://github.com/MD-Mushfiqur123" alt="None"><img src="https://github.com/MD-Mushfiqur123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MD-Mushfiqur123</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16726" alt="None">16726</a></td>
-    <td><strong>Fix match-filter comparison for float fields like aspect_ratio</strong></td>
-     <td><a href="https://github.com/MD-Mushfiqur123" alt="None"><img src="https://github.com/MD-Mushfiqur123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MD-Mushfiqur123</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16726" alt="None">16726</a></td>
-    <td><strong>Fix match-filter comparison for float fields like aspect_ratio</strong></td>
-     <td><a href="https://github.com/MD-Mushfiqur123" alt="None"><img src="https://github.com/MD-Mushfiqur123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MD-Mushfiqur123</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16726" alt="None">16726</a></td>
-    <td><strong>Fix match-filter comparison for float fields like aspect_ratio</strong></td>
-     <td><a href="https://github.com/MD-Mushfiqur123" alt="None"><img src="https://github.com/MD-Mushfiqur123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MD-Mushfiqur123</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16726" alt="None">16726</a></td>
-    <td><strong>Fix match-filter comparison for float fields like aspect_ratio</strong></td>
-     <td><a href="https://github.com/MD-Mushfiqur123" alt="None"><img src="https://github.com/MD-Mushfiqur123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MD-Mushfiqur123</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16723" alt="None">16723</a></td>
-    <td><strong>[lulustream] Add extractor</strong></td>
-     <td><a href="https://github.com/yingkailee" alt="None"><img src="https://github.com/yingkailee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>yingkailee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16723" alt="None">16723</a></td>
-    <td><strong>[lulustream] Add extractor</strong></td>
-     <td><a href="https://github.com/yingkailee" alt="None"><img src="https://github.com/yingkailee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>yingkailee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16723" alt="None">16723</a></td>
-    <td><strong>[lulustream] Add extractor</strong></td>
-     <td><a href="https://github.com/yingkailee" alt="None"><img src="https://github.com/yingkailee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>yingkailee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16723" alt="None">16723</a></td>
-    <td><strong>[lulustream] Add extractor</strong></td>
-     <td><a href="https://github.com/yingkailee" alt="None"><img src="https://github.com/yingkailee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>yingkailee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16723" alt="None">16723</a></td>
-    <td><strong>[lulustream] Add extractor</strong></td>
-     <td><a href="https://github.com/yingkailee" alt="None"><img src="https://github.com/yingkailee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>yingkailee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16718" alt="None">16718</a></td>
-    <td><strong>[ie/Stuff] Add extractor</strong></td>
-     <td><a href="https://github.com/BrynGibson" alt="None"><img src="https://github.com/BrynGibson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BrynGibson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16718" alt="None">16718</a></td>
-    <td><strong>[ie/Stuff] Add extractor</strong></td>
-     <td><a href="https://github.com/BrynGibson" alt="None"><img src="https://github.com/BrynGibson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BrynGibson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16718" alt="None">16718</a></td>
-    <td><strong>[ie/Stuff] Add extractor</strong></td>
-     <td><a href="https://github.com/BrynGibson" alt="None"><img src="https://github.com/BrynGibson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BrynGibson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16718" alt="None">16718</a></td>
-    <td><strong>[ie/Stuff] Add extractor</strong></td>
-     <td><a href="https://github.com/BrynGibson" alt="None"><img src="https://github.com/BrynGibson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BrynGibson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16718" alt="None">16718</a></td>
-    <td><strong>[ie/Stuff] Add extractor</strong></td>
-     <td><a href="https://github.com/BrynGibson" alt="None"><img src="https://github.com/BrynGibson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BrynGibson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16706" alt="None">16706</a></td>
-    <td><strong>Update nuvid extractor: add new URL pattern and acknowledge 80 kb/sec throttling.</strong></td>
-     <td><a href="https://github.com/Amadeus-" alt="None"><img src="https://github.com/Amadeus-.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Amadeus-</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16706" alt="None">16706</a></td>
-    <td><strong>Update nuvid extractor: add new URL pattern and acknowledge 80 kb/sec throttling.</strong></td>
-     <td><a href="https://github.com/Amadeus-" alt="None"><img src="https://github.com/Amadeus-.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Amadeus-</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16706" alt="None">16706</a></td>
-    <td><strong>Update nuvid extractor: add new URL pattern and acknowledge 80 kb/sec throttling.</strong></td>
-     <td><a href="https://github.com/Amadeus-" alt="None"><img src="https://github.com/Amadeus-.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Amadeus-</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16706" alt="None">16706</a></td>
-    <td><strong>Update nuvid extractor: add new URL pattern and acknowledge 80 kb/sec throttling.</strong></td>
-     <td><a href="https://github.com/Amadeus-" alt="None"><img src="https://github.com/Amadeus-.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Amadeus-</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16706" alt="None">16706</a></td>
-    <td><strong>Update nuvid extractor: add new URL pattern and acknowledge 80 kb/sec throttling.</strong></td>
-     <td><a href="https://github.com/Amadeus-" alt="None"><img src="https://github.com/Amadeus-.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Amadeus-</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16690" alt="None">16690</a></td>
-    <td><strong>[soundcloud] Raise 429s to _real_extract</strong></td>
-     <td><a href="https://github.com/HarmfulBreeze" alt="None"><img src="https://github.com/HarmfulBreeze.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>HarmfulBreeze</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16690" alt="None">16690</a></td>
-    <td><strong>[soundcloud] Raise 429s to _real_extract</strong></td>
-     <td><a href="https://github.com/HarmfulBreeze" alt="None"><img src="https://github.com/HarmfulBreeze.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>HarmfulBreeze</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16690" alt="None">16690</a></td>
-    <td><strong>[soundcloud] Raise 429s to _real_extract</strong></td>
-     <td><a href="https://github.com/HarmfulBreeze" alt="None"><img src="https://github.com/HarmfulBreeze.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>HarmfulBreeze</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16690" alt="None">16690</a></td>
-    <td><strong>[soundcloud] Raise 429s to _real_extract</strong></td>
-     <td><a href="https://github.com/HarmfulBreeze" alt="None"><img src="https://github.com/HarmfulBreeze.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>HarmfulBreeze</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16690" alt="None">16690</a></td>
-    <td><strong>[soundcloud] Raise 429s to _real_extract</strong></td>
-     <td><a href="https://github.com/HarmfulBreeze" alt="None"><img src="https://github.com/HarmfulBreeze.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>HarmfulBreeze</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16687" alt="None">16687</a></td>
-    <td><strong>[ie/youtube] Fix `extract_relative_time` for abbreviated units</strong></td>
-     <td><a href="https://github.com/dialmaster" alt="None"><img src="https://github.com/dialmaster.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dialmaster</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16687" alt="None">16687</a></td>
-    <td><strong>[ie/youtube] Fix `extract_relative_time` for abbreviated units</strong></td>
-     <td><a href="https://github.com/dialmaster" alt="None"><img src="https://github.com/dialmaster.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dialmaster</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16687" alt="None">16687</a></td>
-    <td><strong>[ie/youtube] Fix `extract_relative_time` for abbreviated units</strong></td>
-     <td><a href="https://github.com/dialmaster" alt="None"><img src="https://github.com/dialmaster.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dialmaster</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16687" alt="None">16687</a></td>
-    <td><strong>[ie/youtube] Fix `extract_relative_time` for abbreviated units</strong></td>
-     <td><a href="https://github.com/dialmaster" alt="None"><img src="https://github.com/dialmaster.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dialmaster</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16687" alt="None">16687</a></td>
-    <td><strong>[ie/youtube] Fix `extract_relative_time` for abbreviated units</strong></td>
-     <td><a href="https://github.com/dialmaster" alt="None"><img src="https://github.com/dialmaster.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dialmaster</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16685" alt="None">16685</a></td>
-    <td><strong>[ie/wrestleuniverse] VOD Extraction from WrestleUniverse Fixes #13818 </strong></td>
-     <td><a href="https://github.com/Sec-Wayne" alt="None"><img src="https://github.com/Sec-Wayne.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sec-Wayne</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16685" alt="None">16685</a></td>
-    <td><strong>[ie/wrestleuniverse] VOD Extraction from WrestleUniverse Fixes #13818 </strong></td>
-     <td><a href="https://github.com/Sec-Wayne" alt="None"><img src="https://github.com/Sec-Wayne.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sec-Wayne</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16685" alt="None">16685</a></td>
-    <td><strong>[ie/wrestleuniverse] VOD Extraction from WrestleUniverse Fixes #13818 </strong></td>
-     <td><a href="https://github.com/Sec-Wayne" alt="None"><img src="https://github.com/Sec-Wayne.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sec-Wayne</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16685" alt="None">16685</a></td>
-    <td><strong>[ie/wrestleuniverse] VOD Extraction from WrestleUniverse Fixes #13818 </strong></td>
-     <td><a href="https://github.com/Sec-Wayne" alt="None"><img src="https://github.com/Sec-Wayne.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sec-Wayne</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16685" alt="None">16685</a></td>
-    <td><strong>[ie/wrestleuniverse] VOD Extraction from WrestleUniverse Fixes #13818 </strong></td>
-     <td><a href="https://github.com/Sec-Wayne" alt="None"><img src="https://github.com/Sec-Wayne.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sec-Wayne</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16683" alt="None">16683</a></td>
-    <td><strong>[cleanup] Add support for intentional generic URLs in `url_result` function</strong></td>
-     <td><a href="https://github.com/FraFraFra-LongD" alt="None"><img src="https://github.com/FraFraFra-LongD.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FraFraFra-LongD</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16683" alt="None">16683</a></td>
-    <td><strong>[cleanup] Add support for intentional generic URLs in `url_result` function</strong></td>
-     <td><a href="https://github.com/FraFraFra-LongD" alt="None"><img src="https://github.com/FraFraFra-LongD.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FraFraFra-LongD</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16683" alt="None">16683</a></td>
-    <td><strong>[cleanup] Add support for intentional generic URLs in `url_result` function</strong></td>
-     <td><a href="https://github.com/FraFraFra-LongD" alt="None"><img src="https://github.com/FraFraFra-LongD.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FraFraFra-LongD</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16683" alt="None">16683</a></td>
-    <td><strong>[cleanup] Add support for intentional generic URLs in `url_result` function</strong></td>
-     <td><a href="https://github.com/FraFraFra-LongD" alt="None"><img src="https://github.com/FraFraFra-LongD.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FraFraFra-LongD</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16683" alt="None">16683</a></td>
-    <td><strong>[cleanup] Add support for intentional generic URLs in `url_result` function</strong></td>
-     <td><a href="https://github.com/FraFraFra-LongD" alt="None"><img src="https://github.com/FraFraFra-LongD.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FraFraFra-LongD</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16682" alt="None">16682</a></td>
-    <td><strong>[fix] Improve KVS player extraction and add support for new video URL</strong></td>
-     <td><a href="https://github.com/FraFraFra-LongD" alt="None"><img src="https://github.com/FraFraFra-LongD.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FraFraFra-LongD</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16682" alt="None">16682</a></td>
-    <td><strong>[fix] Improve KVS player extraction and add support for new video URL</strong></td>
-     <td><a href="https://github.com/FraFraFra-LongD" alt="None"><img src="https://github.com/FraFraFra-LongD.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FraFraFra-LongD</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16682" alt="None">16682</a></td>
-    <td><strong>[fix] Improve KVS player extraction and add support for new video URL</strong></td>
-     <td><a href="https://github.com/FraFraFra-LongD" alt="None"><img src="https://github.com/FraFraFra-LongD.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FraFraFra-LongD</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16682" alt="None">16682</a></td>
-    <td><strong>[fix] Improve KVS player extraction and add support for new video URL</strong></td>
-     <td><a href="https://github.com/FraFraFra-LongD" alt="None"><img src="https://github.com/FraFraFra-LongD.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FraFraFra-LongD</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16682" alt="None">16682</a></td>
-    <td><strong>[fix] Improve KVS player extraction and add support for new video URL</strong></td>
-     <td><a href="https://github.com/FraFraFra-LongD" alt="None"><img src="https://github.com/FraFraFra-LongD.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FraFraFra-LongD</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16681" alt="None">16681</a></td>
-    <td><strong>[untitledstream] Add extractor</strong></td>
-     <td><a href="https://github.com/edideaur" alt="None"><img src="https://github.com/edideaur.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>edideaur</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16681" alt="None">16681</a></td>
-    <td><strong>[untitledstream] Add extractor</strong></td>
-     <td><a href="https://github.com/edideaur" alt="None"><img src="https://github.com/edideaur.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>edideaur</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16681" alt="None">16681</a></td>
-    <td><strong>[untitledstream] Add extractor</strong></td>
-     <td><a href="https://github.com/edideaur" alt="None"><img src="https://github.com/edideaur.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>edideaur</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16681" alt="None">16681</a></td>
-    <td><strong>[untitledstream] Add extractor</strong></td>
-     <td><a href="https://github.com/edideaur" alt="None"><img src="https://github.com/edideaur.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>edideaur</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16681" alt="None">16681</a></td>
-    <td><strong>[untitledstream] Add extractor</strong></td>
-     <td><a href="https://github.com/edideaur" alt="None"><img src="https://github.com/edideaur.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>edideaur</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16679" alt="None">16679</a></td>
-    <td><strong>[ie/laracasts]: fix data extraction and use mux extractor for extracting video from episodes</strong></td>
-     <td><a href="https://github.com/osemamekelleche" alt="None"><img src="https://github.com/osemamekelleche.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>osemamekelleche</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/incomplete-DEECCD">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16679" alt="None">16679</a></td>
-    <td><strong>[ie/laracasts]: fix data extraction and use mux extractor for extracting video from episodes</strong></td>
-     <td><a href="https://github.com/osemamekelleche" alt="None"><img src="https://github.com/osemamekelleche.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>osemamekelleche</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/incomplete-DEECCD">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16679" alt="None">16679</a></td>
-    <td><strong>[ie/laracasts]: fix data extraction and use mux extractor for extracting video from episodes</strong></td>
-     <td><a href="https://github.com/osemamekelleche" alt="None"><img src="https://github.com/osemamekelleche.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>osemamekelleche</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/incomplete-DEECCD">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16679" alt="None">16679</a></td>
-    <td><strong>[ie/laracasts]: fix data extraction and use mux extractor for extracting video from episodes</strong></td>
-     <td><a href="https://github.com/osemamekelleche" alt="None"><img src="https://github.com/osemamekelleche.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>osemamekelleche</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/incomplete-DEECCD">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16679" alt="None">16679</a></td>
-    <td><strong>[ie/laracasts]: fix data extraction and use mux extractor for extracting video from episodes</strong></td>
-     <td><a href="https://github.com/osemamekelleche" alt="None"><img src="https://github.com/osemamekelleche.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>osemamekelleche</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/incomplete-DEECCD">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16655" alt="None">16655</a></td>
-    <td><strong>[ie/secondtry] Add extractor</strong></td>
-     <td><a href="https://github.com/unhappyben" alt="None"><img src="https://github.com/unhappyben.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>unhappyben</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16655" alt="None">16655</a></td>
-    <td><strong>[ie/secondtry] Add extractor</strong></td>
-     <td><a href="https://github.com/unhappyben" alt="None"><img src="https://github.com/unhappyben.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>unhappyben</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16655" alt="None">16655</a></td>
-    <td><strong>[ie/secondtry] Add extractor</strong></td>
-     <td><a href="https://github.com/unhappyben" alt="None"><img src="https://github.com/unhappyben.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>unhappyben</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16655" alt="None">16655</a></td>
-    <td><strong>[ie/secondtry] Add extractor</strong></td>
-     <td><a href="https://github.com/unhappyben" alt="None"><img src="https://github.com/unhappyben.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>unhappyben</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16655" alt="None">16655</a></td>
-    <td><strong>[ie/secondtry] Add extractor</strong></td>
-     <td><a href="https://github.com/unhappyben" alt="None"><img src="https://github.com/unhappyben.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>unhappyben</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16650" alt="None">16650</a></td>
-    <td><strong>[ie/arte] Fix ArteTV format_note for audio tracks (fixes #11501)</strong></td>
-     <td><a href="https://github.com/lcorbasson" alt="None"><img src="https://github.com/lcorbasson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>lcorbasson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16650" alt="None">16650</a></td>
-    <td><strong>[ie/arte] Fix ArteTV format_note for audio tracks (fixes #11501)</strong></td>
-     <td><a href="https://github.com/lcorbasson" alt="None"><img src="https://github.com/lcorbasson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>lcorbasson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16650" alt="None">16650</a></td>
-    <td><strong>[ie/arte] Fix ArteTV format_note for audio tracks (fixes #11501)</strong></td>
-     <td><a href="https://github.com/lcorbasson" alt="None"><img src="https://github.com/lcorbasson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>lcorbasson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16650" alt="None">16650</a></td>
-    <td><strong>[ie/arte] Fix ArteTV format_note for audio tracks (fixes #11501)</strong></td>
-     <td><a href="https://github.com/lcorbasson" alt="None"><img src="https://github.com/lcorbasson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>lcorbasson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16650" alt="None">16650</a></td>
-    <td><strong>[ie/arte] Fix ArteTV format_note for audio tracks (fixes #11501)</strong></td>
-     <td><a href="https://github.com/lcorbasson" alt="None"><img src="https://github.com/lcorbasson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>lcorbasson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16646" alt="None">16646</a></td>
-    <td><strong>[ie/franceinfo] Add la1ere subdomain support</strong></td>
-     <td><a href="https://github.com/loxK" alt="None"><img src="https://github.com/loxK.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>loxK</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16646" alt="None">16646</a></td>
-    <td><strong>[ie/franceinfo] Add la1ere subdomain support</strong></td>
-     <td><a href="https://github.com/loxK" alt="None"><img src="https://github.com/loxK.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>loxK</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16646" alt="None">16646</a></td>
-    <td><strong>[ie/franceinfo] Add la1ere subdomain support</strong></td>
-     <td><a href="https://github.com/loxK" alt="None"><img src="https://github.com/loxK.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>loxK</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16646" alt="None">16646</a></td>
-    <td><strong>[ie/franceinfo] Add la1ere subdomain support</strong></td>
-     <td><a href="https://github.com/loxK" alt="None"><img src="https://github.com/loxK.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>loxK</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16646" alt="None">16646</a></td>
-    <td><strong>[ie/franceinfo] Add la1ere subdomain support</strong></td>
-     <td><a href="https://github.com/loxK" alt="None"><img src="https://github.com/loxK.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>loxK</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16625" alt="None">16625</a></td>
-    <td><strong>[ie/qqmusic] Update QQMusic extractor for new URL patterns</strong></td>
-     <td><a href="https://github.com/leizhag" alt="None"><img src="https://github.com/leizhag.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>leizhag</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16625" alt="None">16625</a></td>
-    <td><strong>[ie/qqmusic] Update QQMusic extractor for new URL patterns</strong></td>
-     <td><a href="https://github.com/leizhag" alt="None"><img src="https://github.com/leizhag.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>leizhag</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16625" alt="None">16625</a></td>
-    <td><strong>[ie/qqmusic] Update QQMusic extractor for new URL patterns</strong></td>
-     <td><a href="https://github.com/leizhag" alt="None"><img src="https://github.com/leizhag.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>leizhag</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16625" alt="None">16625</a></td>
-    <td><strong>[ie/qqmusic] Update QQMusic extractor for new URL patterns</strong></td>
-     <td><a href="https://github.com/leizhag" alt="None"><img src="https://github.com/leizhag.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>leizhag</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16625" alt="None">16625</a></td>
-    <td><strong>[ie/qqmusic] Update QQMusic extractor for new URL patterns</strong></td>
-     <td><a href="https://github.com/leizhag" alt="None"><img src="https://github.com/leizhag.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>leizhag</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16618" alt="None">16618</a></td>
-    <td><strong>[ie/tiktok] Improve ExtractorError message (#16605)</strong></td>
-     <td><a href="https://github.com/johnfoland" alt="None"><img src="https://github.com/johnfoland.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>johnfoland</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16618" alt="None">16618</a></td>
-    <td><strong>[ie/tiktok] Improve ExtractorError message (#16605)</strong></td>
-     <td><a href="https://github.com/johnfoland" alt="None"><img src="https://github.com/johnfoland.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>johnfoland</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16618" alt="None">16618</a></td>
-    <td><strong>[ie/tiktok] Improve ExtractorError message (#16605)</strong></td>
-     <td><a href="https://github.com/johnfoland" alt="None"><img src="https://github.com/johnfoland.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>johnfoland</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16618" alt="None">16618</a></td>
-    <td><strong>[ie/tiktok] Improve ExtractorError message (#16605)</strong></td>
-     <td><a href="https://github.com/johnfoland" alt="None"><img src="https://github.com/johnfoland.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>johnfoland</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16618" alt="None">16618</a></td>
-    <td><strong>[ie/tiktok] Improve ExtractorError message (#16605)</strong></td>
-     <td><a href="https://github.com/johnfoland" alt="None"><img src="https://github.com/johnfoland.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>johnfoland</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16616" alt="None">16616</a></td>
-    <td><strong>[ie/getcourseru] Add host `vhapi02.gcfiles.net` to url extractor in `GetCourseRuPlayerIE`</strong></td>
-     <td><a href="https://github.com/anna244" alt="None"><img src="https://github.com/anna244.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>anna244</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16616" alt="None">16616</a></td>
-    <td><strong>[ie/getcourseru] Add host `vhapi02.gcfiles.net` to url extractor in `GetCourseRuPlayerIE`</strong></td>
-     <td><a href="https://github.com/anna244" alt="None"><img src="https://github.com/anna244.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>anna244</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16616" alt="None">16616</a></td>
-    <td><strong>[ie/getcourseru] Add host `vhapi02.gcfiles.net` to url extractor in `GetCourseRuPlayerIE`</strong></td>
-     <td><a href="https://github.com/anna244" alt="None"><img src="https://github.com/anna244.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>anna244</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16616" alt="None">16616</a></td>
-    <td><strong>[ie/getcourseru] Add host `vhapi02.gcfiles.net` to url extractor in `GetCourseRuPlayerIE`</strong></td>
-     <td><a href="https://github.com/anna244" alt="None"><img src="https://github.com/anna244.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>anna244</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16616" alt="None">16616</a></td>
-    <td><strong>[ie/getcourseru] Add host `vhapi02.gcfiles.net` to url extractor in `GetCourseRuPlayerIE`</strong></td>
-     <td><a href="https://github.com/anna244" alt="None"><img src="https://github.com/anna244.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>anna244</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16589" alt="None">16589</a></td>
-    <td><strong>[build] Update 28 dependencies</strong></td>
-     <td><a href="https://github.com/dlp-bot" alt="None"><img src="https://github.com/dlp-bot.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dlp-bot</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16589" alt="None">16589</a></td>
-    <td><strong>[build] Update 28 dependencies</strong></td>
-     <td><a href="https://github.com/dlp-bot" alt="None"><img src="https://github.com/dlp-bot.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dlp-bot</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16589" alt="None">16589</a></td>
-    <td><strong>[build] Update 28 dependencies</strong></td>
-     <td><a href="https://github.com/dlp-bot" alt="None"><img src="https://github.com/dlp-bot.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dlp-bot</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16589" alt="None">16589</a></td>
-    <td><strong>[build] Update 28 dependencies</strong></td>
-     <td><a href="https://github.com/dlp-bot" alt="None"><img src="https://github.com/dlp-bot.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dlp-bot</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16589" alt="None">16589</a></td>
-    <td><strong>[build] Update 28 dependencies</strong></td>
-     <td><a href="https://github.com/dlp-bot" alt="None"><img src="https://github.com/dlp-bot.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dlp-bot</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16566" alt="None">16566</a></td>
-    <td><strong>[ie/ci.me] Add extractor</strong></td>
-     <td><a href="https://github.com/jackcurr" alt="None"><img src="https://github.com/jackcurr.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jackcurr</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16566" alt="None">16566</a></td>
-    <td><strong>[ie/ci.me] Add extractor</strong></td>
-     <td><a href="https://github.com/jackcurr" alt="None"><img src="https://github.com/jackcurr.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jackcurr</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16566" alt="None">16566</a></td>
-    <td><strong>[ie/ci.me] Add extractor</strong></td>
-     <td><a href="https://github.com/jackcurr" alt="None"><img src="https://github.com/jackcurr.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jackcurr</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16566" alt="None">16566</a></td>
-    <td><strong>[ie/ci.me] Add extractor</strong></td>
-     <td><a href="https://github.com/jackcurr" alt="None"><img src="https://github.com/jackcurr.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jackcurr</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16566" alt="None">16566</a></td>
-    <td><strong>[ie/ci.me] Add extractor</strong></td>
-     <td><a href="https://github.com/jackcurr" alt="None"><img src="https://github.com/jackcurr.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jackcurr</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16563" alt="None">16563</a></td>
-    <td><strong>[ie/videa] Extract description, uploader and upload date</strong></td>
-     <td><a href="https://github.com/kakaska" alt="None"><img src="https://github.com/kakaska.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>kakaska</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16563" alt="None">16563</a></td>
-    <td><strong>[ie/videa] Extract description, uploader and upload date</strong></td>
-     <td><a href="https://github.com/kakaska" alt="None"><img src="https://github.com/kakaska.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>kakaska</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16563" alt="None">16563</a></td>
-    <td><strong>[ie/videa] Extract description, uploader and upload date</strong></td>
-     <td><a href="https://github.com/kakaska" alt="None"><img src="https://github.com/kakaska.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>kakaska</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16563" alt="None">16563</a></td>
-    <td><strong>[ie/videa] Extract description, uploader and upload date</strong></td>
-     <td><a href="https://github.com/kakaska" alt="None"><img src="https://github.com/kakaska.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>kakaska</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16563" alt="None">16563</a></td>
-    <td><strong>[ie/videa] Extract description, uploader and upload date</strong></td>
-     <td><a href="https://github.com/kakaska" alt="None"><img src="https://github.com/kakaska.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>kakaska</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16558" alt="None">16558</a></td>
-    <td><strong>[ie/videa] Add user profile extractor</strong></td>
-     <td><a href="https://github.com/kakaska" alt="None"><img src="https://github.com/kakaska.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>kakaska</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16558" alt="None">16558</a></td>
-    <td><strong>[ie/videa] Add user profile extractor</strong></td>
-     <td><a href="https://github.com/kakaska" alt="None"><img src="https://github.com/kakaska.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>kakaska</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16558" alt="None">16558</a></td>
-    <td><strong>[ie/videa] Add user profile extractor</strong></td>
-     <td><a href="https://github.com/kakaska" alt="None"><img src="https://github.com/kakaska.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>kakaska</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16558" alt="None">16558</a></td>
-    <td><strong>[ie/videa] Add user profile extractor</strong></td>
-     <td><a href="https://github.com/kakaska" alt="None"><img src="https://github.com/kakaska.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>kakaska</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16558" alt="None">16558</a></td>
-    <td><strong>[ie/videa] Add user profile extractor</strong></td>
-     <td><a href="https://github.com/kakaska" alt="None"><img src="https://github.com/kakaska.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>kakaska</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16554" alt="None">16554</a></td>
-    <td><strong>[youtube_live_chat] Retrieve unfiltered live chat instead of top chat for live streams</strong></td>
-     <td><a href="https://github.com/nanamiyuuri" alt="None"><img src="https://github.com/nanamiyuuri.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nanamiyuuri</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16554" alt="None">16554</a></td>
-    <td><strong>[youtube_live_chat] Retrieve unfiltered live chat instead of top chat for live streams</strong></td>
-     <td><a href="https://github.com/nanamiyuuri" alt="None"><img src="https://github.com/nanamiyuuri.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nanamiyuuri</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16554" alt="None">16554</a></td>
-    <td><strong>[youtube_live_chat] Retrieve unfiltered live chat instead of top chat for live streams</strong></td>
-     <td><a href="https://github.com/nanamiyuuri" alt="None"><img src="https://github.com/nanamiyuuri.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nanamiyuuri</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16554" alt="None">16554</a></td>
-    <td><strong>[youtube_live_chat] Retrieve unfiltered live chat instead of top chat for live streams</strong></td>
-     <td><a href="https://github.com/nanamiyuuri" alt="None"><img src="https://github.com/nanamiyuuri.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nanamiyuuri</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16554" alt="None">16554</a></td>
-    <td><strong>[youtube_live_chat] Retrieve unfiltered live chat instead of top chat for live streams</strong></td>
-     <td><a href="https://github.com/nanamiyuuri" alt="None"><img src="https://github.com/nanamiyuuri.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nanamiyuuri</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16551" alt="None">16551</a></td>
-    <td><strong>[ie/vgtv] Use HTTPS for svp.vg.no asset API</strong></td>
-     <td><a href="https://github.com/mchccc" alt="None"><img src="https://github.com/mchccc.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mchccc</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16551" alt="None">16551</a></td>
-    <td><strong>[ie/vgtv] Use HTTPS for svp.vg.no asset API</strong></td>
-     <td><a href="https://github.com/mchccc" alt="None"><img src="https://github.com/mchccc.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mchccc</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16551" alt="None">16551</a></td>
-    <td><strong>[ie/vgtv] Use HTTPS for svp.vg.no asset API</strong></td>
-     <td><a href="https://github.com/mchccc" alt="None"><img src="https://github.com/mchccc.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mchccc</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16551" alt="None">16551</a></td>
-    <td><strong>[ie/vgtv] Use HTTPS for svp.vg.no asset API</strong></td>
-     <td><a href="https://github.com/mchccc" alt="None"><img src="https://github.com/mchccc.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mchccc</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16551" alt="None">16551</a></td>
-    <td><strong>[ie/vgtv] Use HTTPS for svp.vg.no asset API</strong></td>
-     <td><a href="https://github.com/mchccc" alt="None"><img src="https://github.com/mchccc.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mchccc</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16542" alt="None">16542</a></td>
-    <td><strong>Add available metadata for TikTok extractor</strong></td>
-     <td><a href="https://github.com/Romain-Jaffuel" alt="None"><img src="https://github.com/Romain-Jaffuel.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Romain-Jaffuel</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16542" alt="None">16542</a></td>
-    <td><strong>Add available metadata for TikTok extractor</strong></td>
-     <td><a href="https://github.com/Romain-Jaffuel" alt="None"><img src="https://github.com/Romain-Jaffuel.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Romain-Jaffuel</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16542" alt="None">16542</a></td>
-    <td><strong>Add available metadata for TikTok extractor</strong></td>
-     <td><a href="https://github.com/Romain-Jaffuel" alt="None"><img src="https://github.com/Romain-Jaffuel.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Romain-Jaffuel</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16542" alt="None">16542</a></td>
-    <td><strong>Add available metadata for TikTok extractor</strong></td>
-     <td><a href="https://github.com/Romain-Jaffuel" alt="None"><img src="https://github.com/Romain-Jaffuel.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Romain-Jaffuel</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16542" alt="None">16542</a></td>
-    <td><strong>Add available metadata for TikTok extractor</strong></td>
-     <td><a href="https://github.com/Romain-Jaffuel" alt="None"><img src="https://github.com/Romain-Jaffuel.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Romain-Jaffuel</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16527" alt="None">16527</a></td>
-    <td><strong>[ie/tviplayer] Fix extractor</strong></td>
-     <td><a href="https://github.com/FranciscoPombal" alt="None"><img src="https://github.com/FranciscoPombal.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FranciscoPombal</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16527" alt="None">16527</a></td>
-    <td><strong>[ie/tviplayer] Fix extractor</strong></td>
-     <td><a href="https://github.com/FranciscoPombal" alt="None"><img src="https://github.com/FranciscoPombal.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FranciscoPombal</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16527" alt="None">16527</a></td>
-    <td><strong>[ie/tviplayer] Fix extractor</strong></td>
-     <td><a href="https://github.com/FranciscoPombal" alt="None"><img src="https://github.com/FranciscoPombal.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FranciscoPombal</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16527" alt="None">16527</a></td>
-    <td><strong>[ie/tviplayer] Fix extractor</strong></td>
-     <td><a href="https://github.com/FranciscoPombal" alt="None"><img src="https://github.com/FranciscoPombal.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FranciscoPombal</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16527" alt="None">16527</a></td>
-    <td><strong>[ie/tviplayer] Fix extractor</strong></td>
-     <td><a href="https://github.com/FranciscoPombal" alt="None"><img src="https://github.com/FranciscoPombal.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>FranciscoPombal</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16483" alt="None">16483</a></td>
-    <td><strong>[ie/suno] Add extractor</strong></td>
-     <td><a href="https://github.com/jovolopez" alt="None"><img src="https://github.com/jovolopez.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jovolopez</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16483" alt="None">16483</a></td>
-    <td><strong>[ie/suno] Add extractor</strong></td>
-     <td><a href="https://github.com/jovolopez" alt="None"><img src="https://github.com/jovolopez.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jovolopez</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16483" alt="None">16483</a></td>
-    <td><strong>[ie/suno] Add extractor</strong></td>
-     <td><a href="https://github.com/jovolopez" alt="None"><img src="https://github.com/jovolopez.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jovolopez</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16483" alt="None">16483</a></td>
-    <td><strong>[ie/suno] Add extractor</strong></td>
-     <td><a href="https://github.com/jovolopez" alt="None"><img src="https://github.com/jovolopez.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jovolopez</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16483" alt="None">16483</a></td>
-    <td><strong>[ie/suno] Add extractor</strong></td>
-     <td><a href="https://github.com/jovolopez" alt="None"><img src="https://github.com/jovolopez.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jovolopez</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16457" alt="None">16457</a></td>
-    <td><strong>[extractor/telewebion] fix telewebion.ir playback URLs</strong></td>
-     <td><a href="https://github.com/foroughmand" alt="None"><img src="https://github.com/foroughmand.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>foroughmand</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16457" alt="None">16457</a></td>
-    <td><strong>[extractor/telewebion] fix telewebion.ir playback URLs</strong></td>
-     <td><a href="https://github.com/foroughmand" alt="None"><img src="https://github.com/foroughmand.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>foroughmand</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16457" alt="None">16457</a></td>
-    <td><strong>[extractor/telewebion] fix telewebion.ir playback URLs</strong></td>
-     <td><a href="https://github.com/foroughmand" alt="None"><img src="https://github.com/foroughmand.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>foroughmand</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16457" alt="None">16457</a></td>
-    <td><strong>[extractor/telewebion] fix telewebion.ir playback URLs</strong></td>
-     <td><a href="https://github.com/foroughmand" alt="None"><img src="https://github.com/foroughmand.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>foroughmand</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16457" alt="None">16457</a></td>
-    <td><strong>[extractor/telewebion] fix telewebion.ir playback URLs</strong></td>
-     <td><a href="https://github.com/foroughmand" alt="None"><img src="https://github.com/foroughmand.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>foroughmand</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16427" alt="None">16427</a></td>
-    <td><strong>[ie/lbry] Add storyboard support</strong></td>
-     <td><a href="https://github.com/neeshy" alt="None"><img src="https://github.com/neeshy.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>neeshy</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16427" alt="None">16427</a></td>
-    <td><strong>[ie/lbry] Add storyboard support</strong></td>
-     <td><a href="https://github.com/neeshy" alt="None"><img src="https://github.com/neeshy.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>neeshy</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16427" alt="None">16427</a></td>
-    <td><strong>[ie/lbry] Add storyboard support</strong></td>
-     <td><a href="https://github.com/neeshy" alt="None"><img src="https://github.com/neeshy.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>neeshy</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16427" alt="None">16427</a></td>
-    <td><strong>[ie/lbry] Add storyboard support</strong></td>
-     <td><a href="https://github.com/neeshy" alt="None"><img src="https://github.com/neeshy.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>neeshy</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16427" alt="None">16427</a></td>
-    <td><strong>[ie/lbry] Add storyboard support</strong></td>
-     <td><a href="https://github.com/neeshy" alt="None"><img src="https://github.com/neeshy.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>neeshy</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16419" alt="None">16419</a></td>
-    <td><strong>[ie/rutube] Handle unavailable/upcoming videos</strong></td>
-     <td><a href="https://github.com/olsh" alt="None"><img src="https://github.com/olsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>olsh</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16419" alt="None">16419</a></td>
-    <td><strong>[ie/rutube] Handle unavailable/upcoming videos</strong></td>
-     <td><a href="https://github.com/olsh" alt="None"><img src="https://github.com/olsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>olsh</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16419" alt="None">16419</a></td>
-    <td><strong>[ie/rutube] Handle unavailable/upcoming videos</strong></td>
-     <td><a href="https://github.com/olsh" alt="None"><img src="https://github.com/olsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>olsh</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16419" alt="None">16419</a></td>
-    <td><strong>[ie/rutube] Handle unavailable/upcoming videos</strong></td>
-     <td><a href="https://github.com/olsh" alt="None"><img src="https://github.com/olsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>olsh</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16419" alt="None">16419</a></td>
-    <td><strong>[ie/rutube] Handle unavailable/upcoming videos</strong></td>
-     <td><a href="https://github.com/olsh" alt="None"><img src="https://github.com/olsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>olsh</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16395" alt="None">16395</a></td>
-    <td><strong>fix: Zoom extractor password handling</strong></td>
-     <td><a href="https://github.com/mfcarroll" alt="None"><img src="https://github.com/mfcarroll.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mfcarroll</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16395" alt="None">16395</a></td>
-    <td><strong>fix: Zoom extractor password handling</strong></td>
-     <td><a href="https://github.com/mfcarroll" alt="None"><img src="https://github.com/mfcarroll.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mfcarroll</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16395" alt="None">16395</a></td>
-    <td><strong>fix: Zoom extractor password handling</strong></td>
-     <td><a href="https://github.com/mfcarroll" alt="None"><img src="https://github.com/mfcarroll.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mfcarroll</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16395" alt="None">16395</a></td>
-    <td><strong>fix: Zoom extractor password handling</strong></td>
-     <td><a href="https://github.com/mfcarroll" alt="None"><img src="https://github.com/mfcarroll.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mfcarroll</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16395" alt="None">16395</a></td>
-    <td><strong>fix: Zoom extractor password handling</strong></td>
-     <td><a href="https://github.com/mfcarroll" alt="None"><img src="https://github.com/mfcarroll.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mfcarroll</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16388" alt="None">16388</a></td>
-    <td><strong>Fix #15886: Add redzidzirdilatviju extractor</strong></td>
-     <td><a href="https://github.com/MartaMachado123" alt="None"><img src="https://github.com/MartaMachado123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MartaMachado123</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16388" alt="None">16388</a></td>
-    <td><strong>Fix #15886: Add redzidzirdilatviju extractor</strong></td>
-     <td><a href="https://github.com/MartaMachado123" alt="None"><img src="https://github.com/MartaMachado123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MartaMachado123</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16388" alt="None">16388</a></td>
-    <td><strong>Fix #15886: Add redzidzirdilatviju extractor</strong></td>
-     <td><a href="https://github.com/MartaMachado123" alt="None"><img src="https://github.com/MartaMachado123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MartaMachado123</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16388" alt="None">16388</a></td>
-    <td><strong>Fix #15886: Add redzidzirdilatviju extractor</strong></td>
-     <td><a href="https://github.com/MartaMachado123" alt="None"><img src="https://github.com/MartaMachado123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MartaMachado123</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16388" alt="None">16388</a></td>
-    <td><strong>Fix #15886: Add redzidzirdilatviju extractor</strong></td>
-     <td><a href="https://github.com/MartaMachado123" alt="None"><img src="https://github.com/MartaMachado123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MartaMachado123</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16386" alt="None">16386</a></td>
-    <td><strong>[youtube] Add support for youtubeeducation.com domain</strong></td>
-     <td><a href="https://github.com/rajanarahul93" alt="None"><img src="https://github.com/rajanarahul93.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rajanarahul93</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16386" alt="None">16386</a></td>
-    <td><strong>[youtube] Add support for youtubeeducation.com domain</strong></td>
-     <td><a href="https://github.com/rajanarahul93" alt="None"><img src="https://github.com/rajanarahul93.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rajanarahul93</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16386" alt="None">16386</a></td>
-    <td><strong>[youtube] Add support for youtubeeducation.com domain</strong></td>
-     <td><a href="https://github.com/rajanarahul93" alt="None"><img src="https://github.com/rajanarahul93.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rajanarahul93</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16386" alt="None">16386</a></td>
-    <td><strong>[youtube] Add support for youtubeeducation.com domain</strong></td>
-     <td><a href="https://github.com/rajanarahul93" alt="None"><img src="https://github.com/rajanarahul93.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rajanarahul93</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16386" alt="None">16386</a></td>
-    <td><strong>[youtube] Add support for youtubeeducation.com domain</strong></td>
-     <td><a href="https://github.com/rajanarahul93" alt="None"><img src="https://github.com/rajanarahul93.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rajanarahul93</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16366" alt="None">16366</a></td>
-    <td><strong>[ie/tiktok:live] Extract params for {flv,rtmp,hls}_pull_url</strong></td>
-     <td><a href="https://github.com/pjw91" alt="None"><img src="https://github.com/pjw91.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pjw91</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16366" alt="None">16366</a></td>
-    <td><strong>[ie/tiktok:live] Extract params for {flv,rtmp,hls}_pull_url</strong></td>
-     <td><a href="https://github.com/pjw91" alt="None"><img src="https://github.com/pjw91.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pjw91</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16366" alt="None">16366</a></td>
-    <td><strong>[ie/tiktok:live] Extract params for {flv,rtmp,hls}_pull_url</strong></td>
-     <td><a href="https://github.com/pjw91" alt="None"><img src="https://github.com/pjw91.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pjw91</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16366" alt="None">16366</a></td>
-    <td><strong>[ie/tiktok:live] Extract params for {flv,rtmp,hls}_pull_url</strong></td>
-     <td><a href="https://github.com/pjw91" alt="None"><img src="https://github.com/pjw91.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pjw91</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16366" alt="None">16366</a></td>
-    <td><strong>[ie/tiktok:live] Extract params for {flv,rtmp,hls}_pull_url</strong></td>
-     <td><a href="https://github.com/pjw91" alt="None"><img src="https://github.com/pjw91.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pjw91</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16360" alt="None">16360</a></td>
-    <td><strong>Fix #13904: The CBCIE extractor matches RSS feeds</strong></td>
-     <td><a href="https://github.com/AfonsoCalinas" alt="None"><img src="https://github.com/AfonsoCalinas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>AfonsoCalinas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16360" alt="None">16360</a></td>
-    <td><strong>Fix #13904: The CBCIE extractor matches RSS feeds</strong></td>
-     <td><a href="https://github.com/AfonsoCalinas" alt="None"><img src="https://github.com/AfonsoCalinas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>AfonsoCalinas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16360" alt="None">16360</a></td>
-    <td><strong>Fix #13904: The CBCIE extractor matches RSS feeds</strong></td>
-     <td><a href="https://github.com/AfonsoCalinas" alt="None"><img src="https://github.com/AfonsoCalinas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>AfonsoCalinas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16360" alt="None">16360</a></td>
-    <td><strong>Fix #13904: The CBCIE extractor matches RSS feeds</strong></td>
-     <td><a href="https://github.com/AfonsoCalinas" alt="None"><img src="https://github.com/AfonsoCalinas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>AfonsoCalinas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16360" alt="None">16360</a></td>
-    <td><strong>Fix #13904: The CBCIE extractor matches RSS feeds</strong></td>
-     <td><a href="https://github.com/AfonsoCalinas" alt="None"><img src="https://github.com/AfonsoCalinas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>AfonsoCalinas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16357" alt="None">16357</a></td>
-    <td><strong>[bandzone] Add extractor</strong></td>
-     <td><a href="https://github.com/premek" alt="None"><img src="https://github.com/premek.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>premek</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16357" alt="None">16357</a></td>
-    <td><strong>[bandzone] Add extractor</strong></td>
-     <td><a href="https://github.com/premek" alt="None"><img src="https://github.com/premek.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>premek</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16357" alt="None">16357</a></td>
-    <td><strong>[bandzone] Add extractor</strong></td>
-     <td><a href="https://github.com/premek" alt="None"><img src="https://github.com/premek.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>premek</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16357" alt="None">16357</a></td>
-    <td><strong>[bandzone] Add extractor</strong></td>
-     <td><a href="https://github.com/premek" alt="None"><img src="https://github.com/premek.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>premek</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16357" alt="None">16357</a></td>
-    <td><strong>[bandzone] Add extractor</strong></td>
-     <td><a href="https://github.com/premek" alt="None"><img src="https://github.com/premek.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>premek</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16345" alt="None">16345</a></td>
-    <td><strong>bugfix: Wrap format selection exception</strong></td>
-     <td><a href="https://github.com/BGarber42" alt="None"><img src="https://github.com/BGarber42.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BGarber42</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16345" alt="None">16345</a></td>
-    <td><strong>bugfix: Wrap format selection exception</strong></td>
-     <td><a href="https://github.com/BGarber42" alt="None"><img src="https://github.com/BGarber42.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BGarber42</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16345" alt="None">16345</a></td>
-    <td><strong>bugfix: Wrap format selection exception</strong></td>
-     <td><a href="https://github.com/BGarber42" alt="None"><img src="https://github.com/BGarber42.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BGarber42</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16345" alt="None">16345</a></td>
-    <td><strong>bugfix: Wrap format selection exception</strong></td>
-     <td><a href="https://github.com/BGarber42" alt="None"><img src="https://github.com/BGarber42.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BGarber42</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16345" alt="None">16345</a></td>
-    <td><strong>bugfix: Wrap format selection exception</strong></td>
-     <td><a href="https://github.com/BGarber42" alt="None"><img src="https://github.com/BGarber42.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BGarber42</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16344" alt="None">16344</a></td>
-    <td><strong>[ie/tiktok:user] Extract user signature -> 'description', nickname -> 'channel' for playlist</strong></td>
-     <td><a href="https://github.com/deadmeu" alt="None"><img src="https://github.com/deadmeu.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deadmeu</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16344" alt="None">16344</a></td>
-    <td><strong>[ie/tiktok:user] Extract user signature -> 'description', nickname -> 'channel' for playlist</strong></td>
-     <td><a href="https://github.com/deadmeu" alt="None"><img src="https://github.com/deadmeu.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deadmeu</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16344" alt="None">16344</a></td>
-    <td><strong>[ie/tiktok:user] Extract user signature -> 'description', nickname -> 'channel' for playlist</strong></td>
-     <td><a href="https://github.com/deadmeu" alt="None"><img src="https://github.com/deadmeu.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deadmeu</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16344" alt="None">16344</a></td>
-    <td><strong>[ie/tiktok:user] Extract user signature -> 'description', nickname -> 'channel' for playlist</strong></td>
-     <td><a href="https://github.com/deadmeu" alt="None"><img src="https://github.com/deadmeu.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deadmeu</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16344" alt="None">16344</a></td>
-    <td><strong>[ie/tiktok:user] Extract user signature -> 'description', nickname -> 'channel' for playlist</strong></td>
-     <td><a href="https://github.com/deadmeu" alt="None"><img src="https://github.com/deadmeu.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deadmeu</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16303" alt="None">16303</a></td>
-    <td><strong>[ie/tiktok] Add TikTokLikedIE and TikTokSavedIE extractors</strong></td>
-     <td><a href="https://github.com/skrepkaq" alt="None"><img src="https://github.com/skrepkaq.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>skrepkaq</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16303" alt="None">16303</a></td>
-    <td><strong>[ie/tiktok] Add TikTokLikedIE and TikTokSavedIE extractors</strong></td>
-     <td><a href="https://github.com/skrepkaq" alt="None"><img src="https://github.com/skrepkaq.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>skrepkaq</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16303" alt="None">16303</a></td>
-    <td><strong>[ie/tiktok] Add TikTokLikedIE and TikTokSavedIE extractors</strong></td>
-     <td><a href="https://github.com/skrepkaq" alt="None"><img src="https://github.com/skrepkaq.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>skrepkaq</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16303" alt="None">16303</a></td>
-    <td><strong>[ie/tiktok] Add TikTokLikedIE and TikTokSavedIE extractors</strong></td>
-     <td><a href="https://github.com/skrepkaq" alt="None"><img src="https://github.com/skrepkaq.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>skrepkaq</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16303" alt="None">16303</a></td>
-    <td><strong>[ie/tiktok] Add TikTokLikedIE and TikTokSavedIE extractors</strong></td>
-     <td><a href="https://github.com/skrepkaq" alt="None"><img src="https://github.com/skrepkaq.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>skrepkaq</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16289" alt="None">16289</a></td>
-    <td><strong>[YleAreena] Fix #15846: Extract all episodes from series pages</strong></td>
-     <td><a href="https://github.com/DavidRogerio" alt="None"><img src="https://github.com/DavidRogerio.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DavidRogerio</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16289" alt="None">16289</a></td>
-    <td><strong>[YleAreena] Fix #15846: Extract all episodes from series pages</strong></td>
-     <td><a href="https://github.com/DavidRogerio" alt="None"><img src="https://github.com/DavidRogerio.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DavidRogerio</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16289" alt="None">16289</a></td>
-    <td><strong>[YleAreena] Fix #15846: Extract all episodes from series pages</strong></td>
-     <td><a href="https://github.com/DavidRogerio" alt="None"><img src="https://github.com/DavidRogerio.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DavidRogerio</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16289" alt="None">16289</a></td>
-    <td><strong>[YleAreena] Fix #15846: Extract all episodes from series pages</strong></td>
-     <td><a href="https://github.com/DavidRogerio" alt="None"><img src="https://github.com/DavidRogerio.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DavidRogerio</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16289" alt="None">16289</a></td>
-    <td><strong>[YleAreena] Fix #15846: Extract all episodes from series pages</strong></td>
-     <td><a href="https://github.com/DavidRogerio" alt="None"><img src="https://github.com/DavidRogerio.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DavidRogerio</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16288" alt="None">16288</a></td>
-    <td><strong>[ie/svt] Fix data extraction (#16255)</strong></td>
-     <td><a href="https://github.com/billauer" alt="None"><img src="https://github.com/billauer.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>billauer</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16288" alt="None">16288</a></td>
-    <td><strong>[ie/svt] Fix data extraction (#16255)</strong></td>
-     <td><a href="https://github.com/billauer" alt="None"><img src="https://github.com/billauer.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>billauer</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16288" alt="None">16288</a></td>
-    <td><strong>[ie/svt] Fix data extraction (#16255)</strong></td>
-     <td><a href="https://github.com/billauer" alt="None"><img src="https://github.com/billauer.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>billauer</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16288" alt="None">16288</a></td>
-    <td><strong>[ie/svt] Fix data extraction (#16255)</strong></td>
-     <td><a href="https://github.com/billauer" alt="None"><img src="https://github.com/billauer.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>billauer</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16288" alt="None">16288</a></td>
-    <td><strong>[ie/svt] Fix data extraction (#16255)</strong></td>
-     <td><a href="https://github.com/billauer" alt="None"><img src="https://github.com/billauer.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>billauer</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16273" alt="None">16273</a></td>
-    <td><strong>[ie/vk] Add view_count field to video metadata extraction</strong></td>
-     <td><a href="https://github.com/BGarber42" alt="None"><img src="https://github.com/BGarber42.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BGarber42</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16273" alt="None">16273</a></td>
-    <td><strong>[ie/vk] Add view_count field to video metadata extraction</strong></td>
-     <td><a href="https://github.com/BGarber42" alt="None"><img src="https://github.com/BGarber42.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BGarber42</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16273" alt="None">16273</a></td>
-    <td><strong>[ie/vk] Add view_count field to video metadata extraction</strong></td>
-     <td><a href="https://github.com/BGarber42" alt="None"><img src="https://github.com/BGarber42.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BGarber42</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16273" alt="None">16273</a></td>
-    <td><strong>[ie/vk] Add view_count field to video metadata extraction</strong></td>
-     <td><a href="https://github.com/BGarber42" alt="None"><img src="https://github.com/BGarber42.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BGarber42</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16273" alt="None">16273</a></td>
-    <td><strong>[ie/vk] Add view_count field to video metadata extraction</strong></td>
-     <td><a href="https://github.com/BGarber42" alt="None"><img src="https://github.com/BGarber42.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>BGarber42</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16264" alt="None">16264</a></td>
-    <td><strong>[Rumble] Fix #14556: Channel extraction creating tracking links</strong></td>
-     <td><a href="https://github.com/daniel-bernardinoist" alt="None"><img src="https://github.com/daniel-bernardinoist.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>daniel-bernardinoist</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16264" alt="None">16264</a></td>
-    <td><strong>[Rumble] Fix #14556: Channel extraction creating tracking links</strong></td>
-     <td><a href="https://github.com/daniel-bernardinoist" alt="None"><img src="https://github.com/daniel-bernardinoist.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>daniel-bernardinoist</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16264" alt="None">16264</a></td>
-    <td><strong>[Rumble] Fix #14556: Channel extraction creating tracking links</strong></td>
-     <td><a href="https://github.com/daniel-bernardinoist" alt="None"><img src="https://github.com/daniel-bernardinoist.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>daniel-bernardinoist</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16264" alt="None">16264</a></td>
-    <td><strong>[Rumble] Fix #14556: Channel extraction creating tracking links</strong></td>
-     <td><a href="https://github.com/daniel-bernardinoist" alt="None"><img src="https://github.com/daniel-bernardinoist.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>daniel-bernardinoist</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16264" alt="None">16264</a></td>
-    <td><strong>[Rumble] Fix #14556: Channel extraction creating tracking links</strong></td>
-     <td><a href="https://github.com/daniel-bernardinoist" alt="None"><img src="https://github.com/daniel-bernardinoist.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>daniel-bernardinoist</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16251" alt="None">16251</a></td>
-    <td><strong>[ustream fix extractor] Add live stream support for video.ibm.com channels</strong></td>
-     <td><a href="https://github.com/jnh-yuzzit" alt="None"><img src="https://github.com/jnh-yuzzit.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jnh-yuzzit</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16251" alt="None">16251</a></td>
-    <td><strong>[ustream fix extractor] Add live stream support for video.ibm.com channels</strong></td>
-     <td><a href="https://github.com/jnh-yuzzit" alt="None"><img src="https://github.com/jnh-yuzzit.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jnh-yuzzit</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16251" alt="None">16251</a></td>
-    <td><strong>[ustream fix extractor] Add live stream support for video.ibm.com channels</strong></td>
-     <td><a href="https://github.com/jnh-yuzzit" alt="None"><img src="https://github.com/jnh-yuzzit.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jnh-yuzzit</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16251" alt="None">16251</a></td>
-    <td><strong>[ustream fix extractor] Add live stream support for video.ibm.com channels</strong></td>
-     <td><a href="https://github.com/jnh-yuzzit" alt="None"><img src="https://github.com/jnh-yuzzit.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jnh-yuzzit</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16251" alt="None">16251</a></td>
-    <td><strong>[ustream fix extractor] Add live stream support for video.ibm.com channels</strong></td>
-     <td><a href="https://github.com/jnh-yuzzit" alt="None"><img src="https://github.com/jnh-yuzzit.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>jnh-yuzzit</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16244" alt="None">16244</a></td>
-    <td><strong>[cliprs] fix extractor </strong></td>
-     <td><a href="https://github.com/mickX-dev" alt="None"><img src="https://github.com/mickX-dev.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mickX-dev</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16244" alt="None">16244</a></td>
-    <td><strong>[cliprs] fix extractor </strong></td>
-     <td><a href="https://github.com/mickX-dev" alt="None"><img src="https://github.com/mickX-dev.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mickX-dev</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16244" alt="None">16244</a></td>
-    <td><strong>[cliprs] fix extractor </strong></td>
-     <td><a href="https://github.com/mickX-dev" alt="None"><img src="https://github.com/mickX-dev.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mickX-dev</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16244" alt="None">16244</a></td>
-    <td><strong>[cliprs] fix extractor </strong></td>
-     <td><a href="https://github.com/mickX-dev" alt="None"><img src="https://github.com/mickX-dev.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mickX-dev</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16244" alt="None">16244</a></td>
-    <td><strong>[cliprs] fix extractor </strong></td>
-     <td><a href="https://github.com/mickX-dev" alt="None"><img src="https://github.com/mickX-dev.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mickX-dev</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16240" alt="None">16240</a></td>
-    <td><strong>[postprocessor/sponsorblock] Add `--sponsorblock-skip` for Matroska ordered chapter skipping</strong></td>
-     <td><a href="https://github.com/srlehn" alt="None"><img src="https://github.com/srlehn.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>srlehn</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16240" alt="None">16240</a></td>
-    <td><strong>[postprocessor/sponsorblock] Add `--sponsorblock-skip` for Matroska ordered chapter skipping</strong></td>
-     <td><a href="https://github.com/srlehn" alt="None"><img src="https://github.com/srlehn.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>srlehn</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16240" alt="None">16240</a></td>
-    <td><strong>[postprocessor/sponsorblock] Add `--sponsorblock-skip` for Matroska ordered chapter skipping</strong></td>
-     <td><a href="https://github.com/srlehn" alt="None"><img src="https://github.com/srlehn.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>srlehn</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16240" alt="None">16240</a></td>
-    <td><strong>[postprocessor/sponsorblock] Add `--sponsorblock-skip` for Matroska ordered chapter skipping</strong></td>
-     <td><a href="https://github.com/srlehn" alt="None"><img src="https://github.com/srlehn.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>srlehn</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16240" alt="None">16240</a></td>
-    <td><strong>[postprocessor/sponsorblock] Add `--sponsorblock-skip` for Matroska ordered chapter skipping</strong></td>
-     <td><a href="https://github.com/srlehn" alt="None"><img src="https://github.com/srlehn.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>srlehn</strong></a></td>
-    <td>None</td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16217" alt="None">16217</a></td>
-    <td><strong>[olympics] Update extractor olympics regex to support milano-cortina-2026 URLs, author: 0xvd</strong></td>
-     <td><a href="https://github.com/mickX-dev" alt="None"><img src="https://github.com/mickX-dev.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mickX-dev</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16217" alt="None">16217</a></td>
-    <td><strong>[olympics] Update extractor olympics regex to support milano-cortina-2026 URLs, author: 0xvd</strong></td>
-     <td><a href="https://github.com/mickX-dev" alt="None"><img src="https://github.com/mickX-dev.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mickX-dev</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16217" alt="None">16217</a></td>
-    <td><strong>[olympics] Update extractor olympics regex to support milano-cortina-2026 URLs, author: 0xvd</strong></td>
-     <td><a href="https://github.com/mickX-dev" alt="None"><img src="https://github.com/mickX-dev.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mickX-dev</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16217" alt="None">16217</a></td>
-    <td><strong>[olympics] Update extractor olympics regex to support milano-cortina-2026 URLs, author: 0xvd</strong></td>
-     <td><a href="https://github.com/mickX-dev" alt="None"><img src="https://github.com/mickX-dev.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mickX-dev</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16217" alt="None">16217</a></td>
-    <td><strong>[olympics] Update extractor olympics regex to support milano-cortina-2026 URLs, author: 0xvd</strong></td>
-     <td><a href="https://github.com/mickX-dev" alt="None"><img src="https://github.com/mickX-dev.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mickX-dev</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16197" alt="None">16197</a></td>
-    <td><strong>[ie/playsuisse] Fix login</strong></td>
-     <td><a href="https://github.com/tharvik" alt="None"><img src="https://github.com/tharvik.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tharvik</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16197" alt="None">16197</a></td>
-    <td><strong>[ie/playsuisse] Fix login</strong></td>
-     <td><a href="https://github.com/tharvik" alt="None"><img src="https://github.com/tharvik.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tharvik</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16197" alt="None">16197</a></td>
-    <td><strong>[ie/playsuisse] Fix login</strong></td>
-     <td><a href="https://github.com/tharvik" alt="None"><img src="https://github.com/tharvik.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tharvik</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16197" alt="None">16197</a></td>
-    <td><strong>[ie/playsuisse] Fix login</strong></td>
-     <td><a href="https://github.com/tharvik" alt="None"><img src="https://github.com/tharvik.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tharvik</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16197" alt="None">16197</a></td>
-    <td><strong>[ie/playsuisse] Fix login</strong></td>
-     <td><a href="https://github.com/tharvik" alt="None"><img src="https://github.com/tharvik.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tharvik</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16180" alt="None">16180</a></td>
-    <td><strong>[ie/fansly] Add extractor</strong></td>
-     <td><a href="https://github.com/thisstatementis0" alt="None"><img src="https://github.com/thisstatementis0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>thisstatementis0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16180" alt="None">16180</a></td>
-    <td><strong>[ie/fansly] Add extractor</strong></td>
-     <td><a href="https://github.com/thisstatementis0" alt="None"><img src="https://github.com/thisstatementis0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>thisstatementis0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16180" alt="None">16180</a></td>
-    <td><strong>[ie/fansly] Add extractor</strong></td>
-     <td><a href="https://github.com/thisstatementis0" alt="None"><img src="https://github.com/thisstatementis0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>thisstatementis0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16180" alt="None">16180</a></td>
-    <td><strong>[ie/fansly] Add extractor</strong></td>
-     <td><a href="https://github.com/thisstatementis0" alt="None"><img src="https://github.com/thisstatementis0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>thisstatementis0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16180" alt="None">16180</a></td>
-    <td><strong>[ie/fansly] Add extractor</strong></td>
-     <td><a href="https://github.com/thisstatementis0" alt="None"><img src="https://github.com/thisstatementis0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>thisstatementis0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16154" alt="None">16154</a></td>
-    <td><strong>[extractor/acfun] extract all videos from album pages</strong></td>
-     <td><a href="https://github.com/andyyehoo" alt="None"><img src="https://github.com/andyyehoo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>andyyehoo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16154" alt="None">16154</a></td>
-    <td><strong>[extractor/acfun] extract all videos from album pages</strong></td>
-     <td><a href="https://github.com/andyyehoo" alt="None"><img src="https://github.com/andyyehoo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>andyyehoo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16154" alt="None">16154</a></td>
-    <td><strong>[extractor/acfun] extract all videos from album pages</strong></td>
-     <td><a href="https://github.com/andyyehoo" alt="None"><img src="https://github.com/andyyehoo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>andyyehoo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16154" alt="None">16154</a></td>
-    <td><strong>[extractor/acfun] extract all videos from album pages</strong></td>
-     <td><a href="https://github.com/andyyehoo" alt="None"><img src="https://github.com/andyyehoo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>andyyehoo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16154" alt="None">16154</a></td>
-    <td><strong>[extractor/acfun] extract all videos from album pages</strong></td>
-     <td><a href="https://github.com/andyyehoo" alt="None"><img src="https://github.com/andyyehoo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>andyyehoo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16136" alt="None">16136</a></td>
-    <td><strong>[ie/piczel] added basic extractor for piczel live streams</strong></td>
-     <td><a href="https://github.com/Mangrover007" alt="None"><img src="https://github.com/Mangrover007.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Mangrover007</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16136" alt="None">16136</a></td>
-    <td><strong>[ie/piczel] added basic extractor for piczel live streams</strong></td>
-     <td><a href="https://github.com/Mangrover007" alt="None"><img src="https://github.com/Mangrover007.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Mangrover007</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16136" alt="None">16136</a></td>
-    <td><strong>[ie/piczel] added basic extractor for piczel live streams</strong></td>
-     <td><a href="https://github.com/Mangrover007" alt="None"><img src="https://github.com/Mangrover007.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Mangrover007</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16136" alt="None">16136</a></td>
-    <td><strong>[ie/piczel] added basic extractor for piczel live streams</strong></td>
-     <td><a href="https://github.com/Mangrover007" alt="None"><img src="https://github.com/Mangrover007.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Mangrover007</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16136" alt="None">16136</a></td>
-    <td><strong>[ie/piczel] added basic extractor for piczel live streams</strong></td>
-     <td><a href="https://github.com/Mangrover007" alt="None"><img src="https://github.com/Mangrover007.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Mangrover007</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16103" alt="None">16103</a></td>
-    <td><strong>[ie/telequebec] Fix extraction</strong></td>
-     <td><a href="https://github.com/Mathbl" alt="None"><img src="https://github.com/Mathbl.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Mathbl</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16103" alt="None">16103</a></td>
-    <td><strong>[ie/telequebec] Fix extraction</strong></td>
-     <td><a href="https://github.com/Mathbl" alt="None"><img src="https://github.com/Mathbl.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Mathbl</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16103" alt="None">16103</a></td>
-    <td><strong>[ie/telequebec] Fix extraction</strong></td>
-     <td><a href="https://github.com/Mathbl" alt="None"><img src="https://github.com/Mathbl.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Mathbl</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16103" alt="None">16103</a></td>
-    <td><strong>[ie/telequebec] Fix extraction</strong></td>
-     <td><a href="https://github.com/Mathbl" alt="None"><img src="https://github.com/Mathbl.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Mathbl</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16103" alt="None">16103</a></td>
-    <td><strong>[ie/telequebec] Fix extraction</strong></td>
-     <td><a href="https://github.com/Mathbl" alt="None"><img src="https://github.com/Mathbl.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Mathbl</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16101" alt="None">16101</a></td>
-    <td><strong>[extractor/txxx] Add fullvideosporn.com (sextu.com) to domains and an example to the tests</strong></td>
-     <td><a href="https://github.com/duurdub" alt="None"><img src="https://github.com/duurdub.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>duurdub</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16101" alt="None">16101</a></td>
-    <td><strong>[extractor/txxx] Add fullvideosporn.com (sextu.com) to domains and an example to the tests</strong></td>
-     <td><a href="https://github.com/duurdub" alt="None"><img src="https://github.com/duurdub.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>duurdub</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16101" alt="None">16101</a></td>
-    <td><strong>[extractor/txxx] Add fullvideosporn.com (sextu.com) to domains and an example to the tests</strong></td>
-     <td><a href="https://github.com/duurdub" alt="None"><img src="https://github.com/duurdub.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>duurdub</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16101" alt="None">16101</a></td>
-    <td><strong>[extractor/txxx] Add fullvideosporn.com (sextu.com) to domains and an example to the tests</strong></td>
-     <td><a href="https://github.com/duurdub" alt="None"><img src="https://github.com/duurdub.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>duurdub</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16101" alt="None">16101</a></td>
-    <td><strong>[extractor/txxx] Add fullvideosporn.com (sextu.com) to domains and an example to the tests</strong></td>
-     <td><a href="https://github.com/duurdub" alt="None"><img src="https://github.com/duurdub.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>duurdub</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16098" alt="None">16098</a></td>
-    <td><strong>[canva] Add extractor</strong></td>
-     <td><a href="https://github.com/feelixs" alt="None"><img src="https://github.com/feelixs.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>feelixs</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16098" alt="None">16098</a></td>
-    <td><strong>[canva] Add extractor</strong></td>
-     <td><a href="https://github.com/feelixs" alt="None"><img src="https://github.com/feelixs.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>feelixs</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16098" alt="None">16098</a></td>
-    <td><strong>[canva] Add extractor</strong></td>
-     <td><a href="https://github.com/feelixs" alt="None"><img src="https://github.com/feelixs.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>feelixs</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16098" alt="None">16098</a></td>
-    <td><strong>[canva] Add extractor</strong></td>
-     <td><a href="https://github.com/feelixs" alt="None"><img src="https://github.com/feelixs.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>feelixs</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16098" alt="None">16098</a></td>
-    <td><strong>[canva] Add extractor</strong></td>
-     <td><a href="https://github.com/feelixs" alt="None"><img src="https://github.com/feelixs.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>feelixs</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16014" alt="None">16014</a></td>
-    <td><strong>[ie/iwara] Update API endpoints and secret keys</strong></td>
-     <td><a href="https://github.com/vpertys" alt="None"><img src="https://github.com/vpertys.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>vpertys</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16014" alt="None">16014</a></td>
-    <td><strong>[ie/iwara] Update API endpoints and secret keys</strong></td>
-     <td><a href="https://github.com/vpertys" alt="None"><img src="https://github.com/vpertys.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>vpertys</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16014" alt="None">16014</a></td>
-    <td><strong>[ie/iwara] Update API endpoints and secret keys</strong></td>
-     <td><a href="https://github.com/vpertys" alt="None"><img src="https://github.com/vpertys.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>vpertys</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16014" alt="None">16014</a></td>
-    <td><strong>[ie/iwara] Update API endpoints and secret keys</strong></td>
-     <td><a href="https://github.com/vpertys" alt="None"><img src="https://github.com/vpertys.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>vpertys</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16014" alt="None">16014</a></td>
-    <td><strong>[ie/iwara] Update API endpoints and secret keys</strong></td>
-     <td><a href="https://github.com/vpertys" alt="None"><img src="https://github.com/vpertys.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>vpertys</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15954" alt="None">15954</a></td>
-    <td><strong>[ie/orf:on] Add extractor for radio shows</strong></td>
-     <td><a href="https://github.com/richardweinberger" alt="None"><img src="https://github.com/richardweinberger.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>richardweinberger</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15954" alt="None">15954</a></td>
-    <td><strong>[ie/orf:on] Add extractor for radio shows</strong></td>
-     <td><a href="https://github.com/richardweinberger" alt="None"><img src="https://github.com/richardweinberger.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>richardweinberger</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15954" alt="None">15954</a></td>
-    <td><strong>[ie/orf:on] Add extractor for radio shows</strong></td>
-     <td><a href="https://github.com/richardweinberger" alt="None"><img src="https://github.com/richardweinberger.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>richardweinberger</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15954" alt="None">15954</a></td>
-    <td><strong>[ie/orf:on] Add extractor for radio shows</strong></td>
-     <td><a href="https://github.com/richardweinberger" alt="None"><img src="https://github.com/richardweinberger.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>richardweinberger</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15954" alt="None">15954</a></td>
-    <td><strong>[ie/orf:on] Add extractor for radio shows</strong></td>
-     <td><a href="https://github.com/richardweinberger" alt="None"><img src="https://github.com/richardweinberger.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>richardweinberger</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15938" alt="None">15938</a></td>
-    <td><strong>Fix Youtube Live with --live-from-start (core/dash)</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828"><br>
-<img src="https://img.shields.io/badge/core:downloader-5935E5">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15938" alt="None">15938</a></td>
-    <td><strong>Fix Youtube Live with --live-from-start (core/dash)</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828"><br>
-<img src="https://img.shields.io/badge/core:downloader-5935E5">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15938" alt="None">15938</a></td>
-    <td><strong>Fix Youtube Live with --live-from-start (core/dash)</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828"><br>
-<img src="https://img.shields.io/badge/core:downloader-5935E5">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15938" alt="None">15938</a></td>
-    <td><strong>Fix Youtube Live with --live-from-start (core/dash)</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828"><br>
-<img src="https://img.shields.io/badge/core:downloader-5935E5">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15938" alt="None">15938</a></td>
-    <td><strong>Fix Youtube Live with --live-from-start (core/dash)</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828"><br>
-<img src="https://img.shields.io/badge/core:downloader-5935E5">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15920" alt="None">15920</a></td>
-    <td><strong>GDCVault: restored basic downloading</strong></td>
-     <td><a href="https://github.com/opensiriusfox" alt="None"><img src="https://github.com/opensiriusfox.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>opensiriusfox</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15920" alt="None">15920</a></td>
-    <td><strong>GDCVault: restored basic downloading</strong></td>
-     <td><a href="https://github.com/opensiriusfox" alt="None"><img src="https://github.com/opensiriusfox.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>opensiriusfox</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15920" alt="None">15920</a></td>
-    <td><strong>GDCVault: restored basic downloading</strong></td>
-     <td><a href="https://github.com/opensiriusfox" alt="None"><img src="https://github.com/opensiriusfox.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>opensiriusfox</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15920" alt="None">15920</a></td>
-    <td><strong>GDCVault: restored basic downloading</strong></td>
-     <td><a href="https://github.com/opensiriusfox" alt="None"><img src="https://github.com/opensiriusfox.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>opensiriusfox</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15920" alt="None">15920</a></td>
-    <td><strong>GDCVault: restored basic downloading</strong></td>
-     <td><a href="https://github.com/opensiriusfox" alt="None"><img src="https://github.com/opensiriusfox.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>opensiriusfox</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15913" alt="None">15913</a></td>
-    <td><strong>[ie/descript] Add extractor</strong></td>
-     <td><a href="https://github.com/dorddis" alt="None"><img src="https://github.com/dorddis.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dorddis</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15913" alt="None">15913</a></td>
-    <td><strong>[ie/descript] Add extractor</strong></td>
-     <td><a href="https://github.com/dorddis" alt="None"><img src="https://github.com/dorddis.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dorddis</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15913" alt="None">15913</a></td>
-    <td><strong>[ie/descript] Add extractor</strong></td>
-     <td><a href="https://github.com/dorddis" alt="None"><img src="https://github.com/dorddis.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dorddis</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15913" alt="None">15913</a></td>
-    <td><strong>[ie/descript] Add extractor</strong></td>
-     <td><a href="https://github.com/dorddis" alt="None"><img src="https://github.com/dorddis.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dorddis</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15913" alt="None">15913</a></td>
-    <td><strong>[ie/descript] Add extractor</strong></td>
-     <td><a href="https://github.com/dorddis" alt="None"><img src="https://github.com/dorddis.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>dorddis</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15894" alt="None">15894</a></td>
-    <td><strong>Add elementor extractor for data-elementor-lightbox</strong></td>
-     <td><a href="https://github.com/swenson" alt="None"><img src="https://github.com/swenson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>swenson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15894" alt="None">15894</a></td>
-    <td><strong>Add elementor extractor for data-elementor-lightbox</strong></td>
-     <td><a href="https://github.com/swenson" alt="None"><img src="https://github.com/swenson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>swenson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15894" alt="None">15894</a></td>
-    <td><strong>Add elementor extractor for data-elementor-lightbox</strong></td>
-     <td><a href="https://github.com/swenson" alt="None"><img src="https://github.com/swenson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>swenson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15894" alt="None">15894</a></td>
-    <td><strong>Add elementor extractor for data-elementor-lightbox</strong></td>
-     <td><a href="https://github.com/swenson" alt="None"><img src="https://github.com/swenson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>swenson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15894" alt="None">15894</a></td>
-    <td><strong>Add elementor extractor for data-elementor-lightbox</strong></td>
-     <td><a href="https://github.com/swenson" alt="None"><img src="https://github.com/swenson.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>swenson</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15838" alt="None">15838</a></td>
-    <td><strong>[ie/mdetv] New extractor for mde.tv</strong></td>
-     <td><a href="https://github.com/regulad" alt="None"><img src="https://github.com/regulad.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>regulad</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15838" alt="None">15838</a></td>
-    <td><strong>[ie/mdetv] New extractor for mde.tv</strong></td>
-     <td><a href="https://github.com/regulad" alt="None"><img src="https://github.com/regulad.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>regulad</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15838" alt="None">15838</a></td>
-    <td><strong>[ie/mdetv] New extractor for mde.tv</strong></td>
-     <td><a href="https://github.com/regulad" alt="None"><img src="https://github.com/regulad.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>regulad</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15838" alt="None">15838</a></td>
-    <td><strong>[ie/mdetv] New extractor for mde.tv</strong></td>
-     <td><a href="https://github.com/regulad" alt="None"><img src="https://github.com/regulad.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>regulad</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15838" alt="None">15838</a></td>
-    <td><strong>[ie/mdetv] New extractor for mde.tv</strong></td>
-     <td><a href="https://github.com/regulad" alt="None"><img src="https://github.com/regulad.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>regulad</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15820" alt="None">15820</a></td>
-    <td><strong>[TikTok]: add `is_story` field to extracted metadata</strong></td>
-     <td><a href="https://github.com/Nedrozak" alt="None"><img src="https://github.com/Nedrozak.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Nedrozak</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15820" alt="None">15820</a></td>
-    <td><strong>[TikTok]: add `is_story` field to extracted metadata</strong></td>
-     <td><a href="https://github.com/Nedrozak" alt="None"><img src="https://github.com/Nedrozak.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Nedrozak</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15820" alt="None">15820</a></td>
-    <td><strong>[TikTok]: add `is_story` field to extracted metadata</strong></td>
-     <td><a href="https://github.com/Nedrozak" alt="None"><img src="https://github.com/Nedrozak.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Nedrozak</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15820" alt="None">15820</a></td>
-    <td><strong>[TikTok]: add `is_story` field to extracted metadata</strong></td>
-     <td><a href="https://github.com/Nedrozak" alt="None"><img src="https://github.com/Nedrozak.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Nedrozak</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15820" alt="None">15820</a></td>
-    <td><strong>[TikTok]: add `is_story` field to extracted metadata</strong></td>
-     <td><a href="https://github.com/Nedrozak" alt="None"><img src="https://github.com/Nedrozak.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Nedrozak</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15805" alt="None">15805</a></td>
-    <td><strong>[ie/pornhub] Add heatmap support for PornHub</strong></td>
-     <td><a href="https://github.com/gendisp0" alt="None"><img src="https://github.com/gendisp0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>gendisp0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15805" alt="None">15805</a></td>
-    <td><strong>[ie/pornhub] Add heatmap support for PornHub</strong></td>
-     <td><a href="https://github.com/gendisp0" alt="None"><img src="https://github.com/gendisp0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>gendisp0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15805" alt="None">15805</a></td>
-    <td><strong>[ie/pornhub] Add heatmap support for PornHub</strong></td>
-     <td><a href="https://github.com/gendisp0" alt="None"><img src="https://github.com/gendisp0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>gendisp0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15805" alt="None">15805</a></td>
-    <td><strong>[ie/pornhub] Add heatmap support for PornHub</strong></td>
-     <td><a href="https://github.com/gendisp0" alt="None"><img src="https://github.com/gendisp0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>gendisp0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15805" alt="None">15805</a></td>
-    <td><strong>[ie/pornhub] Add heatmap support for PornHub</strong></td>
-     <td><a href="https://github.com/gendisp0" alt="None"><img src="https://github.com/gendisp0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>gendisp0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15792" alt="None">15792</a></td>
-    <td><strong>[Boxcast] Fix BoxCast extractor false negatives when playlist is present</strong></td>
-     <td><a href="https://github.com/Prem-K-Gupta" alt="None"><img src="https://github.com/Prem-K-Gupta.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Prem-K-Gupta</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15792" alt="None">15792</a></td>
-    <td><strong>[Boxcast] Fix BoxCast extractor false negatives when playlist is present</strong></td>
-     <td><a href="https://github.com/Prem-K-Gupta" alt="None"><img src="https://github.com/Prem-K-Gupta.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Prem-K-Gupta</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15792" alt="None">15792</a></td>
-    <td><strong>[Boxcast] Fix BoxCast extractor false negatives when playlist is present</strong></td>
-     <td><a href="https://github.com/Prem-K-Gupta" alt="None"><img src="https://github.com/Prem-K-Gupta.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Prem-K-Gupta</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15792" alt="None">15792</a></td>
-    <td><strong>[Boxcast] Fix BoxCast extractor false negatives when playlist is present</strong></td>
-     <td><a href="https://github.com/Prem-K-Gupta" alt="None"><img src="https://github.com/Prem-K-Gupta.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Prem-K-Gupta</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15792" alt="None">15792</a></td>
-    <td><strong>[Boxcast] Fix BoxCast extractor false negatives when playlist is present</strong></td>
-     <td><a href="https://github.com/Prem-K-Gupta" alt="None"><img src="https://github.com/Prem-K-Gupta.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Prem-K-Gupta</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15781" alt="None">15781</a></td>
-    <td><strong>Extract chapter data from jw player</strong></td>
-     <td><a href="https://github.com/Jack-Sibley" alt="None"><img src="https://github.com/Jack-Sibley.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Jack-Sibley</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15781" alt="None">15781</a></td>
-    <td><strong>Extract chapter data from jw player</strong></td>
-     <td><a href="https://github.com/Jack-Sibley" alt="None"><img src="https://github.com/Jack-Sibley.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Jack-Sibley</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15781" alt="None">15781</a></td>
-    <td><strong>Extract chapter data from jw player</strong></td>
-     <td><a href="https://github.com/Jack-Sibley" alt="None"><img src="https://github.com/Jack-Sibley.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Jack-Sibley</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15781" alt="None">15781</a></td>
-    <td><strong>Extract chapter data from jw player</strong></td>
-     <td><a href="https://github.com/Jack-Sibley" alt="None"><img src="https://github.com/Jack-Sibley.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Jack-Sibley</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15781" alt="None">15781</a></td>
-    <td><strong>Extract chapter data from jw player</strong></td>
-     <td><a href="https://github.com/Jack-Sibley" alt="None"><img src="https://github.com/Jack-Sibley.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Jack-Sibley</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15778" alt="None">15778</a></td>
-    <td><strong>[downloader/common] Fix missing newline on download crash</strong></td>
-     <td><a href="https://github.com/Noushad-web" alt="None"><img src="https://github.com/Noushad-web.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Noushad-web</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/core:downloader-5935E5"><br>
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15778" alt="None">15778</a></td>
-    <td><strong>[downloader/common] Fix missing newline on download crash</strong></td>
-     <td><a href="https://github.com/Noushad-web" alt="None"><img src="https://github.com/Noushad-web.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Noushad-web</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/core:downloader-5935E5"><br>
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15778" alt="None">15778</a></td>
-    <td><strong>[downloader/common] Fix missing newline on download crash</strong></td>
-     <td><a href="https://github.com/Noushad-web" alt="None"><img src="https://github.com/Noushad-web.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Noushad-web</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/core:downloader-5935E5"><br>
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15778" alt="None">15778</a></td>
-    <td><strong>[downloader/common] Fix missing newline on download crash</strong></td>
-     <td><a href="https://github.com/Noushad-web" alt="None"><img src="https://github.com/Noushad-web.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Noushad-web</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/core:downloader-5935E5"><br>
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15778" alt="None">15778</a></td>
-    <td><strong>[downloader/common] Fix missing newline on download crash</strong></td>
-     <td><a href="https://github.com/Noushad-web" alt="None"><img src="https://github.com/Noushad-web.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Noushad-web</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/core:downloader-5935E5"><br>
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15766" alt="None">15766</a></td>
-    <td><strong>[mediaklikk] Fix for subtitles are not supported and wrong display_id detected</strong></td>
-     <td><a href="https://github.com/py-snake" alt="None"><img src="https://github.com/py-snake.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>py-snake</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15766" alt="None">15766</a></td>
-    <td><strong>[mediaklikk] Fix for subtitles are not supported and wrong display_id detected</strong></td>
-     <td><a href="https://github.com/py-snake" alt="None"><img src="https://github.com/py-snake.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>py-snake</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15766" alt="None">15766</a></td>
-    <td><strong>[mediaklikk] Fix for subtitles are not supported and wrong display_id detected</strong></td>
-     <td><a href="https://github.com/py-snake" alt="None"><img src="https://github.com/py-snake.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>py-snake</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15766" alt="None">15766</a></td>
-    <td><strong>[mediaklikk] Fix for subtitles are not supported and wrong display_id detected</strong></td>
-     <td><a href="https://github.com/py-snake" alt="None"><img src="https://github.com/py-snake.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>py-snake</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15766" alt="None">15766</a></td>
-    <td><strong>[mediaklikk] Fix for subtitles are not supported and wrong display_id detected</strong></td>
-     <td><a href="https://github.com/py-snake" alt="None"><img src="https://github.com/py-snake.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>py-snake</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15759" alt="None">15759</a></td>
-    <td><strong>[ie/dailywire] Updating DailyWire extractor to match current website design</strong></td>
-     <td><a href="https://github.com/rolobio" alt="None"><img src="https://github.com/rolobio.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rolobio</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15759" alt="None">15759</a></td>
-    <td><strong>[ie/dailywire] Updating DailyWire extractor to match current website design</strong></td>
-     <td><a href="https://github.com/rolobio" alt="None"><img src="https://github.com/rolobio.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rolobio</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15759" alt="None">15759</a></td>
-    <td><strong>[ie/dailywire] Updating DailyWire extractor to match current website design</strong></td>
-     <td><a href="https://github.com/rolobio" alt="None"><img src="https://github.com/rolobio.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rolobio</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15759" alt="None">15759</a></td>
-    <td><strong>[ie/dailywire] Updating DailyWire extractor to match current website design</strong></td>
-     <td><a href="https://github.com/rolobio" alt="None"><img src="https://github.com/rolobio.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rolobio</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15759" alt="None">15759</a></td>
-    <td><strong>[ie/dailywire] Updating DailyWire extractor to match current website design</strong></td>
-     <td><a href="https://github.com/rolobio" alt="None"><img src="https://github.com/rolobio.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rolobio</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15680" alt="None">15680</a></td>
-    <td><strong>[ie/plurk.com] Add extractor</strong></td>
-     <td><a href="https://github.com/akamayu-ouo" alt="None"><img src="https://github.com/akamayu-ouo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>akamayu-ouo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15680" alt="None">15680</a></td>
-    <td><strong>[ie/plurk.com] Add extractor</strong></td>
-     <td><a href="https://github.com/akamayu-ouo" alt="None"><img src="https://github.com/akamayu-ouo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>akamayu-ouo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15680" alt="None">15680</a></td>
-    <td><strong>[ie/plurk.com] Add extractor</strong></td>
-     <td><a href="https://github.com/akamayu-ouo" alt="None"><img src="https://github.com/akamayu-ouo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>akamayu-ouo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15680" alt="None">15680</a></td>
-    <td><strong>[ie/plurk.com] Add extractor</strong></td>
-     <td><a href="https://github.com/akamayu-ouo" alt="None"><img src="https://github.com/akamayu-ouo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>akamayu-ouo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15680" alt="None">15680</a></td>
-    <td><strong>[ie/plurk.com] Add extractor</strong></td>
-     <td><a href="https://github.com/akamayu-ouo" alt="None"><img src="https://github.com/akamayu-ouo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>akamayu-ouo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15612" alt="None">15612</a></td>
-    <td><strong>MoveFiles: fix cross-device move when temp dir is on tmpfs</strong></td>
-     <td><a href="https://github.com/Saurav1233444" alt="None"><img src="https://github.com/Saurav1233444.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Saurav1233444</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15612" alt="None">15612</a></td>
-    <td><strong>MoveFiles: fix cross-device move when temp dir is on tmpfs</strong></td>
-     <td><a href="https://github.com/Saurav1233444" alt="None"><img src="https://github.com/Saurav1233444.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Saurav1233444</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15612" alt="None">15612</a></td>
-    <td><strong>MoveFiles: fix cross-device move when temp dir is on tmpfs</strong></td>
-     <td><a href="https://github.com/Saurav1233444" alt="None"><img src="https://github.com/Saurav1233444.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Saurav1233444</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15612" alt="None">15612</a></td>
-    <td><strong>MoveFiles: fix cross-device move when temp dir is on tmpfs</strong></td>
-     <td><a href="https://github.com/Saurav1233444" alt="None"><img src="https://github.com/Saurav1233444.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Saurav1233444</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15612" alt="None">15612</a></td>
-    <td><strong>MoveFiles: fix cross-device move when temp dir is on tmpfs</strong></td>
-     <td><a href="https://github.com/Saurav1233444" alt="None"><img src="https://github.com/Saurav1233444.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Saurav1233444</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15610" alt="None">15610</a></td>
-    <td><strong>fix: Enhance cookie detection for Firefox in Flatpak</strong></td>
-     <td><a href="https://github.com/nlogozzo" alt="None"><img src="https://github.com/nlogozzo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nlogozzo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15610" alt="None">15610</a></td>
-    <td><strong>fix: Enhance cookie detection for Firefox in Flatpak</strong></td>
-     <td><a href="https://github.com/nlogozzo" alt="None"><img src="https://github.com/nlogozzo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nlogozzo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15610" alt="None">15610</a></td>
-    <td><strong>fix: Enhance cookie detection for Firefox in Flatpak</strong></td>
-     <td><a href="https://github.com/nlogozzo" alt="None"><img src="https://github.com/nlogozzo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nlogozzo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15610" alt="None">15610</a></td>
-    <td><strong>fix: Enhance cookie detection for Firefox in Flatpak</strong></td>
-     <td><a href="https://github.com/nlogozzo" alt="None"><img src="https://github.com/nlogozzo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nlogozzo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15610" alt="None">15610</a></td>
-    <td><strong>fix: Enhance cookie detection for Firefox in Flatpak</strong></td>
-     <td><a href="https://github.com/nlogozzo" alt="None"><img src="https://github.com/nlogozzo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nlogozzo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15537" alt="None">15537</a></td>
-    <td><strong>Adjust QQMusic extractor to support `/ryqq_v2/` URLs.</strong></td>
-     <td><a href="https://github.com/Windows81" alt="None"><img src="https://github.com/Windows81.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Windows81</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15537" alt="None">15537</a></td>
-    <td><strong>Adjust QQMusic extractor to support `/ryqq_v2/` URLs.</strong></td>
-     <td><a href="https://github.com/Windows81" alt="None"><img src="https://github.com/Windows81.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Windows81</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15537" alt="None">15537</a></td>
-    <td><strong>Adjust QQMusic extractor to support `/ryqq_v2/` URLs.</strong></td>
-     <td><a href="https://github.com/Windows81" alt="None"><img src="https://github.com/Windows81.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Windows81</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15537" alt="None">15537</a></td>
-    <td><strong>Adjust QQMusic extractor to support `/ryqq_v2/` URLs.</strong></td>
-     <td><a href="https://github.com/Windows81" alt="None"><img src="https://github.com/Windows81.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Windows81</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15537" alt="None">15537</a></td>
-    <td><strong>Adjust QQMusic extractor to support `/ryqq_v2/` URLs.</strong></td>
-     <td><a href="https://github.com/Windows81" alt="None"><img src="https://github.com/Windows81.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Windows81</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15525" alt="None">15525</a></td>
-    <td><strong>[ie/drtv] Change release timestamp field to AvailableFrom</strong></td>
-     <td><a href="https://github.com/andersgb1" alt="None"><img src="https://github.com/andersgb1.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>andersgb1</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15525" alt="None">15525</a></td>
-    <td><strong>[ie/drtv] Change release timestamp field to AvailableFrom</strong></td>
-     <td><a href="https://github.com/andersgb1" alt="None"><img src="https://github.com/andersgb1.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>andersgb1</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15525" alt="None">15525</a></td>
-    <td><strong>[ie/drtv] Change release timestamp field to AvailableFrom</strong></td>
-     <td><a href="https://github.com/andersgb1" alt="None"><img src="https://github.com/andersgb1.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>andersgb1</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15525" alt="None">15525</a></td>
-    <td><strong>[ie/drtv] Change release timestamp field to AvailableFrom</strong></td>
-     <td><a href="https://github.com/andersgb1" alt="None"><img src="https://github.com/andersgb1.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>andersgb1</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15525" alt="None">15525</a></td>
-    <td><strong>[ie/drtv] Change release timestamp field to AvailableFrom</strong></td>
-     <td><a href="https://github.com/andersgb1" alt="None"><img src="https://github.com/andersgb1.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>andersgb1</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15490" alt="None">15490</a></td>
-    <td><strong>[skai.gr] Add extractor</strong></td>
-     <td><a href="https://github.com/glogiotatidis" alt="None"><img src="https://github.com/glogiotatidis.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>glogiotatidis</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15490" alt="None">15490</a></td>
-    <td><strong>[skai.gr] Add extractor</strong></td>
-     <td><a href="https://github.com/glogiotatidis" alt="None"><img src="https://github.com/glogiotatidis.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>glogiotatidis</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15490" alt="None">15490</a></td>
-    <td><strong>[skai.gr] Add extractor</strong></td>
-     <td><a href="https://github.com/glogiotatidis" alt="None"><img src="https://github.com/glogiotatidis.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>glogiotatidis</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15490" alt="None">15490</a></td>
-    <td><strong>[skai.gr] Add extractor</strong></td>
-     <td><a href="https://github.com/glogiotatidis" alt="None"><img src="https://github.com/glogiotatidis.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>glogiotatidis</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15490" alt="None">15490</a></td>
-    <td><strong>[skai.gr] Add extractor</strong></td>
-     <td><a href="https://github.com/glogiotatidis" alt="None"><img src="https://github.com/glogiotatidis.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>glogiotatidis</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15427" alt="None">15427</a></td>
-    <td><strong>[yandexmusic] Fix connection timeouts by using HTTPS for all requests</strong></td>
-     <td><a href="https://github.com/mnnoee" alt="None"><img src="https://github.com/mnnoee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mnnoee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15427" alt="None">15427</a></td>
-    <td><strong>[yandexmusic] Fix connection timeouts by using HTTPS for all requests</strong></td>
-     <td><a href="https://github.com/mnnoee" alt="None"><img src="https://github.com/mnnoee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mnnoee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15427" alt="None">15427</a></td>
-    <td><strong>[yandexmusic] Fix connection timeouts by using HTTPS for all requests</strong></td>
-     <td><a href="https://github.com/mnnoee" alt="None"><img src="https://github.com/mnnoee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mnnoee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15427" alt="None">15427</a></td>
-    <td><strong>[yandexmusic] Fix connection timeouts by using HTTPS for all requests</strong></td>
-     <td><a href="https://github.com/mnnoee" alt="None"><img src="https://github.com/mnnoee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mnnoee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15427" alt="None">15427</a></td>
-    <td><strong>[yandexmusic] Fix connection timeouts by using HTTPS for all requests</strong></td>
-     <td><a href="https://github.com/mnnoee" alt="None"><img src="https://github.com/mnnoee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mnnoee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15416" alt="None">15416</a></td>
-    <td><strong>ceskaTelevize: calling new endpoint</strong></td>
-     <td><a href="https://github.com/rainbof" alt="None"><img src="https://github.com/rainbof.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rainbof</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15416" alt="None">15416</a></td>
-    <td><strong>ceskaTelevize: calling new endpoint</strong></td>
-     <td><a href="https://github.com/rainbof" alt="None"><img src="https://github.com/rainbof.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rainbof</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15416" alt="None">15416</a></td>
-    <td><strong>ceskaTelevize: calling new endpoint</strong></td>
-     <td><a href="https://github.com/rainbof" alt="None"><img src="https://github.com/rainbof.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rainbof</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15416" alt="None">15416</a></td>
-    <td><strong>ceskaTelevize: calling new endpoint</strong></td>
-     <td><a href="https://github.com/rainbof" alt="None"><img src="https://github.com/rainbof.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rainbof</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15416" alt="None">15416</a></td>
-    <td><strong>ceskaTelevize: calling new endpoint</strong></td>
-     <td><a href="https://github.com/rainbof" alt="None"><img src="https://github.com/rainbof.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>rainbof</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15404" alt="None">15404</a></td>
-    <td><strong>[ie/boundhub] Add extractor</strong></td>
-     <td><a href="https://github.com/hrgitb" alt="None"><img src="https://github.com/hrgitb.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>hrgitb</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15404" alt="None">15404</a></td>
-    <td><strong>[ie/boundhub] Add extractor</strong></td>
-     <td><a href="https://github.com/hrgitb" alt="None"><img src="https://github.com/hrgitb.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>hrgitb</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15404" alt="None">15404</a></td>
-    <td><strong>[ie/boundhub] Add extractor</strong></td>
-     <td><a href="https://github.com/hrgitb" alt="None"><img src="https://github.com/hrgitb.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>hrgitb</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15404" alt="None">15404</a></td>
-    <td><strong>[ie/boundhub] Add extractor</strong></td>
-     <td><a href="https://github.com/hrgitb" alt="None"><img src="https://github.com/hrgitb.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>hrgitb</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15404" alt="None">15404</a></td>
-    <td><strong>[ie/boundhub] Add extractor</strong></td>
-     <td><a href="https://github.com/hrgitb" alt="None"><img src="https://github.com/hrgitb.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>hrgitb</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15260" alt="None">15260</a></td>
-    <td><strong>Put default languages first when embedding subtitles</strong></td>
-     <td><a href="https://github.com/DeadLockStarve" alt="None"><img src="https://github.com/DeadLockStarve.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DeadLockStarve</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15260" alt="None">15260</a></td>
-    <td><strong>Put default languages first when embedding subtitles</strong></td>
-     <td><a href="https://github.com/DeadLockStarve" alt="None"><img src="https://github.com/DeadLockStarve.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DeadLockStarve</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15260" alt="None">15260</a></td>
-    <td><strong>Put default languages first when embedding subtitles</strong></td>
-     <td><a href="https://github.com/DeadLockStarve" alt="None"><img src="https://github.com/DeadLockStarve.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DeadLockStarve</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15260" alt="None">15260</a></td>
-    <td><strong>Put default languages first when embedding subtitles</strong></td>
-     <td><a href="https://github.com/DeadLockStarve" alt="None"><img src="https://github.com/DeadLockStarve.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DeadLockStarve</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15260" alt="None">15260</a></td>
-    <td><strong>Put default languages first when embedding subtitles</strong></td>
-     <td><a href="https://github.com/DeadLockStarve" alt="None"><img src="https://github.com/DeadLockStarve.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DeadLockStarve</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15246" alt="None">15246</a></td>
-    <td><strong>Add Yandex Telemost extractor</strong></td>
-     <td><a href="https://github.com/tunaflsh" alt="None"><img src="https://github.com/tunaflsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tunaflsh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15246" alt="None">15246</a></td>
-    <td><strong>Add Yandex Telemost extractor</strong></td>
-     <td><a href="https://github.com/tunaflsh" alt="None"><img src="https://github.com/tunaflsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tunaflsh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15246" alt="None">15246</a></td>
-    <td><strong>Add Yandex Telemost extractor</strong></td>
-     <td><a href="https://github.com/tunaflsh" alt="None"><img src="https://github.com/tunaflsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tunaflsh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15246" alt="None">15246</a></td>
-    <td><strong>Add Yandex Telemost extractor</strong></td>
-     <td><a href="https://github.com/tunaflsh" alt="None"><img src="https://github.com/tunaflsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tunaflsh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15246" alt="None">15246</a></td>
-    <td><strong>Add Yandex Telemost extractor</strong></td>
-     <td><a href="https://github.com/tunaflsh" alt="None"><img src="https://github.com/tunaflsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tunaflsh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15187" alt="None">15187</a></td>
-    <td><strong>[ie/youtube] Add support for ListenOnRepeat URLs</strong></td>
-     <td><a href="https://github.com/mquin40440" alt="None"><img src="https://github.com/mquin40440.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mquin40440</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15187" alt="None">15187</a></td>
-    <td><strong>[ie/youtube] Add support for ListenOnRepeat URLs</strong></td>
-     <td><a href="https://github.com/mquin40440" alt="None"><img src="https://github.com/mquin40440.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mquin40440</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15187" alt="None">15187</a></td>
-    <td><strong>[ie/youtube] Add support for ListenOnRepeat URLs</strong></td>
-     <td><a href="https://github.com/mquin40440" alt="None"><img src="https://github.com/mquin40440.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mquin40440</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15187" alt="None">15187</a></td>
-    <td><strong>[ie/youtube] Add support for ListenOnRepeat URLs</strong></td>
-     <td><a href="https://github.com/mquin40440" alt="None"><img src="https://github.com/mquin40440.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mquin40440</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15187" alt="None">15187</a></td>
-    <td><strong>[ie/youtube] Add support for ListenOnRepeat URLs</strong></td>
-     <td><a href="https://github.com/mquin40440" alt="None"><img src="https://github.com/mquin40440.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mquin40440</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15186" alt="None">15186</a></td>
-    <td><strong>[ie/youtube] Allow empty last fragment YouTube and add --allow-empty-fragments option</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15186" alt="None">15186</a></td>
-    <td><strong>[ie/youtube] Allow empty last fragment YouTube and add --allow-empty-fragments option</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15186" alt="None">15186</a></td>
-    <td><strong>[ie/youtube] Allow empty last fragment YouTube and add --allow-empty-fragments option</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15186" alt="None">15186</a></td>
-    <td><strong>[ie/youtube] Allow empty last fragment YouTube and add --allow-empty-fragments option</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15186" alt="None">15186</a></td>
-    <td><strong>[ie/youtube] Allow empty last fragment YouTube and add --allow-empty-fragments option</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15174" alt="None">15174</a></td>
-    <td><strong>[ie/Forendors] Add extractor</strong></td>
-     <td><a href="https://github.com/scrool" alt="None"><img src="https://github.com/scrool.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>scrool</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15174" alt="None">15174</a></td>
-    <td><strong>[ie/Forendors] Add extractor</strong></td>
-     <td><a href="https://github.com/scrool" alt="None"><img src="https://github.com/scrool.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>scrool</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15174" alt="None">15174</a></td>
-    <td><strong>[ie/Forendors] Add extractor</strong></td>
-     <td><a href="https://github.com/scrool" alt="None"><img src="https://github.com/scrool.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>scrool</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15174" alt="None">15174</a></td>
-    <td><strong>[ie/Forendors] Add extractor</strong></td>
-     <td><a href="https://github.com/scrool" alt="None"><img src="https://github.com/scrool.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>scrool</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15174" alt="None">15174</a></td>
-    <td><strong>[ie/Forendors] Add extractor</strong></td>
-     <td><a href="https://github.com/scrool" alt="None"><img src="https://github.com/scrool.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>scrool</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15075" alt="None">15075</a></td>
-    <td><strong>Implement playlist handling for ERRJupiterIE sites</strong></td>
-     <td><a href="https://github.com/plaes" alt="None"><img src="https://github.com/plaes.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>plaes</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15075" alt="None">15075</a></td>
-    <td><strong>Implement playlist handling for ERRJupiterIE sites</strong></td>
-     <td><a href="https://github.com/plaes" alt="None"><img src="https://github.com/plaes.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>plaes</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15075" alt="None">15075</a></td>
-    <td><strong>Implement playlist handling for ERRJupiterIE sites</strong></td>
-     <td><a href="https://github.com/plaes" alt="None"><img src="https://github.com/plaes.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>plaes</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15075" alt="None">15075</a></td>
-    <td><strong>Implement playlist handling for ERRJupiterIE sites</strong></td>
-     <td><a href="https://github.com/plaes" alt="None"><img src="https://github.com/plaes.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>plaes</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15075" alt="None">15075</a></td>
-    <td><strong>Implement playlist handling for ERRJupiterIE sites</strong></td>
-     <td><a href="https://github.com/plaes" alt="None"><img src="https://github.com/plaes.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>plaes</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15060" alt="None">15060</a></td>
-    <td><strong>[ie/BiliBili] Fix festival URL redirect</strong></td>
-     <td><a href="https://github.com/mmaker-gh" alt="None"><img src="https://github.com/mmaker-gh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mmaker-gh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15060" alt="None">15060</a></td>
-    <td><strong>[ie/BiliBili] Fix festival URL redirect</strong></td>
-     <td><a href="https://github.com/mmaker-gh" alt="None"><img src="https://github.com/mmaker-gh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mmaker-gh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15060" alt="None">15060</a></td>
-    <td><strong>[ie/BiliBili] Fix festival URL redirect</strong></td>
-     <td><a href="https://github.com/mmaker-gh" alt="None"><img src="https://github.com/mmaker-gh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mmaker-gh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15060" alt="None">15060</a></td>
-    <td><strong>[ie/BiliBili] Fix festival URL redirect</strong></td>
-     <td><a href="https://github.com/mmaker-gh" alt="None"><img src="https://github.com/mmaker-gh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mmaker-gh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15060" alt="None">15060</a></td>
-    <td><strong>[ie/BiliBili] Fix festival URL redirect</strong></td>
-     <td><a href="https://github.com/mmaker-gh" alt="None"><img src="https://github.com/mmaker-gh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mmaker-gh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15055" alt="None">15055</a></td>
-    <td><strong>Improved Bash completions</strong></td>
-     <td><a href="https://github.com/nihil-admirari" alt="None"><img src="https://github.com/nihil-admirari.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nihil-admirari</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15055" alt="None">15055</a></td>
-    <td><strong>Improved Bash completions</strong></td>
-     <td><a href="https://github.com/nihil-admirari" alt="None"><img src="https://github.com/nihil-admirari.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nihil-admirari</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15055" alt="None">15055</a></td>
-    <td><strong>Improved Bash completions</strong></td>
-     <td><a href="https://github.com/nihil-admirari" alt="None"><img src="https://github.com/nihil-admirari.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nihil-admirari</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15055" alt="None">15055</a></td>
-    <td><strong>Improved Bash completions</strong></td>
-     <td><a href="https://github.com/nihil-admirari" alt="None"><img src="https://github.com/nihil-admirari.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nihil-admirari</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15055" alt="None">15055</a></td>
-    <td><strong>Improved Bash completions</strong></td>
-     <td><a href="https://github.com/nihil-admirari" alt="None"><img src="https://github.com/nihil-admirari.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nihil-admirari</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15041" alt="None">15041</a></td>
-    <td><strong>[ie/youtube] Add JavaScriptCore JS runtime</strong></td>
-     <td><a href="https://github.com/TellowKrinkle" alt="None"><img src="https://github.com/TellowKrinkle.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TellowKrinkle</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15041" alt="None">15041</a></td>
-    <td><strong>[ie/youtube] Add JavaScriptCore JS runtime</strong></td>
-     <td><a href="https://github.com/TellowKrinkle" alt="None"><img src="https://github.com/TellowKrinkle.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TellowKrinkle</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15041" alt="None">15041</a></td>
-    <td><strong>[ie/youtube] Add JavaScriptCore JS runtime</strong></td>
-     <td><a href="https://github.com/TellowKrinkle" alt="None"><img src="https://github.com/TellowKrinkle.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TellowKrinkle</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15041" alt="None">15041</a></td>
-    <td><strong>[ie/youtube] Add JavaScriptCore JS runtime</strong></td>
-     <td><a href="https://github.com/TellowKrinkle" alt="None"><img src="https://github.com/TellowKrinkle.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TellowKrinkle</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15041" alt="None">15041</a></td>
-    <td><strong>[ie/youtube] Add JavaScriptCore JS runtime</strong></td>
-     <td><a href="https://github.com/TellowKrinkle" alt="None"><img src="https://github.com/TellowKrinkle.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TellowKrinkle</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14834" alt="None">14834</a></td>
-    <td><strong>[Merger] Skip duplicate formats</strong></td>
-     <td><a href="https://github.com/TheDcoder" alt="None"><img src="https://github.com/TheDcoder.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TheDcoder</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14834" alt="None">14834</a></td>
-    <td><strong>[Merger] Skip duplicate formats</strong></td>
-     <td><a href="https://github.com/TheDcoder" alt="None"><img src="https://github.com/TheDcoder.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TheDcoder</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14834" alt="None">14834</a></td>
-    <td><strong>[Merger] Skip duplicate formats</strong></td>
-     <td><a href="https://github.com/TheDcoder" alt="None"><img src="https://github.com/TheDcoder.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TheDcoder</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14834" alt="None">14834</a></td>
-    <td><strong>[Merger] Skip duplicate formats</strong></td>
-     <td><a href="https://github.com/TheDcoder" alt="None"><img src="https://github.com/TheDcoder.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TheDcoder</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14834" alt="None">14834</a></td>
-    <td><strong>[Merger] Skip duplicate formats</strong></td>
-     <td><a href="https://github.com/TheDcoder" alt="None"><img src="https://github.com/TheDcoder.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TheDcoder</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14547" alt="None">14547</a></td>
-    <td><strong>[utils] Cleanup docstring formatting and correct a couple comment typos</strong></td>
-     <td><a href="https://github.com/einstein95" alt="None"><img src="https://github.com/einstein95.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>einstein95</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14547" alt="None">14547</a></td>
-    <td><strong>[utils] Cleanup docstring formatting and correct a couple comment typos</strong></td>
-     <td><a href="https://github.com/einstein95" alt="None"><img src="https://github.com/einstein95.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>einstein95</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14547" alt="None">14547</a></td>
-    <td><strong>[utils] Cleanup docstring formatting and correct a couple comment typos</strong></td>
-     <td><a href="https://github.com/einstein95" alt="None"><img src="https://github.com/einstein95.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>einstein95</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14547" alt="None">14547</a></td>
-    <td><strong>[utils] Cleanup docstring formatting and correct a couple comment typos</strong></td>
-     <td><a href="https://github.com/einstein95" alt="None"><img src="https://github.com/einstein95.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>einstein95</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14547" alt="None">14547</a></td>
-    <td><strong>[utils] Cleanup docstring formatting and correct a couple comment typos</strong></td>
-     <td><a href="https://github.com/einstein95" alt="None"><img src="https://github.com/einstein95.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>einstein95</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14544" alt="None">14544</a></td>
-    <td><strong>Introduce allow_redirects flag to control redirect behaviour of requests</strong></td>
-     <td><a href="https://github.com/cynthia2006" alt="None"><img src="https://github.com/cynthia2006.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>cynthia2006</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:networking-0E3FDD">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14544" alt="None">14544</a></td>
-    <td><strong>Introduce allow_redirects flag to control redirect behaviour of requests</strong></td>
-     <td><a href="https://github.com/cynthia2006" alt="None"><img src="https://github.com/cynthia2006.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>cynthia2006</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:networking-0E3FDD">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14544" alt="None">14544</a></td>
-    <td><strong>Introduce allow_redirects flag to control redirect behaviour of requests</strong></td>
-     <td><a href="https://github.com/cynthia2006" alt="None"><img src="https://github.com/cynthia2006.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>cynthia2006</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:networking-0E3FDD">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14544" alt="None">14544</a></td>
-    <td><strong>Introduce allow_redirects flag to control redirect behaviour of requests</strong></td>
-     <td><a href="https://github.com/cynthia2006" alt="None"><img src="https://github.com/cynthia2006.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>cynthia2006</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:networking-0E3FDD">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14544" alt="None">14544</a></td>
-    <td><strong>Introduce allow_redirects flag to control redirect behaviour of requests</strong></td>
-     <td><a href="https://github.com/cynthia2006" alt="None"><img src="https://github.com/cynthia2006.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>cynthia2006</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:networking-0E3FDD">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14340" alt="None">14340</a></td>
-    <td><strong>Add an example to README.md on how to trim the title in order to shorten the filename</strong></td>
-     <td><a href="https://github.com/Gregaras" alt="None"><img src="https://github.com/Gregaras.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Gregaras</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14340" alt="None">14340</a></td>
-    <td><strong>Add an example to README.md on how to trim the title in order to shorten the filename</strong></td>
-     <td><a href="https://github.com/Gregaras" alt="None"><img src="https://github.com/Gregaras.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Gregaras</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14340" alt="None">14340</a></td>
-    <td><strong>Add an example to README.md on how to trim the title in order to shorten the filename</strong></td>
-     <td><a href="https://github.com/Gregaras" alt="None"><img src="https://github.com/Gregaras.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Gregaras</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14340" alt="None">14340</a></td>
-    <td><strong>Add an example to README.md on how to trim the title in order to shorten the filename</strong></td>
-     <td><a href="https://github.com/Gregaras" alt="None"><img src="https://github.com/Gregaras.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Gregaras</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14340" alt="None">14340</a></td>
-    <td><strong>Add an example to README.md on how to trim the title in order to shorten the filename</strong></td>
-     <td><a href="https://github.com/Gregaras" alt="None"><img src="https://github.com/Gregaras.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Gregaras</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14209" alt="None">14209</a></td>
-    <td><strong>[Bandcamp] extract higher res thumbnail</strong></td>
-     <td><a href="https://github.com/JChris246" alt="None"><img src="https://github.com/JChris246.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>JChris246</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14209" alt="None">14209</a></td>
-    <td><strong>[Bandcamp] extract higher res thumbnail</strong></td>
-     <td><a href="https://github.com/JChris246" alt="None"><img src="https://github.com/JChris246.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>JChris246</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14209" alt="None">14209</a></td>
-    <td><strong>[Bandcamp] extract higher res thumbnail</strong></td>
-     <td><a href="https://github.com/JChris246" alt="None"><img src="https://github.com/JChris246.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>JChris246</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14209" alt="None">14209</a></td>
-    <td><strong>[Bandcamp] extract higher res thumbnail</strong></td>
-     <td><a href="https://github.com/JChris246" alt="None"><img src="https://github.com/JChris246.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>JChris246</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14209" alt="None">14209</a></td>
-    <td><strong>[Bandcamp] extract higher res thumbnail</strong></td>
-     <td><a href="https://github.com/JChris246" alt="None"><img src="https://github.com/JChris246.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>JChris246</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14192" alt="None">14192</a></td>
-    <td><strong>[ie/atv] Add extractor</strong></td>
-     <td><a href="https://github.com/e2dk4r" alt="None"><img src="https://github.com/e2dk4r.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>e2dk4r</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14192" alt="None">14192</a></td>
-    <td><strong>[ie/atv] Add extractor</strong></td>
-     <td><a href="https://github.com/e2dk4r" alt="None"><img src="https://github.com/e2dk4r.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>e2dk4r</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14192" alt="None">14192</a></td>
-    <td><strong>[ie/atv] Add extractor</strong></td>
-     <td><a href="https://github.com/e2dk4r" alt="None"><img src="https://github.com/e2dk4r.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>e2dk4r</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14192" alt="None">14192</a></td>
-    <td><strong>[ie/atv] Add extractor</strong></td>
-     <td><a href="https://github.com/e2dk4r" alt="None"><img src="https://github.com/e2dk4r.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>e2dk4r</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14192" alt="None">14192</a></td>
-    <td><strong>[ie/atv] Add extractor</strong></td>
-     <td><a href="https://github.com/e2dk4r" alt="None"><img src="https://github.com/e2dk4r.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>e2dk4r</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14120" alt="None">14120</a></td>
-    <td><strong>[ie/xhamster] Fix extractor to support subtitles</strong></td>
-     <td><a href="https://github.com/nindogo" alt="None"><img src="https://github.com/nindogo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nindogo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14120" alt="None">14120</a></td>
-    <td><strong>[ie/xhamster] Fix extractor to support subtitles</strong></td>
-     <td><a href="https://github.com/nindogo" alt="None"><img src="https://github.com/nindogo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nindogo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14120" alt="None">14120</a></td>
-    <td><strong>[ie/xhamster] Fix extractor to support subtitles</strong></td>
-     <td><a href="https://github.com/nindogo" alt="None"><img src="https://github.com/nindogo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nindogo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14120" alt="None">14120</a></td>
-    <td><strong>[ie/xhamster] Fix extractor to support subtitles</strong></td>
-     <td><a href="https://github.com/nindogo" alt="None"><img src="https://github.com/nindogo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nindogo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/14120" alt="None">14120</a></td>
-    <td><strong>[ie/xhamster] Fix extractor to support subtitles</strong></td>
-     <td><a href="https://github.com/nindogo" alt="None"><img src="https://github.com/nindogo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nindogo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13998" alt="None">13998</a></td>
-    <td><strong>Fix Content-Length calculation in mhtml generation</strong></td>
-     <td><a href="https://github.com/Masterjun3" alt="None"><img src="https://github.com/Masterjun3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Masterjun3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:downloader-5935E5">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13998" alt="None">13998</a></td>
-    <td><strong>Fix Content-Length calculation in mhtml generation</strong></td>
-     <td><a href="https://github.com/Masterjun3" alt="None"><img src="https://github.com/Masterjun3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Masterjun3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:downloader-5935E5">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13998" alt="None">13998</a></td>
-    <td><strong>Fix Content-Length calculation in mhtml generation</strong></td>
-     <td><a href="https://github.com/Masterjun3" alt="None"><img src="https://github.com/Masterjun3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Masterjun3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:downloader-5935E5">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13998" alt="None">13998</a></td>
-    <td><strong>Fix Content-Length calculation in mhtml generation</strong></td>
-     <td><a href="https://github.com/Masterjun3" alt="None"><img src="https://github.com/Masterjun3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Masterjun3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:downloader-5935E5">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13998" alt="None">13998</a></td>
-    <td><strong>Fix Content-Length calculation in mhtml generation</strong></td>
-     <td><a href="https://github.com/Masterjun3" alt="None"><img src="https://github.com/Masterjun3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Masterjun3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:downloader-5935E5">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13957" alt="None">13957</a></td>
-    <td><strong>[ie/nhk]fixed support for NHK for school videos</strong></td>
-     <td><a href="https://github.com/Sojiroh" alt="None"><img src="https://github.com/Sojiroh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sojiroh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13957" alt="None">13957</a></td>
-    <td><strong>[ie/nhk]fixed support for NHK for school videos</strong></td>
-     <td><a href="https://github.com/Sojiroh" alt="None"><img src="https://github.com/Sojiroh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sojiroh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13957" alt="None">13957</a></td>
-    <td><strong>[ie/nhk]fixed support for NHK for school videos</strong></td>
-     <td><a href="https://github.com/Sojiroh" alt="None"><img src="https://github.com/Sojiroh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sojiroh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13957" alt="None">13957</a></td>
-    <td><strong>[ie/nhk]fixed support for NHK for school videos</strong></td>
-     <td><a href="https://github.com/Sojiroh" alt="None"><img src="https://github.com/Sojiroh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sojiroh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13957" alt="None">13957</a></td>
-    <td><strong>[ie/nhk]fixed support for NHK for school videos</strong></td>
-     <td><a href="https://github.com/Sojiroh" alt="None"><img src="https://github.com/Sojiroh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sojiroh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13955" alt="None">13955</a></td>
-    <td><strong>fix iqiyi-extractor</strong></td>
-     <td><a href="https://github.com/eason1478" alt="None"><img src="https://github.com/eason1478.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>eason1478</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13955" alt="None">13955</a></td>
-    <td><strong>fix iqiyi-extractor</strong></td>
-     <td><a href="https://github.com/eason1478" alt="None"><img src="https://github.com/eason1478.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>eason1478</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13955" alt="None">13955</a></td>
-    <td><strong>fix iqiyi-extractor</strong></td>
-     <td><a href="https://github.com/eason1478" alt="None"><img src="https://github.com/eason1478.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>eason1478</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13955" alt="None">13955</a></td>
-    <td><strong>fix iqiyi-extractor</strong></td>
-     <td><a href="https://github.com/eason1478" alt="None"><img src="https://github.com/eason1478.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>eason1478</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13955" alt="None">13955</a></td>
-    <td><strong>fix iqiyi-extractor</strong></td>
-     <td><a href="https://github.com/eason1478" alt="None"><img src="https://github.com/eason1478.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>eason1478</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13864" alt="None">13864</a></td>
-    <td><strong>[ie/applepodcasts] add playlist support</strong></td>
-     <td><a href="https://github.com/Tulux" alt="None"><img src="https://github.com/Tulux.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Tulux</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13864" alt="None">13864</a></td>
-    <td><strong>[ie/applepodcasts] add playlist support</strong></td>
-     <td><a href="https://github.com/Tulux" alt="None"><img src="https://github.com/Tulux.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Tulux</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13864" alt="None">13864</a></td>
-    <td><strong>[ie/applepodcasts] add playlist support</strong></td>
-     <td><a href="https://github.com/Tulux" alt="None"><img src="https://github.com/Tulux.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Tulux</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13864" alt="None">13864</a></td>
-    <td><strong>[ie/applepodcasts] add playlist support</strong></td>
-     <td><a href="https://github.com/Tulux" alt="None"><img src="https://github.com/Tulux.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Tulux</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13864" alt="None">13864</a></td>
-    <td><strong>[ie/applepodcasts] add playlist support</strong></td>
-     <td><a href="https://github.com/Tulux" alt="None"><img src="https://github.com/Tulux.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Tulux</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13840" alt="None">13840</a></td>
-    <td><strong>Fix Yandex Music playlist extractor to support UUID-based playlists</strong></td>
-     <td><a href="https://github.com/unixty" alt="None"><img src="https://github.com/unixty.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>unixty</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/incomplete-DEECCD">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13840" alt="None">13840</a></td>
-    <td><strong>Fix Yandex Music playlist extractor to support UUID-based playlists</strong></td>
-     <td><a href="https://github.com/unixty" alt="None"><img src="https://github.com/unixty.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>unixty</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/incomplete-DEECCD">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13840" alt="None">13840</a></td>
-    <td><strong>Fix Yandex Music playlist extractor to support UUID-based playlists</strong></td>
-     <td><a href="https://github.com/unixty" alt="None"><img src="https://github.com/unixty.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>unixty</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/incomplete-DEECCD">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13840" alt="None">13840</a></td>
-    <td><strong>Fix Yandex Music playlist extractor to support UUID-based playlists</strong></td>
-     <td><a href="https://github.com/unixty" alt="None"><img src="https://github.com/unixty.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>unixty</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/incomplete-DEECCD">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13840" alt="None">13840</a></td>
-    <td><strong>Fix Yandex Music playlist extractor to support UUID-based playlists</strong></td>
-     <td><a href="https://github.com/unixty" alt="None"><img src="https://github.com/unixty.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>unixty</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/incomplete-DEECCD">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13752" alt="None">13752</a></td>
-    <td><strong>[pp/FFmpegThumbnailsConvertor] Correct the extension of all thumbnails</strong></td>
-     <td><a href="https://github.com/MonterraByte" alt="None"><img src="https://github.com/MonterraByte.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MonterraByte</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13752" alt="None">13752</a></td>
-    <td><strong>[pp/FFmpegThumbnailsConvertor] Correct the extension of all thumbnails</strong></td>
-     <td><a href="https://github.com/MonterraByte" alt="None"><img src="https://github.com/MonterraByte.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MonterraByte</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13752" alt="None">13752</a></td>
-    <td><strong>[pp/FFmpegThumbnailsConvertor] Correct the extension of all thumbnails</strong></td>
-     <td><a href="https://github.com/MonterraByte" alt="None"><img src="https://github.com/MonterraByte.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MonterraByte</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13752" alt="None">13752</a></td>
-    <td><strong>[pp/FFmpegThumbnailsConvertor] Correct the extension of all thumbnails</strong></td>
-     <td><a href="https://github.com/MonterraByte" alt="None"><img src="https://github.com/MonterraByte.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MonterraByte</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13752" alt="None">13752</a></td>
-    <td><strong>[pp/FFmpegThumbnailsConvertor] Correct the extension of all thumbnails</strong></td>
-     <td><a href="https://github.com/MonterraByte" alt="None"><img src="https://github.com/MonterraByte.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MonterraByte</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13685" alt="None">13685</a></td>
-    <td><strong>[ie/pornhub] Add chapters support</strong></td>
-     <td><a href="https://github.com/DrJumba" alt="None"><img src="https://github.com/DrJumba.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DrJumba</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13685" alt="None">13685</a></td>
-    <td><strong>[ie/pornhub] Add chapters support</strong></td>
-     <td><a href="https://github.com/DrJumba" alt="None"><img src="https://github.com/DrJumba.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DrJumba</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13685" alt="None">13685</a></td>
-    <td><strong>[ie/pornhub] Add chapters support</strong></td>
-     <td><a href="https://github.com/DrJumba" alt="None"><img src="https://github.com/DrJumba.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DrJumba</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13685" alt="None">13685</a></td>
-    <td><strong>[ie/pornhub] Add chapters support</strong></td>
-     <td><a href="https://github.com/DrJumba" alt="None"><img src="https://github.com/DrJumba.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DrJumba</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13685" alt="None">13685</a></td>
-    <td><strong>[ie/pornhub] Add chapters support</strong></td>
-     <td><a href="https://github.com/DrJumba" alt="None"><img src="https://github.com/DrJumba.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>DrJumba</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13391" alt="None">13391</a></td>
-    <td><strong>[ie/Sejm] Fix after provider switch (#9669)</strong></td>
-     <td><a href="https://github.com/selfisekai" alt="None"><img src="https://github.com/selfisekai.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>selfisekai</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13391" alt="None">13391</a></td>
-    <td><strong>[ie/Sejm] Fix after provider switch (#9669)</strong></td>
-     <td><a href="https://github.com/selfisekai" alt="None"><img src="https://github.com/selfisekai.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>selfisekai</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13391" alt="None">13391</a></td>
-    <td><strong>[ie/Sejm] Fix after provider switch (#9669)</strong></td>
-     <td><a href="https://github.com/selfisekai" alt="None"><img src="https://github.com/selfisekai.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>selfisekai</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13391" alt="None">13391</a></td>
-    <td><strong>[ie/Sejm] Fix after provider switch (#9669)</strong></td>
-     <td><a href="https://github.com/selfisekai" alt="None"><img src="https://github.com/selfisekai.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>selfisekai</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13391" alt="None">13391</a></td>
-    <td><strong>[ie/Sejm] Fix after provider switch (#9669)</strong></td>
-     <td><a href="https://github.com/selfisekai" alt="None"><img src="https://github.com/selfisekai.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>selfisekai</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13201" alt="None">13201</a></td>
-    <td><strong>[ie/pandavideo] Add extractor</strong></td>
-     <td><a href="https://github.com/iribeirocampos" alt="None"><img src="https://github.com/iribeirocampos.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>iribeirocampos</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13201" alt="None">13201</a></td>
-    <td><strong>[ie/pandavideo] Add extractor</strong></td>
-     <td><a href="https://github.com/iribeirocampos" alt="None"><img src="https://github.com/iribeirocampos.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>iribeirocampos</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13201" alt="None">13201</a></td>
-    <td><strong>[ie/pandavideo] Add extractor</strong></td>
-     <td><a href="https://github.com/iribeirocampos" alt="None"><img src="https://github.com/iribeirocampos.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>iribeirocampos</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13201" alt="None">13201</a></td>
-    <td><strong>[ie/pandavideo] Add extractor</strong></td>
-     <td><a href="https://github.com/iribeirocampos" alt="None"><img src="https://github.com/iribeirocampos.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>iribeirocampos</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13201" alt="None">13201</a></td>
-    <td><strong>[ie/pandavideo] Add extractor</strong></td>
-     <td><a href="https://github.com/iribeirocampos" alt="None"><img src="https://github.com/iribeirocampos.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>iribeirocampos</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13198" alt="None">13198</a></td>
-    <td><strong>[cookies] browser settings improvements</strong></td>
-     <td><a href="https://github.com/mbway" alt="None"><img src="https://github.com/mbway.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mbway</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13198" alt="None">13198</a></td>
-    <td><strong>[cookies] browser settings improvements</strong></td>
-     <td><a href="https://github.com/mbway" alt="None"><img src="https://github.com/mbway.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mbway</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13198" alt="None">13198</a></td>
-    <td><strong>[cookies] browser settings improvements</strong></td>
-     <td><a href="https://github.com/mbway" alt="None"><img src="https://github.com/mbway.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mbway</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13198" alt="None">13198</a></td>
-    <td><strong>[cookies] browser settings improvements</strong></td>
-     <td><a href="https://github.com/mbway" alt="None"><img src="https://github.com/mbway.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mbway</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13198" alt="None">13198</a></td>
-    <td><strong>[cookies] browser settings improvements</strong></td>
-     <td><a href="https://github.com/mbway" alt="None"><img src="https://github.com/mbway.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mbway</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11735" alt="None">11735</a></td>
-    <td><strong>add --list-extractors-json  command line</strong></td>
-     <td><a href="https://github.com/wesson09" alt="None"><img src="https://github.com/wesson09.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>wesson09</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11735" alt="None">11735</a></td>
-    <td><strong>add --list-extractors-json  command line</strong></td>
-     <td><a href="https://github.com/wesson09" alt="None"><img src="https://github.com/wesson09.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>wesson09</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11735" alt="None">11735</a></td>
-    <td><strong>add --list-extractors-json  command line</strong></td>
-     <td><a href="https://github.com/wesson09" alt="None"><img src="https://github.com/wesson09.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>wesson09</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11735" alt="None">11735</a></td>
-    <td><strong>add --list-extractors-json  command line</strong></td>
-     <td><a href="https://github.com/wesson09" alt="None"><img src="https://github.com/wesson09.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>wesson09</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11735" alt="None">11735</a></td>
-    <td><strong>add --list-extractors-json  command line</strong></td>
-     <td><a href="https://github.com/wesson09" alt="None"><img src="https://github.com/wesson09.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>wesson09</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11698" alt="None">11698</a></td>
-    <td><strong>Remove continue from aria2c</strong></td>
-     <td><a href="https://github.com/tcely" alt="None"><img src="https://github.com/tcely.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tcely</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11698" alt="None">11698</a></td>
-    <td><strong>Remove continue from aria2c</strong></td>
-     <td><a href="https://github.com/tcely" alt="None"><img src="https://github.com/tcely.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tcely</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11698" alt="None">11698</a></td>
-    <td><strong>Remove continue from aria2c</strong></td>
-     <td><a href="https://github.com/tcely" alt="None"><img src="https://github.com/tcely.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tcely</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11698" alt="None">11698</a></td>
-    <td><strong>Remove continue from aria2c</strong></td>
-     <td><a href="https://github.com/tcely" alt="None"><img src="https://github.com/tcely.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tcely</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11698" alt="None">11698</a></td>
-    <td><strong>Remove continue from aria2c</strong></td>
-     <td><a href="https://github.com/tcely" alt="None"><img src="https://github.com/tcely.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tcely</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10628" alt="None">10628</a></td>
-    <td><strong>[ie/vrt] Add support for radio shows</strong></td>
-     <td><a href="https://github.com/s-tdh" alt="None"><img src="https://github.com/s-tdh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>s-tdh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10628" alt="None">10628</a></td>
-    <td><strong>[ie/vrt] Add support for radio shows</strong></td>
-     <td><a href="https://github.com/s-tdh" alt="None"><img src="https://github.com/s-tdh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>s-tdh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10628" alt="None">10628</a></td>
-    <td><strong>[ie/vrt] Add support for radio shows</strong></td>
-     <td><a href="https://github.com/s-tdh" alt="None"><img src="https://github.com/s-tdh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>s-tdh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10628" alt="None">10628</a></td>
-    <td><strong>[ie/vrt] Add support for radio shows</strong></td>
-     <td><a href="https://github.com/s-tdh" alt="None"><img src="https://github.com/s-tdh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>s-tdh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10628" alt="None">10628</a></td>
-    <td><strong>[ie/vrt] Add support for radio shows</strong></td>
-     <td><a href="https://github.com/s-tdh" alt="None"><img src="https://github.com/s-tdh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>s-tdh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10164" alt="None">10164</a></td>
-    <td><strong>[LBRY/Odysee] workaround for the 1000 item API-limit</strong></td>
-     <td><a href="https://github.com/Synarp" alt="None"><img src="https://github.com/Synarp.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Synarp</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10164" alt="None">10164</a></td>
-    <td><strong>[LBRY/Odysee] workaround for the 1000 item API-limit</strong></td>
-     <td><a href="https://github.com/Synarp" alt="None"><img src="https://github.com/Synarp.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Synarp</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10164" alt="None">10164</a></td>
-    <td><strong>[LBRY/Odysee] workaround for the 1000 item API-limit</strong></td>
-     <td><a href="https://github.com/Synarp" alt="None"><img src="https://github.com/Synarp.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Synarp</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10164" alt="None">10164</a></td>
-    <td><strong>[LBRY/Odysee] workaround for the 1000 item API-limit</strong></td>
-     <td><a href="https://github.com/Synarp" alt="None"><img src="https://github.com/Synarp.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Synarp</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10164" alt="None">10164</a></td>
-    <td><strong>[LBRY/Odysee] workaround for the 1000 item API-limit</strong></td>
-     <td><a href="https://github.com/Synarp" alt="None"><img src="https://github.com/Synarp.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Synarp</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9991" alt="None">9991</a></td>
-    <td><strong>Embed JSON subtitles as Matroska attachments</strong></td>
-     <td><a href="https://github.com/deralmas" alt="None"><img src="https://github.com/deralmas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deralmas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-<img src="https://img.shields.io/badge/needs--testing-2B8A53"><br>
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9991" alt="None">9991</a></td>
-    <td><strong>Embed JSON subtitles as Matroska attachments</strong></td>
-     <td><a href="https://github.com/deralmas" alt="None"><img src="https://github.com/deralmas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deralmas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-<img src="https://img.shields.io/badge/needs--testing-2B8A53"><br>
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9991" alt="None">9991</a></td>
-    <td><strong>Embed JSON subtitles as Matroska attachments</strong></td>
-     <td><a href="https://github.com/deralmas" alt="None"><img src="https://github.com/deralmas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deralmas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-<img src="https://img.shields.io/badge/needs--testing-2B8A53"><br>
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9991" alt="None">9991</a></td>
-    <td><strong>Embed JSON subtitles as Matroska attachments</strong></td>
-     <td><a href="https://github.com/deralmas" alt="None"><img src="https://github.com/deralmas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deralmas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-<img src="https://img.shields.io/badge/needs--testing-2B8A53"><br>
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9991" alt="None">9991</a></td>
-    <td><strong>Embed JSON subtitles as Matroska attachments</strong></td>
-     <td><a href="https://github.com/deralmas" alt="None"><img src="https://github.com/deralmas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deralmas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-<img src="https://img.shields.io/badge/needs--testing-2B8A53"><br>
-      </td>
-    <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9748" alt="None">9748</a></td>
-    <td><strong>[watchertv] Add extractor</strong></td>
-     <td><a href="https://github.com/McSwindler" alt="None"><img src="https://github.com/McSwindler.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>McSwindler</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9748" alt="None">9748</a></td>
-    <td><strong>[watchertv] Add extractor</strong></td>
-     <td><a href="https://github.com/McSwindler" alt="None"><img src="https://github.com/McSwindler.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>McSwindler</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9748" alt="None">9748</a></td>
-    <td><strong>[watchertv] Add extractor</strong></td>
-     <td><a href="https://github.com/McSwindler" alt="None"><img src="https://github.com/McSwindler.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>McSwindler</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9748" alt="None">9748</a></td>
-    <td><strong>[watchertv] Add extractor</strong></td>
-     <td><a href="https://github.com/McSwindler" alt="None"><img src="https://github.com/McSwindler.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>McSwindler</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9748" alt="None">9748</a></td>
-    <td><strong>[watchertv] Add extractor</strong></td>
-     <td><a href="https://github.com/McSwindler" alt="None"><img src="https://github.com/McSwindler.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>McSwindler</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8869" alt="None">8869</a></td>
-    <td><strong>Embed thumbnail using mutagen for mp3 files, fix lyrics issue #5635</strong></td>
-     <td><a href="https://github.com/fjueic" alt="None"><img src="https://github.com/fjueic.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>fjueic</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:post--processor-5319e7">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8869" alt="None">8869</a></td>
-    <td><strong>Embed thumbnail using mutagen for mp3 files, fix lyrics issue #5635</strong></td>
-     <td><a href="https://github.com/fjueic" alt="None"><img src="https://github.com/fjueic.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>fjueic</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:post--processor-5319e7">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8869" alt="None">8869</a></td>
-    <td><strong>Embed thumbnail using mutagen for mp3 files, fix lyrics issue #5635</strong></td>
-     <td><a href="https://github.com/fjueic" alt="None"><img src="https://github.com/fjueic.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>fjueic</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:post--processor-5319e7">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8869" alt="None">8869</a></td>
-    <td><strong>Embed thumbnail using mutagen for mp3 files, fix lyrics issue #5635</strong></td>
-     <td><a href="https://github.com/fjueic" alt="None"><img src="https://github.com/fjueic.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>fjueic</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:post--processor-5319e7">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8869" alt="None">8869</a></td>
-    <td><strong>Embed thumbnail using mutagen for mp3 files, fix lyrics issue #5635</strong></td>
-     <td><a href="https://github.com/fjueic" alt="None"><img src="https://github.com/fjueic.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>fjueic</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:post--processor-5319e7">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/6498" alt="None">6498</a></td>
-    <td><strong>[youtube] Support --download-sections with formats --live-from-start</strong></td>
-     <td><a href="https://github.com/elyse0" alt="None"><img src="https://github.com/elyse0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>elyse0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/6498" alt="None">6498</a></td>
-    <td><strong>[youtube] Support --download-sections with formats --live-from-start</strong></td>
-     <td><a href="https://github.com/elyse0" alt="None"><img src="https://github.com/elyse0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>elyse0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/6498" alt="None">6498</a></td>
-    <td><strong>[youtube] Support --download-sections with formats --live-from-start</strong></td>
-     <td><a href="https://github.com/elyse0" alt="None"><img src="https://github.com/elyse0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>elyse0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/6498" alt="None">6498</a></td>
-    <td><strong>[youtube] Support --download-sections with formats --live-from-start</strong></td>
-     <td><a href="https://github.com/elyse0" alt="None"><img src="https://github.com/elyse0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>elyse0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/6498" alt="None">6498</a></td>
-    <td><strong>[youtube] Support --download-sections with formats --live-from-start</strong></td>
-     <td><a href="https://github.com/elyse0" alt="None"><img src="https://github.com/elyse0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>elyse0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5938" alt="None">5938</a></td>
-    <td><strong>[extractor/RadioJavan] Fixed and Extended</strong></td>
-     <td><a href="https://github.com/GibMeMyPacket" alt="None"><img src="https://github.com/GibMeMyPacket.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>GibMeMyPacket</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5938" alt="None">5938</a></td>
-    <td><strong>[extractor/RadioJavan] Fixed and Extended</strong></td>
-     <td><a href="https://github.com/GibMeMyPacket" alt="None"><img src="https://github.com/GibMeMyPacket.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>GibMeMyPacket</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5938" alt="None">5938</a></td>
-    <td><strong>[extractor/RadioJavan] Fixed and Extended</strong></td>
-     <td><a href="https://github.com/GibMeMyPacket" alt="None"><img src="https://github.com/GibMeMyPacket.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>GibMeMyPacket</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5938" alt="None">5938</a></td>
-    <td><strong>[extractor/RadioJavan] Fixed and Extended</strong></td>
-     <td><a href="https://github.com/GibMeMyPacket" alt="None"><img src="https://github.com/GibMeMyPacket.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>GibMeMyPacket</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5938" alt="None">5938</a></td>
-    <td><strong>[extractor/RadioJavan] Fixed and Extended</strong></td>
-     <td><a href="https://github.com/GibMeMyPacket" alt="None"><img src="https://github.com/GibMeMyPacket.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>GibMeMyPacket</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CI_TESTS BLOCKED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16385" alt="None">16385</a></td>
-    <td><strong>[build] Try for reproducible builds with PyInstaller</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15710" alt="None">15710</a></td>
-    <td><strong>[ie/tiktok] Improve consistency of formats via XFF header</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15146" alt="None">15146</a></td>
-    <td><strong>[ie/dailymotion] Improve metadata extraction/embed detection, code cleanup</strong></td>
-     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13901" alt="None">13901</a></td>
-    <td><strong>[ie/weverse] Fix livestream support</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13732" alt="None">13732</a></td>
-    <td><strong>[ie/bandcamp] smuggle track_info when track page doesn't have a usable one</strong></td>
-     <td><a href="https://github.com/garret1317" alt="None"><img src="https://github.com/garret1317.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>garret1317</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13277" alt="None">13277</a></td>
-    <td><strong>[ie/tfo] Rework extractors</strong></td>
-     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12981" alt="None">12981</a></td>
-    <td><strong>[test] Load Plugins for Testing</strong></td>
-     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/regression-36E259">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11210" alt="None">11210</a></td>
-    <td><strong>[ie/bilibili] add support for storyboards and heatmaps</strong></td>
-     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10812" alt="None">10812</a></td>
-    <td><strong>[ie/ListenNotes] fix extractor - updated url pattern and test cases</strong></td>
-     <td><a href="https://github.com/subrat-lima" alt="None"><img src="https://github.com/subrat-lima.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>subrat-lima</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8645" alt="None">8645</a></td>
-    <td><strong>[ie/niconicochannelplus] support both cookies and login credential with MFA</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16385" alt="None">16385</a></td>
-    <td><strong>[build] Try for reproducible builds with PyInstaller</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16385" alt="None">16385</a></td>
-    <td><strong>[build] Try for reproducible builds with PyInstaller</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15710" alt="None">15710</a></td>
-    <td><strong>[ie/tiktok] Improve consistency of formats via XFF header</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15710" alt="None">15710</a></td>
-    <td><strong>[ie/tiktok] Improve consistency of formats via XFF header</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15146" alt="None">15146</a></td>
-    <td><strong>[ie/dailymotion] Improve metadata extraction/embed detection, code cleanup</strong></td>
-     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/15146" alt="None">15146</a></td>
-    <td><strong>[ie/dailymotion] Improve metadata extraction/embed detection, code cleanup</strong></td>
-     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13901" alt="None">13901</a></td>
-    <td><strong>[ie/weverse] Fix livestream support</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13901" alt="None">13901</a></td>
-    <td><strong>[ie/weverse] Fix livestream support</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13732" alt="None">13732</a></td>
-    <td><strong>[ie/bandcamp] smuggle track_info when track page doesn't have a usable one</strong></td>
-     <td><a href="https://github.com/garret1317" alt="None"><img src="https://github.com/garret1317.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>garret1317</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13732" alt="None">13732</a></td>
-    <td><strong>[ie/bandcamp] smuggle track_info when track page doesn't have a usable one</strong></td>
-     <td><a href="https://github.com/garret1317" alt="None"><img src="https://github.com/garret1317.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>garret1317</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13351" alt="None">13351</a></td>
-    <td><strong>Add partial support for IAMF formats</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13351" alt="None">13351</a></td>
-    <td><strong>Add partial support for IAMF formats</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13351" alt="None">13351</a></td>
-    <td><strong>Add partial support for IAMF formats</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/site:youtube-282828"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13277" alt="None">13277</a></td>
-    <td><strong>[ie/tfo] Rework extractors</strong></td>
-     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13277" alt="None">13277</a></td>
-    <td><strong>[ie/tfo] Rework extractors</strong></td>
-     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13204" alt="None">13204</a></td>
-    <td><strong>[ie/dw] Rework extractor</strong></td>
-     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13204" alt="None">13204</a></td>
-    <td><strong>[ie/dw] Rework extractor</strong></td>
-     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/13204" alt="None">13204</a></td>
-    <td><strong>[ie/dw] Rework extractor</strong></td>
-     <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12981" alt="None">12981</a></td>
-    <td><strong>[test] Load Plugins for Testing</strong></td>
-     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/regression-36E259">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12981" alt="None">12981</a></td>
-    <td><strong>[test] Load Plugins for Testing</strong></td>
-     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/regression-36E259">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12507" alt="None">12507</a></td>
-    <td><strong>[core] Add Deno jsinterp and create single interface for external js interpreters</strong></td>
-     <td><a href="https://github.com/c-basalt" alt="None"><img src="https://github.com/c-basalt.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>c-basalt</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12507" alt="None">12507</a></td>
-    <td><strong>[core] Add Deno jsinterp and create single interface for external js interpreters</strong></td>
-     <td><a href="https://github.com/c-basalt" alt="None"><img src="https://github.com/c-basalt.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>c-basalt</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/12507" alt="None">12507</a></td>
-    <td><strong>[core] Add Deno jsinterp and create single interface for external js interpreters</strong></td>
-     <td><a href="https://github.com/c-basalt" alt="None"><img src="https://github.com/c-basalt.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>c-basalt</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:extractor-d4c5f9">
-<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11862" alt="None">11862</a></td>
-    <td><strong>Fix `--allow-unplayable-formats`</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11862" alt="None">11862</a></td>
-    <td><strong>Fix `--allow-unplayable-formats`</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11862" alt="None">11862</a></td>
-    <td><strong>Fix `--allow-unplayable-formats`</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11459" alt="None">11459</a></td>
-    <td><strong>[ie/bahamut] add extractor</strong></td>
-     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11459" alt="None">11459</a></td>
-    <td><strong>[ie/bahamut] add extractor</strong></td>
-     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11459" alt="None">11459</a></td>
-    <td><strong>[ie/bahamut] add extractor</strong></td>
-     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11410" alt="None">11410</a></td>
-    <td><strong>[ie/shouttv] Add extractors</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11410" alt="None">11410</a></td>
-    <td><strong>[ie/shouttv] Add extractors</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11410" alt="None">11410</a></td>
-    <td><strong>[ie/shouttv] Add extractors</strong></td>
-     <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11210" alt="None">11210</a></td>
-    <td><strong>[ie/bilibili] add support for storyboards and heatmaps</strong></td>
-     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11210" alt="None">11210</a></td>
-    <td><strong>[ie/bilibili] add support for storyboards and heatmaps</strong></td>
-     <td><a href="https://github.com/grqz" alt="None"><img src="https://github.com/grqz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>grqz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11136" alt="None">11136</a></td>
-    <td><strong>[ie/Fifa] Add extractors</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11136" alt="None">11136</a></td>
-    <td><strong>[ie/Fifa] Add extractors</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/11136" alt="None">11136</a></td>
-    <td><strong>[ie/Fifa] Add extractors</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/pending--review-DC652D">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10921" alt="None">10921</a></td>
-    <td><strong>[ie/Webcaster] Improve embed extraction</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10921" alt="None">10921</a></td>
-    <td><strong>[ie/Webcaster] Improve embed extraction</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10921" alt="None">10921</a></td>
-    <td><strong>[ie/Webcaster] Improve embed extraction</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10812" alt="None">10812</a></td>
-    <td><strong>[ie/ListenNotes] fix extractor - updated url pattern and test cases</strong></td>
-     <td><a href="https://github.com/subrat-lima" alt="None"><img src="https://github.com/subrat-lima.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>subrat-lima</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/10812" alt="None">10812</a></td>
-    <td><strong>[ie/ListenNotes] fix extractor - updated url pattern and test cases</strong></td>
-     <td><a href="https://github.com/subrat-lima" alt="None"><img src="https://github.com/subrat-lima.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>subrat-lima</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9978" alt="None">9978</a></td>
-    <td><strong>[ie/sheeta] Support websites based on sheeta</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9978" alt="None">9978</a></td>
-    <td><strong>[ie/sheeta] Support websites based on sheeta</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9978" alt="None">9978</a></td>
-    <td><strong>[ie/sheeta] Support websites based on sheeta</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9625" alt="None">9625</a></td>
-    <td><strong>[rh:websockets] Add support for HTTP/HTTPS proxies</strong></td>
-     <td><a href="https://github.com/coletdjnz" alt="None"><img src="https://github.com/coletdjnz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>coletdjnz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:networking-0E3FDD"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9625" alt="None">9625</a></td>
-    <td><strong>[rh:websockets] Add support for HTTP/HTTPS proxies</strong></td>
-     <td><a href="https://github.com/coletdjnz" alt="None"><img src="https://github.com/coletdjnz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>coletdjnz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:networking-0E3FDD"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9625" alt="None">9625</a></td>
-    <td><strong>[rh:websockets] Add support for HTTP/HTTPS proxies</strong></td>
-     <td><a href="https://github.com/coletdjnz" alt="None"><img src="https://github.com/coletdjnz.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>coletdjnz</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/core:networking-0E3FDD"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9587" alt="None">9587</a></td>
-    <td><strong>[ie] Add issue URL to broken extractor warning</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9587" alt="None">9587</a></td>
-    <td><strong>[ie] Add issue URL to broken extractor warning</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9587" alt="None">9587</a></td>
-    <td><strong>[ie] Add issue URL to broken extractor warning</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9411" alt="None">9411</a></td>
-    <td><strong>[ie/niconico] Directly download live timeshift videos; WebSocket fixes</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9411" alt="None">9411</a></td>
-    <td><strong>[ie/niconico] Directly download live timeshift videos; WebSocket fixes</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/9411" alt="None">9411</a></td>
-    <td><strong>[ie/niconico] Directly download live timeshift videos; WebSocket fixes</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8645" alt="None">8645</a></td>
-    <td><strong>[ie/niconicochannelplus] support both cookies and login credential with MFA</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8645" alt="None">8645</a></td>
-    <td><strong>[ie/niconicochannelplus] support both cookies and login credential with MFA</strong></td>
-     <td><a href="https://github.com/pzhlkj6612" alt="None"><img src="https://github.com/pzhlkj6612.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pzhlkj6612</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8511" alt="None">8511</a></td>
-    <td><strong>[core/outtmpl] Rewrite output template handling</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8511" alt="None">8511</a></td>
-    <td><strong>[core/outtmpl] Rewrite output template handling</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/8511" alt="None">8511</a></td>
-    <td><strong>[core/outtmpl] Rewrite output template handling</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7517" alt="None">7517</a></td>
-    <td><strong>Add separate `Logger` instance on `YoutubeDL`</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7517" alt="None">7517</a></td>
-    <td><strong>Add separate `Logger` instance on `YoutubeDL`</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7517" alt="None">7517</a></td>
-    <td><strong>Add separate `Logger` instance on `YoutubeDL`</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7426" alt="None">7426</a></td>
-    <td><strong>Add `globals` module</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7426" alt="None">7426</a></td>
-    <td><strong>Add `globals` module</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/7426" alt="None">7426</a></td>
-    <td><strong>Add `globals` module</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5680" alt="None">5680</a></td>
-    <td><strong>[core] Add and migrate to separated output module</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5680" alt="None">5680</a></td>
-    <td><strong>[core] Add and migrate to separated output module</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5680" alt="None">5680</a></td>
-    <td><strong>[core] Add and migrate to separated output module</strong></td>
-     <td><a href="https://github.com/Grub4K" alt="None"><img src="https://github.com/Grub4K.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Grub4K</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5103" alt="None">5103</a></td>
-    <td><strong>Self-hosted extractors v2 part 1</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5103" alt="None">5103</a></td>
-    <td><strong>Self-hosted extractors v2 part 1</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/5103" alt="None">5103</a></td>
-    <td><strong>Self-hosted extractors v2 part 1</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/4517" alt="None">4517</a></td>
-    <td><strong>Webpage-based extraction - Part 2</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/4517" alt="None">4517</a></td>
-    <td><strong>Webpage-based extraction - Part 2</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/4517" alt="None">4517</a></td>
-    <td><strong>Webpage-based extraction - Part 2</strong></td>
-     <td><a href="https://github.com/pukkandan" alt="None"><img src="https://github.com/pukkandan.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>pukkandan</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-      </td>
-    <td><strong>CONFLICT</strong></td>
   </tr>
 </table>
 
