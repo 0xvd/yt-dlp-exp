@@ -1882,6 +1882,7 @@ from .sina import SinaIE
 from .skeb import SkebIE
 from .sky import (
     SkyNewsIE,
+    SkyNewsLiveIE,
     SkyNewsStoryIE,
     SkySportsIE,
     SkySportsNewsIE,
