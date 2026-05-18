@@ -2328,7 +2328,10 @@ from .uplynk import (
     UplynkIE,
     UplynkPreplayIE,
 )
-from .urort import UrortIE
+from .urort import (
+    UrortIE,
+    UrortPlaylistIE,
+)
 from .urplay import URPlayIE
 from .ursulablicklevideoarchiv import UrsulaBlickleVideoArchivIE
 from .usanetwork import USANetworkIE
