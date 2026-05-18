@@ -24,11 +24,11 @@
 <table>
     <tr>
         <td><strong>Total PRs</strong></td>
-        <td>584</td>
+        <td>586</td>
     </tr>
     <tr>
         <td><strong>Merged PRs</strong></td>
-        <td>196</td>
+        <td>199</td>
     </tr>
     <tr>
         <td><strong>UnMerged PRs</strong></td>
@@ -50,6 +50,24 @@
     <th>TITLE</th>
     <th>AUTHOR</th>
     <th>LABELS</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16748" alt="None">16748</a></td>
+    <td><strong>[udemy] Fix course ID/title extraction, subtitle language parsing, and course URL regex</strong></td>
+     <td><a href="https://github.com/ericclose" alt="None"><img src="https://github.com/ericclose.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>ericclose</strong></a></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16748" alt="None">16748</a></td>
+    <td><strong>[udemy] Fix course ID/title extraction, subtitle language parsing, and course URL regex</strong></td>
+     <td><a href="https://github.com/ericclose" alt="None"><img src="https://github.com/ericclose.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>ericclose</strong></a></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16748" alt="None">16748</a></td>
+    <td><strong>[udemy] Fix course ID/title extraction, subtitle language parsing, and course URL regex</strong></td>
+     <td><a href="https://github.com/ericclose" alt="None"><img src="https://github.com/ericclose.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>ericclose</strong></a></td>
+    <td>None</td>
   </tr>
   <tr>
     <td><a href="https://github.com/0xvd/yt-dlp-exp/pull/16743" alt="None">16743</a></td>
