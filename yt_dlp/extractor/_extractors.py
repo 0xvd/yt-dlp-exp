@@ -971,6 +971,7 @@ from .lastfm import (
     LastFMUserIE,
 )
 from .laxarxames import LaXarxaMesIE
+from .lazy import LazyExtractorIE
 from .lbry import (
     LBRYIE,
     LBRYChannelIE,
