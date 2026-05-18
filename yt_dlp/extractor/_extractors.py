@@ -1680,6 +1680,7 @@ from .rcti import (
     RCTIPlusTVIE,
 )
 from .rds import RDSIE
+from .rdsit import RDSITIE
 from .redbee import (
     RTBFIE,
     ParliamentLiveUKIE,
