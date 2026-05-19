@@ -24,19 +24,19 @@
 <table>
     <tr>
         <td><strong>Total PRs</strong></td>
-        <td>606</td>
+        <td>585</td>
     </tr>
     <tr>
         <td><strong>Merged PRs</strong></td>
-        <td>211</td>
+        <td>203</td>
     </tr>
     <tr>
         <td><strong>UnMerged PRs</strong></td>
-        <td>297</td>
+        <td>288</td>
     </tr>
     <tr>
         <td><strong>Pending PRs</strong></td>
-        <td>100</td>
+        <td>94</td>
     </tr>
 </table>
 
@@ -50,18 +50,6 @@
     <th>TITLE</th>
     <th>AUTHOR</th>
     <th>LABELS</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16748" alt="None">16748</a></td>
-    <td><strong>[udemy] Fix course ID/title extraction, subtitle language parsing, and course URL regex</strong></td>
-     <td><a href="https://github.com/ericclose" alt="None"><img src="https://github.com/ericclose.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>ericclose</strong></a></td>
-    <td>None</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16748" alt="None">16748</a></td>
-    <td><strong>[udemy] Fix course ID/title extraction, subtitle language parsing, and course URL regex</strong></td>
-     <td><a href="https://github.com/ericclose" alt="None"><img src="https://github.com/ericclose.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>ericclose</strong></a></td>
-    <td>None</td>
   </tr>
   <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16748" alt="None">16748</a></td>
@@ -86,21 +74,6 @@
     <td><strong>Fix match-filter comparison for float fields like aspect_ratio</strong></td>
      <td><a href="https://github.com/MD-Mushfiqur123" alt="None"><img src="https://github.com/MD-Mushfiqur123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MD-Mushfiqur123</strong></a></td>
     <td>None</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16726" alt="None">16726</a></td>
-    <td><strong>Fix match-filter comparison for float fields like aspect_ratio</strong></td>
-     <td><a href="https://github.com/MD-Mushfiqur123" alt="None"><img src="https://github.com/MD-Mushfiqur123.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>MD-Mushfiqur123</strong></a></td>
-    <td>None</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16723" alt="None">16723</a></td>
-    <td><strong>[lulustream] Add extractor</strong></td>
-     <td><a href="https://github.com/yingkailee" alt="None"><img src="https://github.com/yingkailee.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>yingkailee</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-      </td>
   </tr>
   <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16723" alt="None">16723</a></td>
@@ -684,14 +657,6 @@
       </td>
   </tr>
   <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/15246" alt="None">15246</a></td>
-    <td><strong>Add Yandex Telemost extractor</strong></td>
-     <td><a href="https://github.com/tunaflsh" alt="None"><img src="https://github.com/tunaflsh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tunaflsh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/15235" alt="None">15235</a></td>
     <td><strong>[ie/youtube] Fix handle extraction</strong></td>
      <td><a href="https://github.com/bashonly" alt="None"><img src="https://github.com/bashonly.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>bashonly</strong></a></td>
@@ -707,15 +672,6 @@
      <td><a href="https://github.com/1100101" alt="None"><img src="https://github.com/1100101.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>1100101</strong></a></td>
       <td>
 <img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/15186" alt="None">15186</a></td>
-    <td><strong>[ie/youtube] Allow empty last fragment YouTube and add --allow-empty-fragments option</strong></td>
-     <td><a href="https://github.com/Lutz3" alt="None"><img src="https://github.com/Lutz3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Lutz3</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/blocked-f6195a">
-<img src="https://img.shields.io/badge/site:youtube-282828">
       </td>
   </tr>
   <tr>
@@ -1567,15 +1523,6 @@
       </td>
   </tr>
   <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/11698" alt="None">11698</a></td>
-    <td><strong>Remove continue from aria2c</strong></td>
-     <td><a href="https://github.com/tcely" alt="None"><img src="https://github.com/tcely.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tcely</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/blocked-f6195a">
-      </td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/11584" alt="None">11584</a></td>
     <td><strong>[ie/murrtube] Fix extractors</strong></td>
      <td><a href="https://github.com/doe1080" alt="None"><img src="https://github.com/doe1080.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>doe1080</strong></a></td>
@@ -1738,14 +1685,6 @@
       </td>
   </tr>
   <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/10164" alt="None">10164</a></td>
-    <td><strong>[LBRY/Odysee] workaround for the 1000 item API-limit</strong></td>
-     <td><a href="https://github.com/Synarp" alt="None"><img src="https://github.com/Synarp.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Synarp</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/9933" alt="None">9933</a></td>
     <td><strong>[RadioFrance] Fix broken playlist generation</strong></td>
      <td><a href="https://github.com/LonMcGregor" alt="None"><img src="https://github.com/LonMcGregor.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>LonMcGregor</strong></a></td>
@@ -1811,20 +1750,6 @@
     <th>AUTHOR</th>
     <th>LABELS</th>
     <th>REASON</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16753" alt="None">16753</a></td>
-    <td><strong>[downloader/aria2c] Parse native progress from console output</strong></td>
-     <td><a href="https://github.com/tslyf" alt="None"><img src="https://github.com/tslyf.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tslyf</strong></a></td>
-    <td>None</td>
-    <td><strong>Need to wait 1 day after opening PR</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16753" alt="None">16753</a></td>
-    <td><strong>[downloader/aria2c] Parse native progress from console output</strong></td>
-     <td><a href="https://github.com/tslyf" alt="None"><img src="https://github.com/tslyf.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tslyf</strong></a></td>
-    <td>None</td>
-    <td><strong>Need to wait 1 day after opening PR</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16727" alt="None">16727</a></td>
@@ -2581,15 +2506,6 @@
     <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/14192" alt="None">14192</a></td>
-    <td><strong>[ie/atv] Add extractor</strong></td>
-     <td><a href="https://github.com/e2dk4r" alt="None"><img src="https://github.com/e2dk4r.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>e2dk4r</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--request-006b75">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/13998" alt="None">13998</a></td>
     <td><strong>Fix Content-Length calculation in mhtml generation</strong></td>
      <td><a href="https://github.com/Masterjun3" alt="None"><img src="https://github.com/Masterjun3.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Masterjun3</strong></a></td>
@@ -2647,16 +2563,6 @@
     <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/13198" alt="None">13198</a></td>
-    <td><strong>[cookies] browser settings improvements</strong></td>
-     <td><a href="https://github.com/mbway" alt="None"><img src="https://github.com/mbway.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>mbway</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/bug-d73a4a">
-<img src="https://img.shields.io/badge/core:cookies-f9d0c4">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/11735" alt="None">11735</a></td>
     <td><strong>add --list-extractors-json  command line</strong></td>
      <td><a href="https://github.com/wesson09" alt="None"><img src="https://github.com/wesson09.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>wesson09</strong></a></td>
@@ -2665,26 +2571,6 @@
 <img src="https://img.shields.io/badge/blocked-f6195a">
       </td>
     <td><strong>CI_TESTS FAILED</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/10628" alt="None">10628</a></td>
-    <td><strong>[ie/vrt] Add support for radio shows</strong></td>
-     <td><a href="https://github.com/s-tdh" alt="None"><img src="https://github.com/s-tdh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>s-tdh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/9991" alt="None">9991</a></td>
-    <td><strong>Embed JSON subtitles as Matroska attachments</strong></td>
-     <td><a href="https://github.com/deralmas" alt="None"><img src="https://github.com/deralmas.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>deralmas</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/pending--fixes-4C6EE0">
-<img src="https://img.shields.io/badge/needs--testing-2B8A53"><br>
-      </td>
-    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/9748" alt="None">9748</a></td>
@@ -2727,13 +2613,6 @@
     <th>AUTHOR</th>
     <th>LABELS</th>
     <th>REASON</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16753" alt="None">16753</a></td>
-    <td><strong>[downloader/aria2c] Parse native progress from console output</strong></td>
-     <td><a href="https://github.com/tslyf" alt="None"><img src="https://github.com/tslyf.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>tslyf</strong></a></td>
-    <td>None</td>
-    <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/16753" alt="None">16753</a></td>
@@ -2981,40 +2860,11 @@
     <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/15075" alt="None">15075</a></td>
-    <td><strong>Implement playlist handling for ERRJupiterIE sites</strong></td>
-     <td><a href="https://github.com/plaes" alt="None"><img src="https://github.com/plaes.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>plaes</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/15055" alt="None">15055</a></td>
     <td><strong>Improved Bash completions</strong></td>
      <td><a href="https://github.com/nihil-admirari" alt="None"><img src="https://github.com/nihil-admirari.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nihil-admirari</strong></a></td>
       <td>
 <img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/15055" alt="None">15055</a></td>
-    <td><strong>Improved Bash completions</strong></td>
-     <td><a href="https://github.com/nihil-admirari" alt="None"><img src="https://github.com/nihil-admirari.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nihil-admirari</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/docs/meta/cleanup-0075ca">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/15041" alt="None">15041</a></td>
-    <td><strong>[ie/youtube] Add JavaScriptCore JS runtime</strong></td>
-     <td><a href="https://github.com/TellowKrinkle" alt="None"><img src="https://github.com/TellowKrinkle.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>TellowKrinkle</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/enhancement-a2eeef">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-<img src="https://img.shields.io/badge/ejs/jsc-2da0da"><br>
       </td>
     <td><strong>CONFLICT</strong></td>
   </tr>
@@ -3088,37 +2938,9 @@
     <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/14120" alt="None">14120</a></td>
-    <td><strong>[ie/xhamster] Fix extractor to support subtitles</strong></td>
-     <td><a href="https://github.com/nindogo" alt="None"><img src="https://github.com/nindogo.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>nindogo</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/NSFW-fef2c0">
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/13957" alt="None">13957</a></td>
     <td><strong>[ie/nhk]fixed support for NHK for school videos</strong></td>
      <td><a href="https://github.com/Sojiroh" alt="None"><img src="https://github.com/Sojiroh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sojiroh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/13957" alt="None">13957</a></td>
-    <td><strong>[ie/nhk]fixed support for NHK for school videos</strong></td>
-     <td><a href="https://github.com/Sojiroh" alt="None"><img src="https://github.com/Sojiroh.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>Sojiroh</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/13955" alt="None">13955</a></td>
-    <td><strong>fix iqiyi-extractor</strong></td>
-     <td><a href="https://github.com/eason1478" alt="None"><img src="https://github.com/eason1478.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>eason1478</strong></a></td>
       <td>
 <img src="https://img.shields.io/badge/site--bug-E62432">
       </td>
@@ -3217,15 +3039,6 @@
 <img src="https://img.shields.io/badge/blocked-f6195a">
       </td>
     <td><strong>Failed to Apply Patch May be PR is stale</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/13391" alt="None">13391</a></td>
-    <td><strong>[ie/Sejm] Fix after provider switch (#9669)</strong></td>
-     <td><a href="https://github.com/selfisekai" alt="None"><img src="https://github.com/selfisekai.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>selfisekai</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--bug-E62432">
-      </td>
-    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/13391" alt="None">13391</a></td>
@@ -5004,16 +4817,6 @@
 <img src="https://img.shields.io/badge/site--request-006b75">
       </td>
     <td><strong>STALE</strong></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/yt-dlp/yt-dlp/pull/6498" alt="None">6498</a></td>
-    <td><strong>[youtube] Support --download-sections with formats --live-from-start</strong></td>
-     <td><a href="https://github.com/elyse0" alt="None"><img src="https://github.com/elyse0.png" alt="None" style="width:30px; border-radius:50%; vertical-align:middle;"/> <strong>elyse0</strong></a></td>
-      <td>
-<img src="https://img.shields.io/badge/site--enhancement-9C60B6">
-<img src="https://img.shields.io/badge/site:youtube-282828">
-      </td>
-    <td><strong>CONFLICT</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/yt-dlp/yt-dlp/pull/6498" alt="None">6498</a></td>
