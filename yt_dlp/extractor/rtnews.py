@@ -35,7 +35,7 @@ class RTNewsIE(InfoExtractor):
     }]
 
     def _entries(self, webpage):
-        video_urls = set(re.findall(r'https://cdnv\.rt\.com/.*[a-f0-9]+\.mp4', webpage))
+        video_urls = set(re.findall(r'src\s*="(https://[^/]+/.*[a-f0-9]+\.mp4)"', webpage))
         for v_url in video_urls:
             v_id = re.search(r'([a-f0-9]+)\.mp4', v_url).group(1)
             if v_id:
@@ -165,6 +165,7 @@ class RTDocumentryPlaylistIE(InfoExtractor):
 
 
 class RuptlyIE(InfoExtractor):
+    _WORKING = False
     _VALID_URL = r'https?://(?:www\.)?ruptly\.tv/[a-z]{2}/videos/(?P<id>\d+-\d+)'
 
     _TESTS = [{
