@@ -407,14 +407,19 @@ class InstagramIE(InstagramBaseIE):
 
         if not general_info:
             self.report_warning('General metadata extraction failed (some metadata might be missing).', video_id)
-            webpage, urlh = self._download_webpage_handle(url, video_id)
-            shared_data = self._search_json(
-                r'window\._sharedData\s*=', webpage, 'shared data', video_id, fatal=False) or {}
+            webpage, urlh = self._download_webpage_handle(url, video_id, impersonate=True)  # Without impersonate Instagram will give reduced data.
 
-            if shared_data and self._LOGIN_URL not in urlh.url:
-                media.update(traverse_obj(
-                    shared_data, ('entry_data', 'PostPage', 0, 'graphql', 'shortcode_media'),
-                    ('entry_data', 'PostPage', 0, 'media'), expected_type=dict) or {})
+            post_data = [self._parse_json(j, video_id, fatal=False) for j in re.findall(
+                r'data-sjs>({.*?ScheduledServerJS.*?})</script>', webpage)]
+            video_data = traverse_obj(post_data,
+                                      (..., 'require', ..., ..., ..., '__bbox', 'require',
+                                       ..., ..., ..., '__bbox',
+                                       'result', 'data', 'xdt_api__v1__media__shortcode__web_info', 'items',
+                                       lambda _, x: x.get('code') == video_id), get_all=False,
+                                      )
+
+            if video_data and self._LOGIN_URL not in urlh.url:
+                media.update(video_data)
             else:
                 self.report_warning('Main webpage is locked behind the login page. Retrying with embed webpage (some metadata might be missing).')
                 webpage = self._download_webpage(
@@ -452,8 +457,8 @@ class InstagramIE(InstagramBaseIE):
                     f'{bug_reports_message(before=",")}', expected=True)
             media.update(xdt_shortcode_media)
 
-        username = traverse_obj(media, ('owner', 'username')) or self._search_regex(
-            r'"owner"\s*:\s*{\s*"username"\s*:\s*"(.+?)"', webpage, 'username', fatal=False)
+        username = traverse_obj(media, (('owner', 'user'), 'username', any)) or self._search_regex(
+            r'"user"\s*:\s*\{.+?"username"\s*:\s*"([^"]+)",', webpage, 'username', fatal=False)
 
         description = (
             traverse_obj(media, ('edge_media_to_caption', 'edges', 0, 'node', 'text'), expected_type=str)
@@ -465,20 +470,30 @@ class InstagramIE(InstagramBaseIE):
                 description = lowercase_escape(description)
 
         video_url = media.get('video_url')
+        dash = traverse_obj(media, ('dash_info', 'video_dash_manifest'), ('video_dash_manifest'))
         if not video_url:
             nodes = traverse_obj(media, ('edge_sidecar_to_children', 'edges', ..., 'node'), expected_type=dict) or []
             if nodes:
                 return self.playlist_result(
                     self._extract_nodes(nodes, True), video_id,
                     format_field(username, None, 'Post by %s'), description)
-            raise ExtractorError('There is no video in this post', expected=True)
+            carousel_media = media.get('carousel_media')
+            if carousel_media:
+                fixed_carousel_media = [media for media in carousel_media if media.get('media_type') == 2]
+                media['carousel_media'] = fixed_carousel_media
+                return self._extract_product(media)
+            # webpage data doesn't give video_url but it has dash manifest, video_versions.
+            if not dash:
+                raise ExtractorError('There is no video in this post', expected=True)
 
-        formats = [{
-            'url': video_url,
-            'width': self._get_dimension('width', media, webpage),
-            'height': self._get_dimension('height', media, webpage),
-        }]
-        dash = traverse_obj(media, ('dash_info', 'video_dash_manifest'))
+        formats = []
+        if video_url:
+            formats.append({
+                'url': video_url,
+                'width': self._get_dimension('width', media, webpage),
+                'height': self._get_dimension('height', media, webpage),
+            })
+
         if dash:
             formats.extend(self._parse_mpd_formats(self._parse_xml(dash, video_id), mpd_id='dash'))
 
@@ -511,7 +526,7 @@ class InstagramIE(InstagramBaseIE):
             'uploader_id': traverse_obj(media, ('owner', 'id')),
             'uploader': traverse_obj(media, ('owner', 'full_name')),
             'channel': username,
-            'like_count': self._get_count(media, 'likes', 'preview_like') or str_to_int(self._search_regex(
+            'like_count': self._get_count(media, 'likes', 'preview_like') or int_or_none(media.get('like_count')) or str_to_int(self._search_regex(
                 r'data-log-event="likeCountClick"[^>]*>[^\d]*([\d,\.]+)', webpage, 'like count', fatal=False)),
             'comment_count': self._get_count(media, 'comments', 'preview_comment', 'to_comment', 'to_parent_comment'),
             'comments': comments,
