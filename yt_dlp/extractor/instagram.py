@@ -4,10 +4,12 @@ import re
 import uuid
 
 from .common import InfoExtractor
+from ..networking.exceptions import HTTPError
 from ..utils import (
     ExtractorError,
     bug_reports_message,
     decode_base_n,
+    determine_ext,
     encode_base_n,
     filter_dict,
     float_or_none,
@@ -69,31 +71,29 @@ class InstagramBaseIE(InfoExtractor):
             if typename not in ('XDTMediaDict', 'XDTGraphVideo', 'XDTCarouselContainerMedia'):
                 continue
 
+            shotcode = node.get('code') or node.get('shortcode')
             formats = []
 
-            video_url = node.get('video_url')
-            if video_url:
-                formats.append({'url': video_url})
+            if video_url := node.get('video_url'):
+                formats.append({'url': video_url, 'ext': determine_ext(video_url)})
             if node.get('video_versions'):
                 media = self._extract_product_media(node)
                 formats = (media or {}).get('formats', [])
+            if dash := traverse_obj(node, ('dash_info', 'video_dash_manifest')):
+                mpd = self._parse_mpd_formats(self._parse_xml(dash, shotcode, mpd_id='dash'))
+                formats.extend(mpd)
             elif node.get('carousel_media', None):
                 product = self._extract_product(node)
                 if product.get('_type') == 'playlist':
                     yield from product.get('entries', [])
-                else:
+                elif product:
                     yield product
                 continue
             elif not formats:
                 continue
-            else:
-                dash = traverse_obj(node, ('dash_info', 'video_dash_manifest'))
-                if dash:
-                    mpd = self._parse_mpd_formats(self._parse_xml(dash, node.get('code')), mpd_id='dash')
-                    formats.extend(mpd)
 
             yield {
-                'id': node.get('code') or node.get('shortcode'),
+                'id': shotcode,
                 'formats': formats,
                 'title': node.get('title') or f'Video {idx}',
                 'description': traverse_obj(
@@ -167,7 +167,7 @@ class InstagramBaseIE(InfoExtractor):
                 'entries': [{
                     **info_dict,
                     **self._extract_product_media(product_media),
-                } for product_media in carousel_media],
+                } for product_media in carousel_media if product_media.get('media_type', 2) == 2],
             }
 
         return {
@@ -525,73 +525,54 @@ class InstagramIE(InstagramBaseIE):
 
 
 class InstagramPlaylistBaseIE(InstagramBaseIE):
-    GRAPHQL_API = 'https://www.instagram.com/graphql'
+    GRAPHQL_API = 'https://www.instagram.com/graphql/query'
 
-    def _get_user_data(self, url, webpage):
-        if '/explore/' in url or '/tags/' in url:
-            return {}
-        user_id = self._search_regex(
-            r'"user_id"\s*:\s*"([^"]+)"', webpage, 'user id',
-        )
-        variables = {
-            'enable_integrity_filters': True,
-            'id': user_id,
-            'render_surface': 'PROFILE',
-            '__relay_internal__pv__PolarisProjectCannesEnabledrelayprovider': True,
-            '__relay_internal__pv__PolarisProjectCannesLoggedInEnabledrelayprovider': True,
-            '__relay_internal__pv__PolarisCannesGuardianExperienceEnabledrelayprovider': True,
-            '__relay_internal__pv__PolarisCASB976ProfileEnabledrelayprovider': False,
-            '__relay_internal__pv__PolarisRepostsConsumptionEnabledrelayprovider': False,
-        }
-        try:
-            data = self._download_json(
-                f'{self.GRAPHQL_API}/query/', user_id, note='Downloading user data',
-                query={
-                    'doc_id': '26762473490008061',
-                    'variables': json.dumps(variables),
-                })
-        except ExtractorError:
-            return {}
-        user_data = traverse_obj(data, ('data', 'user'))
-        if not user_data:
-            return {}
-        return {'user': user_data}
-
-    def _extract_graphql(self, url):
-        uploader_id = self._match_id(url)
-        user_data = self._get_user_data(url, self._download_webpage(url, uploader_id))
+    def _extract_graphql(self, user_or_tag):
         cursor = None
-        rank_token = None
-        for page_num in itertools.count(1):
 
+        for page_num in itertools.count(1):
             try:
-                page = self._next_page(uploader_id, cursor, page_num, rank_token=rank_token)
-                nodes, media = self._parse_nodes_and_media(page)
-            except ExtractorError:
-                msg = 'This content is only available for registered users who follow this account' if 'explore/' in url or '/tags/' in url else 'Requested content is not available, rate-limit reached or login required'
-                self.raise_login_required(msg)
+                page = self._download_json(
+                    self.GRAPHQL_API, user_or_tag,
+                    f'Downloading page - {page_num}',
+                    query={
+                        'variables': self._variables(user_or_tag, cursor),
+                        'doc_id': self._DOC_ID,
+                    },
+                    headers=self._api_headers,
+                )
+            except ExtractorError as e:
+                if isinstance(e.cause, HTTPError) and e.cause.status >= 400:
+                    self.raise_login_required()
                 raise
 
-            yield from ({**user_data, **item} for item in self._extract_nodes(nodes))
+            nodes, media = self._parse_nodes_and_media(self._NODES_KEY, page)
+            yield from self._extract_nodes(nodes)
 
-            has_next_page = traverse_obj(media, ('page_info', 'has_next_page'), ('has_more'))
-            cursor = traverse_obj(media, ('page_info', 'end_cursor'), ('next_max_id'), expected_type=str)
-            rank_token = traverse_obj(media, ('rank_token'), expected_type=str)
-            if not has_next_page or not cursor:
+            page_info = media.get('page_info')
+            if not bool(page_info.get('has_next_page')):
                 break
+            cursor = page_info.get('end_cursor')
 
     def _real_extract(self, url):
         user_or_tag = self._match_id(url)
         self._set_cookie('instagram.com', 'ig_pr', '1')
-        return self.playlist_result(
-            self._extract_graphql(url),
-            playlist_id=user_or_tag,
-            title=user_or_tag,
-        )
+        return self.playlist_result(self._extract_graphql(user_or_tag), user_or_tag, user_or_tag)
+
+    @staticmethod
+    def _parse_nodes_and_media(key, data):
+        # extracts the Nodes and media data from a GraphQL result
+        media = data['data'][key]
+        nodes = traverse_obj(media,
+                             ('edges', ..., 'node', 'items', ..., {dict}),
+                             ('edges', ..., 'node', {dict}),
+                             default=None,
+                             )
+        return nodes, media
 
 
 class InstagramUserIE(InstagramPlaylistBaseIE):
-    _VALID_URL = r'https?://(?:www\.)?instagram\.com/(?P<id>[^/]{2,})/?(?:$|[?#])'
+    _VALID_URL = r'https?://(?:www\.)?instagram\.com/(?P<id>[^/]{2,})(?:/|/reels)?(?:$|[?#])'
     IE_DESC = 'Instagram user profile'
     IE_NAME = 'instagram:user'
     _TESTS = [{
@@ -608,11 +589,13 @@ class InstagramUserIE(InstagramPlaylistBaseIE):
         },
     }]
 
-    _DOC_ID = 32787567760834226
+    _DOC_ID = 27159272927039485
+    _NODES_KEY = 'xdt_api__v1__feed__user_timeline_graphql_connection'
 
-    def _gen_variables(self, username, cursor):
+    @staticmethod
+    def _variables(username, cursor):
         return json.dumps({
-            'after': cursor,
+            **({'after': cursor} if cursor else {}),
             'data': {
                 'count': 12,
                 'include_reel_media_seen_timestamp': True,
@@ -621,28 +604,10 @@ class InstagramUserIE(InstagramPlaylistBaseIE):
                 'latest_reel_media': True,
             },
             'username': username,
-            '__relay_internal__pv__PolarisIsLoggedInrelayprovider': True,
-        }, separators=(',', ':'))
-
-    def _next_page(self, video_id, cursor, page_num, **kwargs):
-        return self._download_json(
-            f'{self.GRAPHQL_API}/query/', video_id,
-            f'Downloading JSON page {page_num}', headers={
-                **self._api_headers,
-                'X-Requested-With': 'XMLHttpRequest',
-                'Accept': 'application/json',
-                'Referer': 'https://www.instagram.com/',
-                'Origin': 'https://www.instagram.com',
-            }, query={
-                'doc_id': self._DOC_ID,
-                'variables': self._gen_variables(video_id, cursor)})
-
-    @staticmethod
-    def _parse_nodes_and_media(data):
-        # extracts the Nodes and media data from a GraphQL result
-        media = data['data']['xdt_api__v1__feed__user_timeline_graphql_connection']
-        nodes = traverse_obj(media, ('edges', ..., 'node'), expected_type=dict) or []
-        return nodes, media
+            '__relay_internal__pv__PolarisImmersiveFeedChainingEnabledrelayprovider': True,
+            '__relay_internal__pv__PolarisAIGMMediaWebLabelEnabledrelayprovider': False,
+            '__relay_internal__pv__PolarisAIGMAccountLabelEnabledrelayprovider': False,
+        })
 
 
 class InstagramTagIE(InstagramPlaylistBaseIE):
@@ -663,33 +628,17 @@ class InstagramTagIE(InstagramPlaylistBaseIE):
         },
     }]
 
-    def _next_page(self, video_id, cursor, page_num, **kwargs):
-        query = {}
-        if kwargs:
-            query['rank_token'] = kwargs.get('rank_token')
-        if cursor:
-            query['next_max_id'] = cursor
-
-        return self._download_json(
-            f'{self._API_BASE_URL}/fbsearch/web/top_serp/', video_id,
-            f'Downloading JSON page {page_num}', headers={
-                **self._api_headers,
-            }, query={
-                **query,
-                'enable_metadata': 'true',
-                'query': video_id,
-                'search_session_id': uuid.uuid4(),
-            })
+    _DOC_ID = 36829937936605248
+    _NODES_KEY = 'xdt_fbsearch__top_serp_graphql'
 
     @staticmethod
-    def _parse_nodes_and_media(data):
-        # extracts the Media or Nodes from page from a Serp result
-        parsed_data = []
-        media = data.get('media_grid')
-        sections = media.get('sections', [])
-        for layout in sections:
-            parsed_data.extend(traverse_obj(layout, ('layout_content', 'medias', ..., 'media', all)))
-        return parsed_data, media
+    def _variables(keyword, cursor):
+        return json.dumps({
+            **({'after': cursor} if cursor else {}),
+            'query': f'#{keyword}',
+            'search_session_id': str(uuid.uuid4()),
+            'serp_session_id': str(uuid.uuid4()),
+        })
 
 
 class InstagramStoryIE(InstagramBaseIE):
