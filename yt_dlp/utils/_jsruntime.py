@@ -5,19 +5,22 @@ import dataclasses
 import functools
 import os.path
 import sys
+import sysconfig
 
-from ._utils import _get_exe_version_output, detect_exe_version, int_or_none
-
-
-def _runtime_version_tuple(v):
-    # NB: will return (0,) if `v` is an invalid version string
-    return tuple(int_or_none(x, default=0) for x in v.split('.'))
+from ._utils import _get_exe_version_output, detect_exe_version, version_tuple
 
 
 _FALLBACK_PATHEXT = ('.COM', '.EXE', '.BAT', '.CMD')
 
 
 def _find_exe(basename: str) -> str:
+    # Check in Python "scripts" path, e.g. for pipx-installed binaries
+    binary = os.path.join(
+        sysconfig.get_path('scripts'),
+        basename + sysconfig.get_config_var('EXE'))
+    if os.access(binary, os.F_OK | os.X_OK) and not os.path.isdir(binary):
+        return binary
+
     if os.name != 'nt':
         return basename
 
@@ -38,12 +41,12 @@ def _find_exe(basename: str) -> str:
     else:
         exts = tuple(ext for ext in pathext.split(os.pathsep) if ext)
 
-    visited = []
+    visited = set()
     for path in map(os.path.realpath, paths):
         normed = os.path.normcase(path)
         if normed in visited:
             continue
-        visited.append(normed)
+        visited.add(normed)
 
         for ext in exts:
             binary = os.path.join(path, f'{basename}{ext}')
@@ -84,7 +87,7 @@ class JsRuntime(abc.ABC):
 
 
 class DenoJsRuntime(JsRuntime):
-    MIN_SUPPORTED_VERSION = (2, 0, 0)
+    MIN_SUPPORTED_VERSION = (2, 3, 0)
 
     def _info(self):
         path = _determine_runtime_path(self._path, 'deno')
@@ -92,14 +95,14 @@ class DenoJsRuntime(JsRuntime):
         if not out:
             return None
         version = detect_exe_version(out, r'^deno (\S+)', 'unknown')
-        vt = _runtime_version_tuple(version)
+        vt = version_tuple(version, lenient=True)
         return JsRuntimeInfo(
             name='deno', path=path, version=version, version_tuple=vt,
             supported=vt >= self.MIN_SUPPORTED_VERSION)
 
 
 class BunJsRuntime(JsRuntime):
-    MIN_SUPPORTED_VERSION = (1, 0, 31)
+    MIN_SUPPORTED_VERSION = (1, 2, 11)
 
     def _info(self):
         path = _determine_runtime_path(self._path, 'bun')
@@ -107,14 +110,14 @@ class BunJsRuntime(JsRuntime):
         if not out:
             return None
         version = detect_exe_version(out, r'^(\S+)', 'unknown')
-        vt = _runtime_version_tuple(version)
+        vt = version_tuple(version, lenient=True)
         return JsRuntimeInfo(
             name='bun', path=path, version=version, version_tuple=vt,
             supported=vt >= self.MIN_SUPPORTED_VERSION)
 
 
 class NodeJsRuntime(JsRuntime):
-    MIN_SUPPORTED_VERSION = (20, 0, 0)
+    MIN_SUPPORTED_VERSION = (22, 0, 0)
 
     def _info(self):
         path = _determine_runtime_path(self._path, 'node')
@@ -122,7 +125,7 @@ class NodeJsRuntime(JsRuntime):
         if not out:
             return None
         version = detect_exe_version(out, r'^v(\S+)', 'unknown')
-        vt = _runtime_version_tuple(version)
+        vt = version_tuple(version, lenient=True)
         return JsRuntimeInfo(
             name='node', path=path, version=version, version_tuple=vt,
             supported=vt >= self.MIN_SUPPORTED_VERSION)
@@ -140,7 +143,7 @@ class QuickJsRuntime(JsRuntime):
         is_ng = 'QuickJS-ng' in out
 
         version = detect_exe_version(out, r'^QuickJS(?:-ng)?\s+version\s+(\S+)', 'unknown')
-        vt = _runtime_version_tuple(version.replace('-', '.'))
+        vt = version_tuple(version, lenient=True)
         if is_ng:
             return JsRuntimeInfo(
                 name='quickjs-ng', path=path, version=version, version_tuple=vt,
