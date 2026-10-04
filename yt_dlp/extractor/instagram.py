@@ -723,7 +723,7 @@ class InstagramStoryIE(InstagramBaseIE):
             yield self._parse_json(relay, video_id, fatal=False)
 
     def _get_user_id(self, webpage):
-        return self._search_regex(r'\b(?:reel_ids_arr|user_id)":\s*\[?"(\d{9,10})"', webpage, 'user id', default=None)
+        return self._search_regex(r'\b(?:reel_ids_arr|user_id|pk|id)":\s*\[?"(\d{5,10})"', webpage, 'user id', default=None)
 
     def _real_extract(self, url):
         username, story_id = self._match_valid_url(url).group('user', 'id')
@@ -746,7 +746,7 @@ class InstagramStoryIE(InstagramBaseIE):
             ..., 'require', ..., ..., ..., '__bbox',
             'require', ..., ..., ..., '__bbox',
             'result', 'data', 'xdt_api__v1__feed__reels_media',
-            'reels_media', {list}, lambda _, x: x.get('id') == str(854156206), {dict},
+            'reels_media', {list}, lambda _, x: x.get('id') == str(user_id), {dict},
         ), get_all=False,
         )
         if not videos:
