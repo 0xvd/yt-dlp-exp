@@ -732,6 +732,8 @@ class InstagramStoryIE(InstagramBaseIE):
         display_id = story_id or username
         story_webpage = self._download_webpage(url, display_id, impersonate=self._can_impersonate and self._is_web_app)
 
+        for domain in self._COOKIE_DOMAINS:
+            self._set_cookie(domain, 'ds_user_id', ' ')
         user_id = self._get_user_id(story_webpage)
         if username == 'highlights':
             story_info_url = f'highlight:{story_id}'
