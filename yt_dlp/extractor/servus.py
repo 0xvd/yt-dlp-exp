@@ -99,7 +99,7 @@ class ServusIE(InfoExtractor):
             'id': video_id,
             'title': video.get('title'),
             'description': unescapeHTML(next_data.get('long_description')) or video.get('description'),
-            'thumbnail': video.get('poster'),
+            'thumbnail': video.get('poster') or self._og_search_thumbnail(webpage),
             'duration': float_or_none(video.get('duration')),
             'timestamp': unified_timestamp(video.get('currentSunrise')),
             'series': video.get('label'),
@@ -111,8 +111,13 @@ class ServusIE(InfoExtractor):
             'subtitles': subtitles,
             **traverse_obj(next_data, {
                 'title': ('title', {str}),
-                'duration': ('duration', {float_or_none}),
+                'duration': ('duration', {int_or_none(scale=1000)}),
             }),
+            **traverse_obj(next_data, ('product', {
+                'title': ('title', {str}),
+                'description': ('long_description', {str}),
+                'duration': ('duration', {int_or_none(scale=1000)}),
+            })),
         }
 
     def _report_errors(self, video):
