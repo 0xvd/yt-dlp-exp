@@ -737,9 +737,10 @@ class InstagramStoryIE(InstagramBaseIE):
         display_id = story_id or username
         story_webpage = self._download_webpage(url, display_id, impersonate=self._can_impersonate and self._is_web_app)
 
-        #TODO: Remove not a valid patch to resolve 500 Error
+        # TODO: Not a valid patch to resolve 500 Error
         for domain in self._COOKIE_DOMAINS:
             self._set_cookie(domain, 'ds_user_id', ' ')
+
         user_id = self._get_user_id(story_webpage)
         if username == 'highlights':
             story_info_url = f'highlight:{story_id}'
@@ -752,9 +753,7 @@ class InstagramStoryIE(InstagramBaseIE):
             ..., 'require', ..., ..., ..., '__bbox',
             'require', ..., ..., ..., '__bbox',
             'result', 'data', 'xdt_api__v1__feed__reels_media',
-            'reels_media', {list}, lambda _, x: x.get('id') == str(user_id), {dict},
-        ), get_all=False,
-        )
+            'reels_media', {list}, lambda _, x: x.get('id') == str(user_id), {dict}), get_all=False)
         if not videos:
             videos = traverse_obj(self._download_json(
                 f'{self._API_BASE_URL}/feed/reels_media/?reel_ids={story_info_url}',
