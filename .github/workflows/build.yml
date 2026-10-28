@@ -304,7 +304,7 @@ jobs:
     if: inputs.macos
     permissions:
       contents: read
-    runs-on: macos-26
+    runs-on: macos-latest
     env:
       CHANNEL: ${{ inputs.channel }}
       ORIGIN: ${{ needs.process.outputs.origin }}
