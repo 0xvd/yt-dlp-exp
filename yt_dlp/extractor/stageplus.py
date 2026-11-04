@@ -1,4 +1,5 @@
 import json
+import time
 import uuid
 
 from .common import InfoExtractor
@@ -7,6 +8,7 @@ from ..utils import (
     ExtractorError,
     filter_dict,
     float_or_none,
+    jwt_decode_hs256,
     traverse_obj,
     try_call,
     unified_timestamp,
@@ -821,13 +823,18 @@ class StagePlusVODConcertIE(InfoExtractor):
     _REFRESH_TOKEN = None
     _CACHE_KEY = 'stageplus_data'
 
-    def _refresh_token(self, rf_token):
-        if not rf_token:
+    def _is_jwt_expired(self, jwt_token):
+        if not jwt_token:
+            return
+        return jwt_decode_hs256(jwt_token)['exp'] - time.time() < 300
+
+    def _refresh_token(self):
+        if not self._REFRESH_TOKEN:
             return None
         try:
             refresh_data = self._call_login_api({
                 'grant_type': 'refresh_token',
-                'refresh_token': rf_token,
+                'refresh_token': self._REFRESH_TOKEN,
             }, note='Refreshing access token')
         except ExtractorError:
             self.cache.store(self._NETRC_MACHINE, self._CACHE_KEY, [None, None])
@@ -860,6 +867,15 @@ class StagePlusVODConcertIE(InfoExtractor):
         ])
 
     def _perform_login(self, username, password):
+        access_token, refresh_token = self.cache.load(self._NETRC_MACHINE, self._CACHE_KEY, default=[None, None])
+        if access_token and not self._is_jwt_expired(access_token):
+            self._ACCESS_TOKEN = access_token
+            return
+        elif refresh_token and not self._is_jwt_expired(refresh_token):
+            self._REFRESH_TOKEN = refresh_token
+            self._refresh_token()
+            return
+
         auth = self._call_login_api({
             'grant_type': 'password',
             'username': username,
